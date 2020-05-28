@@ -1,0 +1,10 @@
+{
+  "id": "doc1.md.sb-246a73f7-humyRS/doc1",
+  "title": "Style Guide",
+  "description": "You can write content using GitHub-flavored Markdown syntax.",
+  "source": "@site/docs/doc1.md.sb-246a73f7-humyRS/doc1.md",
+  "permalink": "/doc1.md.sb-246a73f7-humyRS/doc1",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc1.md.sb-246a73f7-humyRS/doc1.md",
+  "sidebar_label": "Style Guide",
+  "sidebar": "someSidebar"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "general_guide",
+  "title": "General Game Guide",
+  "description": "Controls",
+  "source": "@site/docs/games_general.md",
+  "permalink": "/general_guide",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/games_general.md",
+  "sidebar_label": "General",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Quickstart Guide - Playstation Portable",
+    "permalink": "/psp"
+  },
+  "next": {
+    "title": "Game Guide - Flight of the Amazon Queen",
+    "permalink": "/queen"
+  }
+}

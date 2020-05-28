@@ -1,0 +1,8 @@
+{
+  "id": "monkey",
+  "title": "Game Guide - The Secret of Monkey Island",
+  "source": "@site/docs/monkey.md",
+  "permalink": "/monkey",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/monkey.md",
+  "sidebar_label": "The Secret of Monkey Island"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "raspberrypi",
+  "title": "Quickstart Guide - Raspberry Pi",
+  "description": "---",
+  "source": "@site/docs/raspberrypi.md",
+  "permalink": "/raspberrypi",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/raspberrypi.md",
+  "sidebar_label": "Raspberry Pi",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Where do I Get the Games?",
+    "permalink": "/get_games"
+  },
+  "next": {
+    "title": "Quickstart Guide - Playstation Portable",
+    "permalink": "/psp"
+  }
+}

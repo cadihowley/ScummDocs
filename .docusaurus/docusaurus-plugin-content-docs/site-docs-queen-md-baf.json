@@ -1,0 +1,18 @@
+{
+  "id": "queen",
+  "title": "Game Guide - Flight of the Amazon Queen",
+  "description": "About",
+  "source": "@site/docs/queen.md",
+  "permalink": "/queen",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/queen.md",
+  "sidebar_label": "Flight of the Amazon Queen",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "General Game Guide",
+    "permalink": "/general_guide"
+  },
+  "next": {
+    "title": "Game Guide - Maniac Mansion",
+    "permalink": "/maniac"
+  }
+}

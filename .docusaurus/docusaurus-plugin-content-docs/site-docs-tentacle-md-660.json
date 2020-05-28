@@ -1,0 +1,8 @@
+{
+  "id": "tentacle",
+  "title": "Game Guide - The Day of the Tecntacle",
+  "source": "@site/docs/tentacle.md",
+  "permalink": "/tentacle",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tentacle.md",
+  "sidebar_label": "The Day of the Tentacle"
+}

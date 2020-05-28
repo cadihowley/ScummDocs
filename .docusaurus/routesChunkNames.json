@@ -1,0 +1,151 @@
+{
+  "/": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "docsMetadata": "docsMetadata---6-c-3-836",
+    "content": "content---109-98e"
+  },
+  "/blog": {
+    "component": "component---theme-blog-list-pagea-6-a-7ba",
+    "items": [
+      {
+        "content": "content---blogaf-1-856"
+      },
+      {
+        "content": "content---blog-357-22b"
+      },
+      {
+        "content": "content---blog-8-e-9-35c"
+      }
+    ],
+    "metadata": "metadata---blogbbb-5f9"
+  },
+  "/blog/hello-world": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "content": "content---blog-hello-worldd-61-086"
+  },
+  "/blog/hola": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "content": "content---blog-holabdd-150"
+  },
+  "/blog/tags": {
+    "component": "component---theme-blog-tags-list-page-01-a-d0b",
+    "tags": "tags---blog-tags-8-be-13d"
+  },
+  "/blog/tags/docusaurus": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blogaf-1-856"
+      },
+      {
+        "content": "content---blog-357-22b"
+      },
+      {
+        "content": "content---blog-8-e-9-35c"
+      }
+    ],
+    "metadata": "metadata---blog-tags-docusaurus-6-ca-f43"
+  },
+  "/blog/tags/facebook": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blogaf-1-856"
+      }
+    ],
+    "metadata": "metadata---blog-tags-facebookeec-618"
+  },
+  "/blog/tags/hello": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blogaf-1-856"
+      },
+      {
+        "content": "content---blog-357-22b"
+      }
+    ],
+    "metadata": "metadata---blog-tags-hello-3-a-6-b36"
+  },
+  "/blog/tags/hola": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---blog-8-e-9-35c"
+      }
+    ],
+    "metadata": "metadata---blog-tags-hola-31-d-e2f"
+  },
+  "/blog/welcome": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "content": "content---blog-welcome-286-e55"
+  },
+  "/:route": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "docsMetadata": "docsMetadata---routeec-1-f92"
+  },
+  "/about_scumm": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---about-scumm-5-cb-a33"
+  },
+  "/doc1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---doc-1-b-2-f-07b"
+  },
+  "/doc2": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---doc-2-df-3-2b8"
+  },
+  "/doc3": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---doc-3616-7d1"
+  },
+  "/general_guide": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---general-guidefc-1-033"
+  },
+  "/get_games": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---get-games-87-a-04c"
+  },
+  "/maniac": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---maniacf-6-a-ca7"
+  },
+  "/mdx": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---mdxce-3-3a5"
+  },
+  "/monkey": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---monkeya-92-b2d"
+  },
+  "/monkey2": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---monkey-2-ee-0-162"
+  },
+  "/psp": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---psp-4-a-9-864"
+  },
+  "/queen": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---queenbaf-575"
+  },
+  "/raspberrypi": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---raspberrypid-68-65c"
+  },
+  "/sound": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---soundcd-6-ea3"
+  },
+  "/tentacle": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---tentacle-660-a6b"
+  },
+  "/what_is": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---109-98e"
+  }
+}

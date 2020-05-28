@@ -1,0 +1,76 @@
+{
+  "docsSidebars": {
+    "someSidebar": [
+      {
+        "type": "category",
+        "label": "About",
+        "items": [
+          {
+            "type": "link",
+            "label": "What is ScummVM?",
+            "href": "/what_is"
+          },
+          {
+            "type": "link",
+            "label": "Get the Games",
+            "href": "/get_games"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Quickstart",
+        "items": [
+          {
+            "type": "link",
+            "label": "Raspberry Pi",
+            "href": "/raspberrypi"
+          },
+          {
+            "type": "link",
+            "label": "PSP",
+            "href": "/psp"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Games",
+        "items": [
+          {
+            "type": "link",
+            "label": "General",
+            "href": "/general_guide"
+          },
+          {
+            "type": "link",
+            "label": "Flight of the Amazon Queen",
+            "href": "/FOTAQ"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Advanced",
+        "items": [
+          {
+            "type": "link",
+            "label": "Music and Sound",
+            "href": "/sound"
+          }
+        ]
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/FOTAQ": "someSidebar",
+    "/general_guide": "someSidebar",
+    "/get_games": "someSidebar",
+    "/psp": "someSidebar",
+    "/raspberrypi": "someSidebar",
+    "/sound": "someSidebar",
+    "/what_is": "someSidebar"
+  },
+  "isHomePage": true,
+  "homePagePath": "/what_is"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "raspberry-pi",
+  "title": "Quickstart Guide - Raspberry Pi",
+  "description": "---",
+  "source": "@site/docs/raspberry_pi.md",
+  "permalink": "/raspberry-pi",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/raspberry_pi.md",
+  "sidebar_label": "Raspberry Pi",
+  "sidebar": "someSidebar",
+  "next": {
+    "title": "Document Number 2",
+    "permalink": "/doc2"
+  }
+}
