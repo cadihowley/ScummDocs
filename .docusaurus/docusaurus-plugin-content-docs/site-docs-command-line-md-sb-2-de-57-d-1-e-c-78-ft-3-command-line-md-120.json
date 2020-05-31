@@ -1,0 +1,9 @@
+{
+  "id": "command_line.md.sb-2de57d1e-c78FT3/command_line",
+  "title": "Command Line Options",
+  "description": "Usage: scummvm [OPTIONS]... [GAME]",
+  "source": "@site/docs/command_line.md.sb-2de57d1e-c78FT3/command_line.md",
+  "permalink": "/command_line.md.sb-2de57d1e-c78FT3/command_line",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/command_line.md.sb-2de57d1e-c78FT3/command_line.md",
+  "sidebar_label": "Command Line Options"
+}

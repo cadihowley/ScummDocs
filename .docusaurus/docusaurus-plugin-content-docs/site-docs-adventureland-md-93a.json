@@ -1,0 +1,9 @@
+{
+  "id": "adventureland",
+  "title": "Game Guide - Adventureland",
+  "description": "About",
+  "source": "@site/docs/adventureland.md",
+  "permalink": "/adventureland",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/adventureland.md",
+  "sidebar_label": "Adventureland"
+}

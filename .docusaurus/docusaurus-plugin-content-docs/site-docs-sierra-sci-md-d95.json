@@ -1,0 +1,17 @@
+{
+  "id": "sierraSCI",
+  "title": "sierraSCI",
+  "description": "",
+  "source": "@site/docs/sierraSCI.md",
+  "permalink": "/sierraSCI",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/sierraSCI.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "sierraAGI",
+    "permalink": "/sierraAGI"
+  },
+  "next": {
+    "title": "other_games",
+    "permalink": "/other_games"
+  }
+}

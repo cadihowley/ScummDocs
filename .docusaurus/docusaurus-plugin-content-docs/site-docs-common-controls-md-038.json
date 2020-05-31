@@ -1,0 +1,18 @@
+{
+  "id": "common_controls",
+  "title": "Common Game Controls",
+  "description": "``",
+  "source": "@site/docs/common_controls.md",
+  "permalink": "/common_controls",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/common_controls.md",
+  "sidebar_label": "Common Controls",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Where do I Get the Games?",
+    "permalink": "/get_games"
+  },
+  "next": {
+    "title": "LucasArts Games",
+    "permalink": "/lucasarts"
+  }
+}

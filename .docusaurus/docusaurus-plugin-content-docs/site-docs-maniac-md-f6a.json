@@ -5,14 +5,5 @@
   "source": "@site/docs/maniac.md",
   "permalink": "/maniac",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/maniac.md",
-  "sidebar_label": "Maniac Mansion",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "Game Guide - Flight of the Amazon Queen",
-    "permalink": "/queen"
-  },
-  "next": {
-    "title": "Music and Sound",
-    "permalink": "/sound"
-  }
+  "sidebar_label": "Maniac Mansion"
 }

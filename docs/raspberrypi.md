@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ---
 ## Installing ScummVM
 
-On a Raspberry Pi running the latest version of Raspbian, go to the Terminal and enter the following commands into the command line:
+On a Raspberry Pi running the latest version of Raspberry OS, go to the Terminal and enter the following commands into the command line:
 ```
 sudo apt-get updates
 sudo apt-install -y scummvm

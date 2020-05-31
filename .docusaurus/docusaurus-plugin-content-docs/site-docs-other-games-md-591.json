@@ -1,0 +1,17 @@
+{
+  "id": "other_games",
+  "title": "other_games",
+  "description": "",
+  "source": "@site/docs/other_games.md",
+  "permalink": "/other_games",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/other_games.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "sierraSCI",
+    "permalink": "/sierraSCI"
+  },
+  "next": {
+    "title": "humongous",
+    "permalink": "/humongous"
+  }
+}

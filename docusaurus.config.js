@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'cadihowley', // Usually your GitHub org/user name.
   projectName: 'ScummDocs', // Usually your repo name.
   themeConfig: {
     navbar: {

@@ -8,11 +8,11 @@
   "sidebar_label": "Get the Games",
   "sidebar": "someSidebar",
   "previous": {
-    "title": "What is ScummVM?",
-    "permalink": "/what_is"
+    "title": "Quickstart Guide - Playstation Portable",
+    "permalink": "/psp"
   },
   "next": {
-    "title": "Quickstart Guide - Raspberry Pi",
-    "permalink": "/raspberrypi"
+    "title": "Common Game Controls",
+    "permalink": "/common_controls"
   }
 }

@@ -9,11 +9,6 @@
             "type": "link",
             "label": "What is ScummVM?",
             "href": "/what_is"
-          },
-          {
-            "type": "link",
-            "label": "Get the Games",
-            "href": "/get_games"
           }
         ]
       },
@@ -39,18 +34,68 @@
         "items": [
           {
             "type": "link",
-            "label": "General",
-            "href": "/general_guide"
+            "label": "Get the Games",
+            "href": "/get_games"
           },
           {
             "type": "link",
-            "label": "Flight of the Amazon Queen",
-            "href": "/queen"
+            "label": "Common Controls",
+            "href": "/common_controls"
           },
           {
             "type": "link",
-            "label": "Maniac Mansion",
-            "href": "/maniac"
+            "label": "LucasArts Games",
+            "href": "/lucasarts"
+          },
+          {
+            "type": "link",
+            "label": "activision",
+            "href": "/activision"
+          },
+          {
+            "type": "link",
+            "label": "adventuresoft",
+            "href": "/adventuresoft"
+          },
+          {
+            "type": "link",
+            "label": "coktel",
+            "href": "/coktel"
+          },
+          {
+            "type": "link",
+            "label": "revolution",
+            "href": "/revolution"
+          },
+          {
+            "type": "link",
+            "label": "sierraAGI",
+            "href": "/sierraAGI"
+          },
+          {
+            "type": "link",
+            "label": "sierraSCI",
+            "href": "/sierraSCI"
+          },
+          {
+            "type": "link",
+            "label": "other_games",
+            "href": "/other_games"
+          },
+          {
+            "type": "link",
+            "label": "humongous",
+            "href": "/humongous"
+          },
+          {
+            "type": "link",
+            "label": "animation",
+            "href": "/animation"
+          },
+          {
+            "type": "link",
+            "label": "living_books",
+            "href": "/living_books"
           }
         ]
       },
@@ -58,6 +103,11 @@
         "type": "category",
         "label": "Advanced",
         "items": [
+          {
+            "type": "link",
+            "label": "Command Line Options",
+            "href": "/command_line"
+          },
           {
             "type": "link",
             "label": "Music and Sound",
@@ -68,12 +118,22 @@
     ]
   },
   "permalinkToSidebar": {
-    "/general_guide": "someSidebar",
+    "/activision": "someSidebar",
+    "/adventuresoft": "someSidebar",
+    "/animation": "someSidebar",
+    "/coktel": "someSidebar",
+    "/command_line": "someSidebar",
+    "/common_controls": "someSidebar",
     "/get_games": "someSidebar",
-    "/maniac": "someSidebar",
+    "/humongous": "someSidebar",
+    "/living_books": "someSidebar",
+    "/lucasarts": "someSidebar",
+    "/other_games": "someSidebar",
     "/psp": "someSidebar",
-    "/queen": "someSidebar",
     "/raspberrypi": "someSidebar",
+    "/revolution": "someSidebar",
+    "/sierraAGI": "someSidebar",
+    "/sierraSCI": "someSidebar",
     "/sound": "someSidebar",
     "/what_is": "someSidebar"
   }

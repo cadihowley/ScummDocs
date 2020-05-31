@@ -76,8 +76,44 @@ export default [
   
   routes: [
 {
-  path: '/about_scumm',
-  component: ComponentCreator('/about_scumm'),
+  path: '/activision',
+  component: ComponentCreator('/activision'),
+  exact: true,
+  
+},
+{
+  path: '/adventureland',
+  component: ComponentCreator('/adventureland'),
+  exact: true,
+  
+},
+{
+  path: '/adventuresoft',
+  component: ComponentCreator('/adventuresoft'),
+  exact: true,
+  
+},
+{
+  path: '/animation',
+  component: ComponentCreator('/animation'),
+  exact: true,
+  
+},
+{
+  path: '/coktel',
+  component: ComponentCreator('/coktel'),
+  exact: true,
+  
+},
+{
+  path: '/command_line',
+  component: ComponentCreator('/command_line'),
+  exact: true,
+  
+},
+{
+  path: '/common_controls',
+  component: ComponentCreator('/common_controls'),
   exact: true,
   
 },
@@ -100,14 +136,26 @@ export default [
   
 },
 {
-  path: '/general_guide',
-  component: ComponentCreator('/general_guide'),
+  path: '/get_games',
+  component: ComponentCreator('/get_games'),
   exact: true,
   
 },
 {
-  path: '/get_games',
-  component: ComponentCreator('/get_games'),
+  path: '/humongous',
+  component: ComponentCreator('/humongous'),
+  exact: true,
+  
+},
+{
+  path: '/living_books',
+  component: ComponentCreator('/living_books'),
+  exact: true,
+  
+},
+{
+  path: '/lucasarts',
+  component: ComponentCreator('/lucasarts'),
   exact: true,
   
 },
@@ -136,6 +184,12 @@ export default [
   
 },
 {
+  path: '/other_games',
+  component: ComponentCreator('/other_games'),
+  exact: true,
+  
+},
+{
   path: '/psp',
   component: ComponentCreator('/psp'),
   exact: true,
@@ -154,8 +208,32 @@ export default [
   
 },
 {
+  path: '/revolution',
+  component: ComponentCreator('/revolution'),
+  exact: true,
+  
+},
+{
+  path: '/sierraAGI',
+  component: ComponentCreator('/sierraAGI'),
+  exact: true,
+  
+},
+{
+  path: '/sierraSCI',
+  component: ComponentCreator('/sierraSCI'),
+  exact: true,
+  
+},
+{
   path: '/sound',
   component: ComponentCreator('/sound'),
+  exact: true,
+  
+},
+{
+  path: '/supported_games',
+  component: ComponentCreator('/supported_games'),
   exact: true,
   
 },

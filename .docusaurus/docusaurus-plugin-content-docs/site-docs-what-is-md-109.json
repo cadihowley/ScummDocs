@@ -7,7 +7,7 @@
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/what_is.md",
   "sidebar_label": "What is ScummVM?",
   "next": {
-    "title": "Where do I Get the Games?",
-    "permalink": "/get_games"
+    "title": "Quickstart Guide - Raspberry Pi",
+    "permalink": "/raspberrypi"
   }
 }
