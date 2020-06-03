@@ -4,14 +4,5 @@
   "description": "",
   "source": "@site/docs/coktel.md",
   "permalink": "/coktel",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/coktel.md",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "adventuresoft",
-    "permalink": "/adventuresoft"
-  },
-  "next": {
-    "title": "revolution",
-    "permalink": "/revolution"
-  }
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/coktel.md"
 }

@@ -4,14 +4,5 @@
   "description": "",
   "source": "@site/docs/humongous.md",
   "permalink": "/humongous",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/humongous.md",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "other_games",
-    "permalink": "/other_games"
-  },
-  "next": {
-    "title": "animation",
-    "permalink": "/animation"
-  }
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/humongous.md"
 }

@@ -4,14 +4,5 @@
   "description": "",
   "source": "@site/docs/sierraAGI.md",
   "permalink": "/sierraAGI",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/sierraAGI.md",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "revolution",
-    "permalink": "/revolution"
-  },
-  "next": {
-    "title": "sierraSCI",
-    "permalink": "/sierraSCI"
-  }
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/sierraAGI.md"
 }

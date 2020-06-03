@@ -1,18 +1,18 @@
 {
   "id": "command_line",
   "title": "Command Line Options",
-  "description": "Usage: scummvm [OPTIONS]... [GAME]",
+  "description": "Games can be launched directly from the command line, with a number of options.",
   "source": "@site/docs/command_line.md",
   "permalink": "/command_line",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/command_line.md",
   "sidebar_label": "Command Line Options",
   "sidebar": "someSidebar",
   "previous": {
-    "title": "living_books",
-    "permalink": "/living_books"
+    "title": "LucasArts Games",
+    "permalink": "/lucasarts"
   },
   "next": {
-    "title": "Music and Sound",
-    "permalink": "/sound"
+    "title": "Configuration File",
+    "permalink": "/configuration"
   }
 }

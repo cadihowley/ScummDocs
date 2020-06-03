@@ -4,14 +4,5 @@
   "description": "",
   "source": "@site/docs/revolution.md",
   "permalink": "/revolution",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/revolution.md",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "coktel",
-    "permalink": "/coktel"
-  },
-  "next": {
-    "title": "sierraAGI",
-    "permalink": "/sierraAGI"
-  }
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/revolution.md"
 }

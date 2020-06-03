@@ -4,14 +4,5 @@
   "description": "",
   "source": "@site/docs/living_books.md",
   "permalink": "/living_books",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/living_books.md",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "animation",
-    "permalink": "/animation"
-  },
-  "next": {
-    "title": "Command Line Options",
-    "permalink": "/command_line"
-  }
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/living_books.md"
 }

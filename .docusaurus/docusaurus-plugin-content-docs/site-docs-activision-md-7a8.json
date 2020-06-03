@@ -4,14 +4,5 @@
   "description": "",
   "source": "@site/docs/activision.md",
   "permalink": "/activision",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/activision.md",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "LucasArts Games",
-    "permalink": "/lucasarts"
-  },
-  "next": {
-    "title": "adventuresoft",
-    "permalink": "/adventuresoft"
-  }
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/activision.md"
 }

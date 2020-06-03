@@ -4,31 +4,34 @@ title: Supported Games
 sidebar_label: Supported Games
 ---
 
-| [LucasArts (SCUMM) Games](lucasarts)               |              |
-| --------------------------------------- | ------------ |
-| Maniac Mansion                          | [maniac]|
-| Zak McKracken and the Alien Mindbenders | \[zak\]      |
-| Indiana Jones and the Last Crusade      | \[indy3\]    |
-| Loom                                    | \[loom\]     |
-| Passport to Adventure                   | \[pass\]     |
-| The Secret of Monkey Island             | \[monkey\]   |
-| Monkey Island 2: LeChuck's Revenge      | \[monkey2\]  |
-| Indiana Jones and the Fate of Atlantis  | \[atlantis\] |
-| Day of the Tentacle                     | \[tentacle\] |
-| Sam & Max Hit the Road                  | \[samnmax\]  |
-| Full Throttle                           | \[ft\]       |
-| The Dig                                 | \[dig\]      |
-| The Curse of Monkey Island              | \[comi\]     |
+Many games supported by ScummVM can still be bought, and many others have been released for free download by their copyright holders. Most games have demo versions to try out which also run with ScummVM. These can be downloaded from the [ScummVM demos page](https://scummvm.org/demos/)
 
-| Activision (MADE) Games:      |             |
-| ----------------------------- | ----------- |
+For other out of print games, try [Amazon](amazon.com), [eBay](ebay.com), [Game Trading Zone](https://gametz.com/) or other auction sites. Beware of faulty games (scratched disks etc) and illegal game copies such as from [Butterfly Media](https://forums.scummvm.org/viewtopic.php?t=3443)
+
+While the ScummVM team does not recommend any individual supplier of games, the project does get a cut from every purchase on GOG.com through affiliate links.
+
+|  Game             | Game ID             |
+| --------------|------------ |
+| **LucasArts (SCUMM) Games:** | |
+| [Maniac Mansion](lucasarts#maniac)| [maniac]|
+| [Zak McKracken and the Alien Mindbenders](lucasarts#zak) | [zak]      |
+| [Indiana Jones and the Last Crusade](lucasarts#indy3)      |[indy3]    |
+| [Loom](lucasarts#loom)          | [loom]     |
+| [Passport to Adventure](lucasarts#pass) | [pass]|
+| [The Secret of Monkey Island](lucasarts#monkey)| [monkey]|
+| [Monkey Island 2: LeChuck's Revenge](lucasarts#monkey2)      |[monkey2]  |
+| [Indiana Jones and the Fate of Atlantis](lucasarts#atlantis)  | [atlantis] |
+| [Day of the Tentacle](lucasarts#tentacle)                     | [tentacle] |
+| [Sam & Max Hit the Road](lucasarts#tentacle) | [samnmax]  |
+| [Full Throttle](lucasarts#ft)        | [ft]       |
+| [The Dig](lucasarts#dig)| [dig]      |
+| [The Curse of Monkey Island](lucasarts#comi)|[comi]|
+| **Activision (MADE) Games**      |             |
 | Leather Goddesses of Phobos 2 | \[lgop2\]   |
 | The Manhole                   | \[manhole\] |
 | Return to Zork                | \[rtz\]     |
 | Rodney's Funscreen            | \[rodney\]  |
-
-| Adventuresoft/Horrorsoft (AGOS) Games:                |              |
-| ----------------------------------------------------- | ------------ |
+| **Adventuresoft/Horrorsoft (AGOS) Games**|         |
 | Elvira - Mistress of the Dark                         | \[elvira1\]  |
 | Elvira II - The Jaws of Cerberus                      | \[elvira2\]  |
 | Personal Nightmare                                    | \[pn\]       |
@@ -40,9 +43,7 @@ sidebar_label: Supported Games
 | Simon the Sorcerer's Puzzle Pack - Swampy Adventures  | \[swampy\]   |
 | The Feeble Files                                      | \[feeble\]   |
 | Waxworks                                              | \[waxworks\] |
-
-| Coktel Vision (GOB) Games:                           |                 |
-| ---------------------------------------------------- | --------------- |
+| **Coktel Vision (GOB) Games**|               |
 | Bargon Attack                                        | \[bargon\]      |
 | Fascination                                          | \[fascination\] |
 | Geisha                                               | \[geisha\]      |
@@ -55,16 +56,12 @@ sidebar_label: Supported Games
 | The Bizarre Adventures of Woodruff and the Schnibble | \[woodruff\]    |
 | Urban Runner                                         | \[urban\]       |
 | Ween: The Prophecy                                   | \[ween\]        |
-
-| Revolution Software (Various) Games:     |            |
-| ---------------------------------------- | ---------- |
+| **Revolution Software (Various) Games**     |          |
 | Beneath a Steel Sky                      | \[sky\]    |
 | Broken Sword: The Shadow of the Templars | \[sword1\] |
 | Broken Sword II: The Smoking Mirror      | \[sword2\] |
 | Lure of the Temptress                    | \[lure\]   |
-
-| Sierra (AGI/preAGI) Games:                           |                 |
-| ---------------------------------------------------- | --------------- |
+| **Sierra (AGI/preAGI) Games**|                 |
 | The Black Cauldron                                   | \[bc\]          |
 | Gold Rush\!                                          | \[goldrush\]    |
 | King's Quest I                                       | \[kq1\]         |
@@ -82,9 +79,7 @@ sidebar_label: Supported Games
 | Mickey's Space Adventure                             | \[mickey\]      |
 | Troll's Tale                                         | \[troll\]       |
 | Winnie the Pooh in the Hundred Acre Wood             | \[winnie\]      |
-
-| Sierra (SCI) Games:                        |                      |
-| ------------------------------------------ | -------------------- |
+| **Sierra (SCI) Games** |                      |
 | Castle of Dr. Brain                        | \[castlebrain\]      |
 | Codename: ICEMAN                           | \[iceman\]           |
 | Conquests of Camelot                       | \[camelot\]          |
@@ -140,9 +135,7 @@ sidebar_label: Supported Games
 | The Island of Dr. Brain                    | \[islandbrain\]      |
 | The Beast Within: A Gabriel Knight Mystery | \[gk2\]              |
 | Torin's Passage                            | \[torin\]            |
-
-| Other Games:                                                        |                 |
-| ------------------------------------------------------------------- | --------------- |
+| **Other Games**|                 |
 | 3 Skulls of the Toltecs                                             | \[toltecs\]     |
 | Amazon: Guardians of Eden                                           | \[access\]      |
 | Beavis and Butt-head in Virtual Stupidity                           | \[bbvs\]        |
@@ -196,9 +189,7 @@ sidebar_label: Supported Games
 | Voyeur                                                              | \[voyeur\]      |
 | Zork: Grand Inquisitor                                              | \[zgi\]         |
 | Zork Nemesis: The Forbidden Lands                                   | \[znemesis\]    |
-
-| Humongous Entertainment (SCUMM) Games:                         |                   |
-| -------------------------------------------------------------- | ----------------- |
+| **Humongous Entertainment (SCUMM) Games**|       |
 | Backyard Baseball                                              | \[baseball\]      |
 | Backyard Baseball 2001                                         | \[baseball2001\]  |
 | Backyard Baseball 2003                                         | \[baseball2003\]  |

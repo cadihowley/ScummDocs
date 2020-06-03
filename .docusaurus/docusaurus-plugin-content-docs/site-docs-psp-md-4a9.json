@@ -5,14 +5,5 @@
   "source": "@site/docs/psp.md",
   "permalink": "/psp",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/psp.md",
-  "sidebar_label": "PSP",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "Quickstart Guide - Raspberry Pi",
-    "permalink": "/raspberrypi"
-  },
-  "next": {
-    "title": "Where do I Get the Games?",
-    "permalink": "/get_games"
-  }
+  "sidebar_label": "PSP"
 }

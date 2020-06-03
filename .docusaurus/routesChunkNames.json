@@ -1,8 +1,8 @@
 {
   "/": {
     "component": "component---theme-doc-page-1-be-9be",
-    "docsMetadata": "docsMetadata---6-c-3-836",
-    "content": "content---109-98e"
+    "docsMetadata": "docsMetadata---724-aa2",
+    "content": "content---3-d-8-5fb"
   },
   "/blog": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
@@ -84,6 +84,10 @@
     "component": "component---theme-doc-page-1-be-9be",
     "docsMetadata": "docsMetadata---routeec-1-f92"
   },
+  "/about": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---3-d-8-5fb"
+  },
   "/activision": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---activision-7-a-8-b4e"
@@ -112,6 +116,14 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---common-controls-038-357"
   },
+  "/compatibility": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---compatibilitye-29-b87"
+  },
+  "/configuration": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---configuration-9-ed-2cf"
+  },
   "/doc1": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---doc-1-b-2-f-07b"
@@ -127,6 +139,14 @@
   "/get_games": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---get-games-87-a-04c"
+  },
+  "/help_project": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---help-project-48-b-025"
+  },
+  "/how_work": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---how-work-986-398"
   },
   "/humongous": {
     "component": "component---theme-doc-item-178-a40",
@@ -192,12 +212,12 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---supported-gamesc-64-446"
   },
+  "/supported_platforms": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---supported-platforms-78-c-5ad"
+  },
   "/tentacle": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---tentacle-660-a6b"
-  },
-  "/what_is": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---109-98e"
   }
 }

@@ -1,18 +1,18 @@
 {
   "id": "lucasarts",
   "title": "LucasArts Games",
-  "description": "Games",
+  "description": "The following games all use the SCUMM engine.",
   "source": "@site/docs/lucasarts.md",
   "permalink": "/lucasarts",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/lucasarts.md",
   "sidebar_label": "LucasArts Games",
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Common Game Controls",
-    "permalink": "/common_controls"
+    "title": "Quickstart Guide - Raspberry Pi",
+    "permalink": "/raspberrypi"
   },
   "next": {
-    "title": "activision",
-    "permalink": "/activision"
+    "title": "Command Line Options",
+    "permalink": "/command_line"
   }
 }

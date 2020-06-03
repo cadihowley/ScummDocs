@@ -4,13 +4,23 @@ title: Command Line Options
 sidebar_label: Command Line Options
 ---
 
+Games can be launched directly from the command line, with a number of options.
 
-Usage: scummvm [OPTIONS]... [GAME]
+Usage: 
+
 ````
-[GAME]                   Short name of game to load. For example, 'monkey'
-                          for Monkey Island. This can be either a built-in
-                          gameid, or a user configured target.
+scummvm [OPTIONS]... [GAME]
+````
+### [GAME]
 
+Short name of game to load. For example, 'monkey' for Monkey Island. 
+The short name can be:
+- The default built-in [gameid](supported_games)
+- A user configured target set in the configuration file ```gameid=monkey```
+- A user configured target set in the Game Settings from the Launcher. ```Edit Game --> ID```
+
+### [OPTIONS]
+````
 -v, --version            Display ScummVM version information and exit
 -h, --help               Display a brief help text and exit
 -z, --list-games         Display list of supported games and exit
@@ -49,7 +59,7 @@ Usage: scummvm [OPTIONS]... [GAME]
 --list-themes            Display list of all usable GUI themes
 -e, --music-driver=MODE  Select music driver (see also section 7.0)
 --list-audio-devices     List all available audio devices
--q, --language=LANG      Select game's language (see also section 5.5)
+<a name="language"></a>-q, --language=LANG      Select game's language 
 -m, --music-volume=NUM   Set the music volume, 0-255 (default: 192)
 -s, --sfx-volume=NUM     Set the sfx volume, 0-255 (default: 192)
 -r, --speech-volume=NUM  Set the voice volume, 0-255 (default: 192)
@@ -94,12 +104,29 @@ Usage: scummvm [OPTIONS]... [GAME]
                           (default: 100)
 ````
 
-The meaning of most long options (that is, those options starting with a double-dash) can be inverted by prefixing them with "no-". For example, --no-aspect-ratio will turn aspect ratio correction off. This is useful if you want to override a setting in the configuration file.
+The meaning of most long options (that is, those options starting with a double-dash) can be inverted by prefixing them with "no-". For example, ```--no-aspect-ratio``` will turn aspect ratio correction off. This is useful if you want to override a setting in the configuration file.
 
-The short game name ('game target') you see at the end of the command line specifies which game is started. It either corresponds to an arbitrary user defined target (from the configuration file), or to a built-in gameid. A brief list of the latter can be found in section 3.0.
 
-Examples:
+**__Examples__**
 
-Win32: Running Monkey Island, fullscreen, from a hard disk: C:\Games\LucasArts\scummvm.exe -f -pC:\Games\LucasArts\monkey\ monkey Running Full Throttle from CD, fullscreen and with subtitles enabled: C:\Games\LucasArts\scummvm.exe -f -n -pD:\resource\ ft
+**Windows:**
 
-Unix: Running Monkey Island, fullscreen, from a hard disk: /path/to/scummvm -f -p/games/LucasArts/monkey/ monkey Running Full Throttle from CD, fullscreen and with subtitles enabled: /path/to/scummvm -f -n -p/cdrom/resource/ ft
+ Running Monkey Island, fullscreen, from a hard disk: 
+````
+C:\Games\LucasArts\scummvm.exe -f -pC:\Games\LucasArts\monkey\monkey 
+````
+
+Running Full Throttle from CD, fullscreen and with subtitles enabled: 
+````
+C:\Games\LucasArts\scummvm.exe -f -n -pD:\resource\ft
+````
+
+**Unix:**
+
+ Running Monkey Island, fullscreen, from a hard disk:
+````
+ /path/to/scummvm -f -p/games/LucasArts/monkey/ monkey 
+````
+
+Running Full Throttle from CD, fullscreen and with subtitles enabled: 
+````/path/to/scummvm -f -n -p/cdrom/resource/ft````

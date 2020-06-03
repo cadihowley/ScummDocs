@@ -8,11 +8,11 @@
   "sidebar_label": "Raspberry Pi",
   "sidebar": "someSidebar",
   "previous": {
-    "title": "What is ScummVM?",
-    "permalink": "/what_is"
+    "title": "Help the Project",
+    "permalink": "/help_project"
   },
   "next": {
-    "title": "Quickstart Guide - Playstation Portable",
-    "permalink": "/psp"
+    "title": "LucasArts Games",
+    "permalink": "/lucasarts"
   }
 }

@@ -3,6 +3,8 @@ id: lucasarts
 title: LucasArts Games 
 sidebar_label: LucasArts Games
 ---
+The following games all use the [SCUMM](https://wiki.scummvm.org/index.php?title=SCUMM) engine. 
+
 | Game | ID|
 |------|----|
 |[Maniac Mansion](#maniac) | maniac|
@@ -20,11 +22,112 @@ sidebar_label: LucasArts Games
 |[The Curse of Monkey Island](#comi)|comi|
 
 ---
-## Controls - SCUMM Engine
+## Controls
+
+#### Global Menu
+
+The global menu can be reached by pressing Ctrl+F5.
+From this menu there are the following buttons:
+- Resume
+- Options -> opens a dialog with basic audio settings
+- About
+- Return to Launcher -> closes the current game and returns the user to the Launcher
+- Quit. 
+
+
+#### Hotkeys
+
+:::note 
+Using Ctrl-f or Ctrl-g is not recommended: games can crash when being run faster than their normal speed, as scripts will lose synchronisation.
+:::
+
+##### Common
+
+    Ctrl-F5                - Displays the Global Menu
+    Cmd-q                  - Quit (Mac OS X)
+    Ctrl-q                 - Quit (other unices including Linux)
+    Alt-F4                 - Quit (Windows)
+    Ctrl-z                 - Quit (other platforms)
+    Ctrl-u                 - Mute all sounds
+    Ctrl-m                 - Toggle mouse capture
+    Ctrl-Alt 1-8           - Switch between graphics filters
+    Ctrl-Alt + and -       - Increase/Decrease the scale factor
+    Ctrl-Alt a             - Toggle aspect-ratio correction on/off
+                             Most of the games use a 320x200 pixel
+                             resolution, which may look squashed on
+                             modern monitors. Aspect-ratio correction
+                             stretches the image to use 320x240 pixels
+                             instead, or a multiple thereof
+    Ctrl-Alt f             - Enable/disable graphics filtering
+    Ctrl-Alt s             - Cycle through scaling modes
+    Alt-Enter              - Toggles full screen/windowed
+    Alt-s                  - Make a screenshot (SDL backend only)
+    Ctrl-F7                - Open virtual keyboard (if enabled)
+                             This can also be triggered by a long press
+                             of the middle mouse button or wheel.
+
+##### SCUMM Engine
+    Alt-x                  - Quit
+    Ctrl 0-9 and Alt 0-9   - Load and save game state
+    Ctrl-d                 - Starts the debugger
+    Ctrl-f                 - Toggle fast mode
+    Ctrl-g                 - Runs in really REALLY fast mode
+    Ctrl-t                 - Switch between 'Speech only',
+                             'Speech and Subtitles' and 'Subtitles only'
+    Tilde (~)              - Show/hide the debugging console
+    [ and ]                - Music volume, down/up
+    - and +                - Text speed, slower/faster
+    F5                     - Displays a save/load box
+    Alt-F5                 - Displays the original save/load box, if the
+                             game has one. You can save and load games using
+                             this, however it is not intended for this purpose,
+                             and may even crash ScummVM in some games.
+    i                      - Displays IQ points (Indiana Jones and the Last
+                             Crusade, and Indiana Jones and the Fate of
+                             Atlantis)
+    Space                  - Pauses
+    Period (.)             - Skips current line of text in some games
+    Enter                  - Simulate left mouse button press
+    Tab                    - Simulate right mouse button press
 
 ---
-## Maniac Mansion <a name="maniac"></a>
-### About
+## Copy Protection
+
+The ScummVM team does not condone piracy. However, there are cases where the game companies (such as LucasArts) themselves bundled 'cracked' executables with their games -- in these cases the data files still contain the copy protection scripts, but the interpreter bypasses them (similar to what an illegally cracked version might do, only that here the producer of the game did it). There is no way for us to tell the difference between legitimate and pirated data files, so for the games where we know that a cracked version of the original interpreter was sold at some point, ScummVM will always have to bypass the copy protection.
+
+In some cases ScummVM will still show the copy protection screen. Try entering any answer. Chances are that it will work.
+
+ScummVM will skip copy protection in the following LucasArts games:
+
+- Loom (EGA DOS)
+- Maniac Mansion
+- Monkey Island 2: LeChuck's Revenge
+- The Secret of Monkey Island (VGA)
+- Zak McKracken and the Alien Mindbenders
+
+---
+## Macintosh Versions
+
+All LucasArts SCUMM based adventures, except Curse of Monkey Island, also exist in versions for the Macintosh. ScummVM can use most of them, however, in some cases some additional work is required. 
+
+The original CD or Floppy for the Mac is in a disk format called HFS, which other operating systems usually do not support.  
+To read HFS volumes on other operating systems there are various free tools available, such as:
+- HFSExplorer for Windows 
+- hfsutils for Linux and other Unix-like operating systems.
+
+Most of the newer games on the Macintosh shipped with only a single data file. ScummVM is able to directly use such a data file; simply point ScummVM at the directory containing the file.
+
+:::note 
+In some cases this data file was made invisible, so you may need extra tools in order to copy it
+:::
+
+We also provide a tool called ```extract_scumm_mac``` in the tools package to extract the data from these data files, but this is neither required nor recommended.
+
+The [wiki](https://wiki.scummvm.org/index.php/HOWTO-Mac_Games) contains further information on copying Macintosh game files to the hard disk. 
+
+---
+## Maniac Mansion (1987) <a id="maniac"></a>
+
 Maniac Mansion was the first game to use the SCUMM scripting language.
 
 The game follows Dave Miller and a group of his friends as they break into a strange mansion in an attempt to rescue Dave's girlfriend Sandy and stop the evil purple meteor from taking over the world. The game has a group of six characters to choose from (Dave must always be in your party), and multiple possible endings.
@@ -41,13 +144,24 @@ The game follows Dave Miller and a group of his friends as they break into a str
 |Engine| SCUMM|
 |Support| Since ScummVM 0.5.0|
 
-### Download
+#### Variants
+
+The DOS versions came in two variations, a 16 color EGA version and an "enhanced version" with higher resolution EGA graphics.
+
+The Nintendo Entertainment System version featured additional music for cut-scenes and themes for each playable character. It also contained many changes from the original due to standards and practices at Nintendo, such as the removal of the statue on the second floor and the changing of several words Nintendo found inappropriate. The Famicom version of Maniac Mansion, released exclusively in Japan did not use the SCUMM engine.
+
+Maniac Mansion is also included in [Day of the Tentacle](#tentacle). The English version contains the V1 DOS version while non-English versions are V2 DOS. If you have the Macintosh version of Day of the Tentacle you will need to extract the *.LFL files from the Day of the Tentacle Data file using ````extract_scumm_mac```
+
+#### Download
 Available from [GOG.com](http://gog.com/game/maniac_mansion?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) or [Steam](http://store.steampowered.com/app/529890)
+
+#### Data Files
+
+A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Maniac_Mansion_.28Original_or_Enhanced.29)
 
 ---
 
-## Zak McKraken and the Alien Mindbenders <a name="zak"></a>
-### About
+## Zak McKraken and the Alien Mindbenders (1989) <a id="zak"></a>
 
 Zak McKracken and the Alien Mindbenders was the second game to use the SCUMM scripting language. The game first follows Zak McKracken, a tabloid reporter who slowly discovers a plot by an alien race to take over the Earth. Later, the game adds three additional playable characters (a scientist named Annie Larris, and two Yale students named Melissa China and Leslie Bennett), and places the characters on a quest to find the missing pieces of an alien device that will save all of humankind.
 
@@ -64,13 +178,37 @@ Zak McKracken and the Alien Mindbenders was the second game to use the SCUMM scr
 |Engine	|SCUMM|
 |Support	|Since ScummVM 0.2.0|
 
-### Download
+#### Download
 Available from [GOG.com](http://gog.com/game/zak_mckracken_and_the_alien_mindbenders?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)
 
+#### Data Files
+
+A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Zak_McKracken_and_the_Alien_Mindbenders)
+
+#### Language Options
+ScummVM allows the language to be changed by either:
+
+- Editing the [Configuration file](command_line#language)
+- Changing the language in the ```Edit Game``` settings from the Launcher
+````
+    en  - English (default)
+    de  - German
+    fr  - French
+    it  - Italian
+    es  - Spanish
+````
+:::note
+Using this option does not change the language of the game, but rather is only used to select the appropriate font (e.g. for a German version of a game, one containing umlauts).
+:::
 ---
 
-## Indiana Jones and the Last Crusade <a name="indy3"></a>
-### About
+## Indiana Jones and the Last Crusade (1989) <a id="indy3"></a>
+
+Indiana Jones and the Last Crusade: The Graphic Adventure was the third game to use the SCUMM scripting language. The game follows the plotline of the Indiana Jones and the Last Crusade motion picture.
+
+At the beginning of the game, Indiana Jones must rescue his father from the Nazis by using clues from his father's diary documenting everything that is known about the Holy Grail that once held the blood of Jesus Christ at the Last Supper. Later, Indiana Jones must use the grail diary to find the cup of Christ so that he may use it's miraculous powers to save his father's life.
+
+This game features action sequences, in which Indiana Jones can fight his way out of situations instead of using his wits. The game features a Sierra-like score system, where the player is given a score based on which paths are chosen, and whether battles were overcome with wits or by fighting.
 
 |  | Indiana Jones and The Last Crusade |
 |-|-|
@@ -83,17 +221,28 @@ Available from [GOG.com](http://gog.com/game/zak_mckracken_and_the_alien_mindben
 |Engine | SCUMM |
 |Support| Since ScummVM 0.2.0|
 
-### Download
+#### Variants
+
+Unlike many CD versions of LucasArts games, the CD versions of this game were not "talkie versions", as they did not include any speech.
+
+The PC floppy EGA version contained only 16 colors
+
+The PC floppy and PC CD-ROM VGA versions are updated to use 256 colors. The FM-Towns version also has 256 colors, as well as CD audio tracks which uses music from the film's soundtrack.
+
+#### Download
 Available from [GOG.com](http://gog.com/game/indiana_jones_and_the_last_crusade?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) or [Steam](http://store.steampowered.com/app/32310)
+
+#### Data Files
+
+A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Indiana_Jones_and_the_Last_Crusade)
 
 ---
 
-## Loom <a name="loom"></a>
-### About
+## Loom (1990) <a id="loom"></a>
 
 Loom was the fourth game to use the SCUMM scripting language. The game follows Bobbin Threadbare as he learns how to use his magical powers through his distaff and as he eventually saves the world from the Lord of Chaos, who was unraveling the Loom (the source of power for the members of the weaver's guild).
 
-### Variants
+#### Variants
 
 The DOS CD version of this was a "talkie version" presented in 256 colors, however unlike most talkie games the speech came from CDDA tracks on the CD. Due to limitations in lip-syncing at the time, the DOS CD version did not include the scenes where the characters were presented in close-up shots. The FM Towns CD version was also presented in 256 colors, however it was not a talkie. As a result, the close-up shots were present in the FM Towns versions.
 
@@ -112,13 +261,22 @@ The DOS floppy EGA version contained only 16 colors.
 |Engine|	SCUMM|
 |Support	|Since ScummVM 0.2.0|
 
-### Download
+#### Download
 
 Available from [GOG.com](http://gog.com/game/loom?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) or [Steam](http://store.steampowered.com/app/32340)
 
+#### Data Files
+
+A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Loom)
+
+#### Known Problems
+
+- Turning off the subtitles via the config file does not work reliably as the Loom scripts automatically turn them on again.
+- MIDI support in the EGA version requires the Roland update from LucasArts.
+T- he PC-Engine Kanji version requires the system card rom.
+
 ---
-## Passport to Adventure <a name="pass"></a>
-### About
+## Passport to Adventure (1990) <a id="pass"></a>
 
 Passport to Adventure is a pack of demos of various games by Lucasfilm Games that use the SCUMM scripting language. It contains playable EGA demos of Indiana Jones and the Last Crusade, The Secret of Monkey Island, and Loom. Each game ends by showing a list of people who led the original games, as well as the people involved in creating the demo. At that point, the demo can be restarted by pressing ESC, allowing the user to select another game demo to try.
 
@@ -134,13 +292,16 @@ Passport to Adventure is a pack of demos of various games by Lucasfilm Games tha
 |Engine	|SCUMM|
 |Support	|Since 0.3.0|
 
-### Download
+#### Download
 Available from our [Demos page](https://www.scummvm.org/demos)
+
+#### Data Files
+
+A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Passport_to_Adventure)
 
 ---
 
-## The Secret of Monkey Island <a name="monkey"></a>
-### About
+## The Secret of Monkey Island (1990) <a id="monkey"></a>
 
 The Secret of Monkey Island was the first game in the Monkey Island series, and the fifth game to use the SCUMM scripting language. At first, the game follows Guybrush's attempts to prove himself a pirate; later, he attempts to rescue his new-found love, Elaine Marley, from the clutches of the ghost pirate LeChuck.
 
@@ -158,17 +319,22 @@ TSOMI; SOMI; SMI|
 |Support|	Since ScummVM 0.1.0|
 
 
-### Download
+#### Download
 The Special Edition version is available from [GOG.com](http://gog.com/game/the_secret_of_monkey_island_special_edition?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) and [Steam](http://store.steampowered.com/app/32460).
 
-:::note
+:::important
 The process to make this version playable via ScummVM is described in [this thread](https://forums.scummvm.org/viewtopic.php?t=7671). Only the classic mode is playable.
 :::
 
+#### Data Files
+
+A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Secret_of_Monkey_Island.2C_The)
+
+#### Known Problems
+- MIDI support in the EGA version requires the Roland update from LucasArts.
 ---
 
-## Monkey Island 2: LeChuck's Revenge <a name="monkey2"></a>
-### About
+## Monkey Island 2: LeChuck's Revenge (1991) <a id="monkey2"></a>
 
 Monkey Island 2: LeChuck's Revenge was the second game in the Monkey Island series, and the sixth game to use the SCUMM scripting language. The game first follows Guybrush as he tries to find a mysterious treasure known as Big Whoop. Later, Guybrush must again defeat Captain LeChuck, the ghost pirate he defeated in the first game, who has returned as a zombie awoken by a voodoo spell.
 
@@ -186,27 +352,41 @@ Monkey Island 2: LeChuck's Revenge was the second game in the Monkey Island seri
 |Support|	First game supported by
 ScummVM!|
 
-### Download
+#### Download
 The Special Edition version is available from [GOG.com](http://gog.com/game/monkey_island_2_special_edition_lechucks_revenge?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) or [Steam](http://store.steampowered.com/app/32460). 
 
-:::note
-The process to make this version playable via ScummVM is described in [this thread](https://forums.scummvm.org/viewtopic.php?t=7671). Only the classic mode is playable.
+#### Data Files
+
+A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Monkey_Island_2:_LeChuck.27s_Revenge)
+
+:::important
+The process to make the Special Edition downloaded version playable via ScummVM is described in [this thread](https://forums.scummvm.org/viewtopic.php?t=7671). Note that only the classic mode is playable using this medthod.
 :::
+
+
 ---
 
-## Indiana Jones and the Fate of Atlantis <a name="atlantis"></a>
-### About
+## Indiana Jones and the Fate of Atlantis (1993) <a id="atlantis"></a>
 
-### Download
+Indiana Jones and the Fate of Atlantis was the seventh game to use the SCUMM scripting language. The game follows Indiana Jones and Sophia Hapgood, who is a playable character in some parts of the game, as they discover the lost city of Atlantis, and stop the Nazis from using the power source of Atlantis for world conquest.
+
+#### Variants
+
+The CD versions were "talkie versions" and included speech for each of the lines of text said by the characters in the game.
+
+#### Download
 
 English-only version available from [Steam](http://store.steampowered.com/app/6010).
 
 English version with text-only options for French, German, Italian and Spanish available from [GOG.com](http://gog.com/game/indiana_jones_and_the_fate_of_atlantis?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)
 
+#### Data Files
+
+A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Indiana_Jones_and_the_Fate_of_Atlantis)
+
 ---
 
-## Maniac Mansion: Day of the Tentacle <a name="tentacle"></a>
-### About
+## Maniac Mansion: Day of the Tentacle (1993) <a id="tentacle"></a>
 
 Maniac Mansion: Day of the Tentacle was the sequel to Maniac Mansion, and the eighth game to use the SCUMM scripting language. The game first follows the nerd from the first game, Bernard Bernoulli, and his roommates Hoagie and Laverne as they rescue green tentacle from Dr. Fred's basement. Later, the game follows the trio as they go back in time to stop the evil purple tentacle from changing the past for his own benefit.
 
@@ -222,20 +402,37 @@ Maniac Mansion: Day of the Tentacle was the sequel to Maniac Mansion, and the ei
 |Engine|	SCUMM|
 |Support	|Since ScummVM 0.2.0|
 
-### Download
-Remastered version available from [GOG.com](https://www.gog.com/game/day_of_the_tentacle_remastered?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) and [Steam](http://store.steampowered.com/app/388210). It is possible to make these playable via ScummVM using [DoubleFine Explorer](https://quickandeasysoftware.net/software/doublefine-explorer) 
-:::note
-Only the classic mode is playable when this method is used. 
+#### Download
+Remastered version available from [GOG.com](https://www.gog.com/game/day_of_the_tentacle_remastered?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) and [Steam](http://store.steampowered.com/app/388210). 
+
+:::important
+It is possible to make the remastered version playable via ScummVM using [DoubleFine Explorer](https://quickandeasysoftware.net/software/doublefine-explorer) 
+Note that only the classic mode is playable when this method is used. 
 :::
+
+#### Data Files
+
+A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Day_of_the_Tentacle)
+
+#### Game Notes
+
+At one point in the game, you come across a computer that allows you to play the original Maniac Mansion as an easter egg. ScummVM supports this, with a few caveats:
+
+ScummVM will scan your configuration file for a game that's in a ```Maniac``` sub-folder of your Day of the Tentacle folder. If you've copied the data files from the CD version, this should already be the case but you have to add the game to ScummVM as well.
+
+To return to Day of the Tentacle, press F5 and select "Return to Launcher".
+
+This means that you could in theory use any game as the easter egg. Indeed, there is a "secret" configuration setting, ```easter_egg```, to override the ID of the game to run. Be aware, though, that not all games support returning to the launcher, and setting it up to use Day of the Tentacle itself as the easter egg game is not recommended.
+
+[Maniac Mansion](#maniac) is included in Day of the Tentacle. The English version contains the V1 DOS version while non-English versions are V2 DOS. If you have the Macintosh version of Day of the Tentacle you will need to extract the *.LFL files from the Day of the Tentacle Data file using ```extract_scumm_mac```.
 
 ---
 
-## Sam & Max Hit the Road <a name="samnmax"></a>
-### About
+## Sam & Max Hit the Road (1993) <a id="samnmax"></a>
 
 Sam & Max Hit the Road was the ninth game to use the SCUMM scripting language. The game first follows the crime fighting duo, a dog named Sam and a lagomorph named Max, as they recover a bigfoot who was stolen from a carnival. Later, the game follows the characters as they uncover an ancient spell to restore the Earth to it's original state.
 
-### Variants
+#### Variants
 
 The CD versions were "talkie versions" and included speech for each of the lines of text said by the characters in the game.
 
@@ -252,12 +449,17 @@ The CD versions were "talkie versions" and included speech for each of the lines
 |Engine	|SCUMM|
 |Support|	Since ScummVM 0.2.0|
 
-### Download
+#### Download
+
 Available from [GOG.com](http://gog.com/game/sam_max_hit_the_road?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)
+
+#### Data Files
+
+A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Sam_.26_Max_Hit_the_Road)
+
 ---
 
-## Full Throttle <a name="ft"></a>
-### About
+## Full Throttle (1995) <a id="ft"></a>
 
 Full Throttle was the tenth game to use the SCUMM scripting language. The game follows a biker named Ben, as he uncovers a plot of murder that threatens to damage himself, his gang, and his very way of life. If you think this description is a bit short, wait till you see the game.
 
@@ -273,12 +475,15 @@ Full Throttle was the tenth game to use the SCUMM scripting language. The game f
 |Engine	|SCUMM|
 |Support	|Since ScummVM 0.2.0|
 
-### Download
+#### Download
 Full Throttle is not available for download
 
+#### Data Files
+
+A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Full_Throttle)
+
 ---
-## The Dig <a name="dig"></a>
-### About
+## The Dig (1995) <a id="dig"></a>
 
 The Dig was the eleventh game to use the SCUMM scripting language. The game, based on a story by Steven Spielberg, first follows two NASA astronauts (Commander Boston Low, Dr. Ludger Brink) and a reporter named Maggie Robbins as they attempt to destroy an asteroid that is on a collision course with Earth. Later, the game finds the crew on an alien planet trying to discover why there seems to be no sentient life, discovering the secrets the planet holds, and trying to find a way back home.
 
@@ -294,14 +499,29 @@ The Dig was the eleventh game to use the SCUMM scripting language. The game, bas
 |Engine|	SCUMM|
 |Support	|Since ScummVM 0.2.0|
 
-### Download
+#### Download
 
 Available from [GOG.com](http://gog.com/game/the_dig?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) or [Steam](http://store.steampowered.com/app/6040)
 
+#### Data Files
+
+A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Dig.2C_The)
+
+#### [Language Options](command_line#language)
+
+    jp  - Japanese
+    zh  - Chinese
+    kr  - Korean
+
+:::note
+Using this option does not change the language of the game, but rather is only used to select the appropriate font. 
+
+Non-English versions can be set to 'English.' This only affects subtitles; game speech will remain the same.
+:::
+
 ---
 
-## The Curse of Monkey Island <a name="comi"></a>
-### About
+## The Curse of Monkey Island (1997) <a id="comi"></a>
 
 The Curse of Monkey Island was the third game in the Monkey Island series, and the twelfth game to use the SCUMM scripting language. The game first follows Guybrush as he is captured by the Zombie Pirate LeChuck, and must escape from the hold of LeChuck's pirate ship. Later Guybrush accidently turns his love, Elaine, into a gold statue with a cursed ring. Now, he has to find an uncursed ring to change her back.
 
@@ -320,7 +540,34 @@ COMI, CMI|
 |Engine|	SCUMM|
 |Support|	Since ScummVM 0.4.0|
 
-### Download
+#### Download
 Available from [GOG.com](http://gog.com/game/the_curse_of_monkey_island?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) or [Steam](http://store.steampowered.com/app/730820)
+
+#### Data Files
+
+A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Curse_of_Monkey_Island.2C_The)
+
+#### Game Notes
+
+For this game, you will need the comi.la0, comi.la1 and comi.la2 files. The comi.la0 file can be found on either CD, but since they are identical it doesn't matter which one of them you use.
+
+In addition, you will need to create a "resource" subdirectory containing all of the files from -both- "resource" subdirectories on the two CDs. Some of the files appear on both CDs, but again they're identical.
+
+#### [Language Options](command_line#language)
+
+    en  - English (default)
+    de  - German
+    fr  - French
+    it  - Italian
+    pt  - Portuguese
+    es  - Spanish
+    jp  - Japanese
+    zh  - Chinese
+    kr  - Korean
+
+:::note
+Using this option does not change the language of the game, but rather is only used to select the appropriate font. 
+:::
+
 
 ---

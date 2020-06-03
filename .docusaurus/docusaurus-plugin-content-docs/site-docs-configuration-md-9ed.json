@@ -1,0 +1,14 @@
+{
+  "id": "configuration",
+  "title": "Configuration File",
+  "description": "Keywords",
+  "source": "@site/docs/configuration.md",
+  "permalink": "/configuration",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/configuration.md",
+  "sidebar_label": "Configuration File",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Command Line Options",
+    "permalink": "/command_line"
+  }
+}

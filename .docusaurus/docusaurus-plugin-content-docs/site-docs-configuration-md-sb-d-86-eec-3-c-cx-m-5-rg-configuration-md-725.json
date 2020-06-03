@@ -1,0 +1,9 @@
+{
+  "id": "configuration.md.sb-d86eec3c-cxM5Rg/configuration",
+  "title": "Configuration Keywords",
+  "description": "By default, the configuration file is saved in, and loaded from:",
+  "source": "@site/docs/configuration.md.sb-d86eec3c-cxM5Rg/configuration.md",
+  "permalink": "/configuration.md.sb-d86eec3c-cxM5Rg/configuration",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/configuration.md.sb-d86eec3c-cxM5Rg/configuration.md",
+  "sidebar_label": "Configuration File"
+}

@@ -7,6 +7,7 @@ module.exports = {
   organizationName: 'cadihowley', // Usually your GitHub org/user name.
   projectName: 'ScummDocs', // Usually your repo name.
   themeConfig: {
+    sidebarCollapsible: false,
     navbar: {
       title: 'ScummVM Documentation',
       logo: {
@@ -85,7 +86,7 @@ module.exports = {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path)
 	  routeBasePath: '/',
-	  homePageId: 'what_is',
+	  homePageId: 'about',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:

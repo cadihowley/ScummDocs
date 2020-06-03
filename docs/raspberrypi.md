@@ -70,6 +70,10 @@ ScummVM can run the data files from any folder it has access to (including exter
 ---
 ## Launching Games
 
+<img alt="Launching Games" src={useBaseUrl('img/adding_game_rpi.gif')} />
+
+---
+
 1. From the applications menu select "Games" and "ScummVM" which will open the Launcher.
 
 <img alt="Launch ScummVM" src={useBaseUrl('img/launch_scummvm_rpi.jpg')} />
@@ -93,13 +97,18 @@ ScummVM can run the data files from any folder it has access to (including exter
 <img alt="Starting a Game" src={useBaseUrl('img/start_game_rpi.jpg')} />
 
 :::note
-Games can also be launched directly from the command line by typing ``` scummvm``` , followed by any [options](https://github.com/scummvm/scummvm/blob/v2.1.1/README.md#51-command-line-options) and then the ID of the game. To find the game ID, go to the game-specific settings, or find it [here](https://github.com/scummvm/scummvm/blob/v2.1.1/README.md#30-supported-games). To launch a game with no additional options, simply type ```scummvm``` followed by the game ID. In the following example, Flight of the Amazon Queen will be launched in full screen:
+Games can also be launched directly from the command line by typing ``` scummvm``` , followed by any  required [options](command_line#options) and then the game ID. 
+
+To find the game ID, go to the game-specific settings (```Edit Game...```button in the Launcher) , or find the default ID [here](supported_games.md). 
+
+To launch a game with no additional options, simply type ```scummvm``` followed by the game ID. 
+In the following example, Flight of the Amazon Queen will be launched in full screen:
 ```
 scummvm -f queen
 ```
 
 :::
-7. Enjoy the nostalgia!
+
 
 ---
 
@@ -107,11 +116,11 @@ scummvm -f queen
 
 Settings can be configured from the ScummVM Launcher, or by editing the configuration file directly. 
 
-To edit general settings through the Launcher, run ScummVM and select "Options". To edit game-specific settings, choose the game and select "Edit Game".
+To edit general settings through the Launcher, run ScummVM and select ```Options```. To edit game-specific settings, choose the game and select ```Edit Game```.
 
 On the Raspberry Pi, the configuration file path is ```~/.config/scummvm/scummvm.ini```
 
-To edit settings directly in the configuration file, navigate to the file in the File Manager. If the .config directory is not visible in the Home directory, go to View --> Show Hidden. 
+To edit settings directly in the configuration file, navigate to the file in the File Manager. If the .config directory is not visible in the Home directory, go to ```View --> Show Hidden```. 
 
 To edit the configuration file from the command line, type the following:
 ````
@@ -119,4 +128,13 @@ nano ~/.config/scummvm/scummvm.ini
 ````
 Use Ctrl+O to save any changes. 
 
-There are many [recognized configuration keywords](https://github.com/scummvm/scummvm/blob/v2.1.1/README.md#81-recognized-configuration-keywords).
+There are many [recognized configuration keywords](configuration.md).
+
+### Game Saves
+
+By default, games are saved to
+````
+/home/pi/.local/share/scummvm/saves
+````
+
+The save path can be changed in the config file by setting the savepath parameter.

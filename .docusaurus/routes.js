@@ -76,6 +76,12 @@ export default [
   
   routes: [
 {
+  path: '/about',
+  component: ComponentCreator('/about'),
+  exact: true,
+  
+},
+{
   path: '/activision',
   component: ComponentCreator('/activision'),
   exact: true,
@@ -118,6 +124,18 @@ export default [
   
 },
 {
+  path: '/compatibility',
+  component: ComponentCreator('/compatibility'),
+  exact: true,
+  
+},
+{
+  path: '/configuration',
+  component: ComponentCreator('/configuration'),
+  exact: true,
+  
+},
+{
   path: '/doc1',
   component: ComponentCreator('/doc1'),
   exact: true,
@@ -138,6 +156,18 @@ export default [
 {
   path: '/get_games',
   component: ComponentCreator('/get_games'),
+  exact: true,
+  
+},
+{
+  path: '/help_project',
+  component: ComponentCreator('/help_project'),
+  exact: true,
+  
+},
+{
+  path: '/how_work',
+  component: ComponentCreator('/how_work'),
   exact: true,
   
 },
@@ -238,14 +268,14 @@ export default [
   
 },
 {
-  path: '/tentacle',
-  component: ComponentCreator('/tentacle'),
+  path: '/supported_platforms',
+  component: ComponentCreator('/supported_platforms'),
   exact: true,
   
 },
 {
-  path: '/what_is',
-  component: ComponentCreator('/what_is'),
+  path: '/tentacle',
+  component: ComponentCreator('/tentacle'),
   exact: true,
   
 }],

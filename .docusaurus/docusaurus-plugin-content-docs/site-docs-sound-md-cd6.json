@@ -4,10 +4,5 @@
   "source": "@site/docs/sound.md",
   "permalink": "/sound",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/sound.md",
-  "sidebar_label": "Music and Sound",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "Command Line Options",
-    "permalink": "/command_line"
-  }
+  "sidebar_label": "Music and Sound"
 }

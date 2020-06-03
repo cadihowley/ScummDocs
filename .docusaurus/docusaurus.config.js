@@ -3,6 +3,7 @@ export default {
   "themes": [],
   "customFields": {},
   "themeConfig": {
+    "sidebarCollapsible": false,
     "navbar": {
       "title": "ScummVM Documentation",
       "logo": {
@@ -91,7 +92,7 @@ export default {
       {
         "docs": {
           "routeBasePath": "/",
-          "homePageId": "what_is",
+          "homePageId": "about",
           "sidebarPath": "/home/pi/ScummDocs/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
         },

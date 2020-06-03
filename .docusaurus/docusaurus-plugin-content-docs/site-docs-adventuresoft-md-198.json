@@ -4,14 +4,5 @@
   "description": "",
   "source": "@site/docs/adventuresoft.md",
   "permalink": "/adventuresoft",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/adventuresoft.md",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "activision",
-    "permalink": "/activision"
-  },
-  "next": {
-    "title": "coktel",
-    "permalink": "/coktel"
-  }
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/adventuresoft.md"
 }

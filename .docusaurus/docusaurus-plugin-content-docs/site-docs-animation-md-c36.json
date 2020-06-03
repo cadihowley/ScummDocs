@@ -4,14 +4,5 @@
   "description": "",
   "source": "@site/docs/animation.md",
   "permalink": "/animation",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/animation.md",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "humongous",
-    "permalink": "/humongous"
-  },
-  "next": {
-    "title": "living_books",
-    "permalink": "/living_books"
-  }
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/animation.md"
 }
