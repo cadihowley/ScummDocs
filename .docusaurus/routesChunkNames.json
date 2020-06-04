@@ -84,10 +84,6 @@
     "component": "component---theme-doc-page-1-be-9be",
     "docsMetadata": "docsMetadata---routeec-1-f92"
   },
-  "/Act": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---act-7-a-8-d48"
-  },
   "/about/about": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---about-aboutceb-a88"
@@ -120,100 +116,12 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---advanced-configuration-97-a-7c5"
   },
-  "/adventureland": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---adventureland-93-a-d72"
-  },
-  "/adventuresoft": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---adventuresoft-198-619"
-  },
-  "/animation": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---animationc-36-610"
-  },
-  "/coktel": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---coktel-075-2c8"
-  },
-  "/doc1": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---doc-1-b-2-f-07b"
-  },
-  "/doc2": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---doc-2-df-3-2b8"
-  },
-  "/doc3": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---doc-3616-7d1"
-  },
   "/games/lucasarts": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---games-lucasarts-8-e-8-2ff"
   },
-  "/get_games": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---get-games-87-a-04c"
-  },
-  "/humongous": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---humongousc-87-451"
-  },
   "/installation/raspberrypi": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---installation-raspberrypi-691-9f0"
-  },
-  "/living_books": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---living-books-0-f-6-6df"
-  },
-  "/maniac": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---maniacf-6-a-ca7"
-  },
-  "/mdx": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---mdxce-3-3a5"
-  },
-  "/monkey": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---monkeya-92-b2d"
-  },
-  "/monkey2": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---monkey-2-ee-0-162"
-  },
-  "/other_games": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---other-games-591-2a8"
-  },
-  "/psp": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---psp-4-a-9-864"
-  },
-  "/queen": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---queenbaf-575"
-  },
-  "/revolution": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---revolution-92-e-811"
-  },
-  "/sierraAGI": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---sierra-ag-if-5-c-537"
-  },
-  "/sierraSCI": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---sierra-sc-id-95-b78"
-  },
-  "/sound": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---soundcd-6-ea3"
-  },
-  "/tentacle": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---tentacle-660-a6b"
   }
 }

@@ -30,8 +30,6 @@ Once this preliminary work is done, I will coordinate with developers and port m
 
 ### Why me?
 
-Although I do not have prior work examples to provide in this proposal, I have created a sample site to show my vision for the project. Navigate to the sample documentation by clicking "Next" at the bottom of the page, or "About" on the top navigation bar.
-
 I believe I am well suited to the project because:
   * The ScummVM project personally interests me. 
     * I believe you work better when you care about what you're working on. I grew up on retro games in the early 90s! 

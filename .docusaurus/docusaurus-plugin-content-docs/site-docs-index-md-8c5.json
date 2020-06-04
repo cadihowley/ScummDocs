@@ -5,6 +5,7 @@
   "source": "@site/docs/_index.md",
   "permalink": "/_index",
   "editUrl": "https://github.com/ScummDocs/docs/_index.md",
+  "sidebar": "someSidebar",
   "next": {
     "title": "What is ScummVM?",
     "permalink": "/about/about"
