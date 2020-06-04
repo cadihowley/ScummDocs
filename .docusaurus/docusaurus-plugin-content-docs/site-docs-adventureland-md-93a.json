@@ -4,6 +4,6 @@
   "description": "About",
   "source": "@site/docs/adventureland.md",
   "permalink": "/adventureland",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/adventureland.md",
+  "editUrl": "https://github.com/ScummDocs/docs/adventureland.md",
   "sidebar_label": "Adventureland"
 }

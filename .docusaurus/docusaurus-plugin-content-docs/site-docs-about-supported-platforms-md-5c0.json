@@ -1,0 +1,18 @@
+{
+  "id": "about/supported_platforms",
+  "title": "Supported Platforms",
+  "description": "Among the systems on which you can play those games are regular desktop computers (running Windows, Linux, Mac OS X, ...), game consoles (Dreamcast, Nintendo DS & Wii, PS2, PSP, ...), smartphones (Android, iPhone, PocketPC, Symbian ...) and more.",
+  "source": "@site/docs/about/supported_platforms.md",
+  "permalink": "/about/supported_platforms",
+  "editUrl": "https://github.com/ScummDocs/docs/about/supported_platforms.md",
+  "sidebar_label": "Supported Platforms",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Supported Games",
+    "permalink": "/about/supported_games"
+  },
+  "next": {
+    "title": "Compatibility",
+    "permalink": "/about/compatibility"
+  }
+}

@@ -4,6 +4,6 @@
   "description": "About",
   "source": "@site/docs/queen.md",
   "permalink": "/queen",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/queen.md",
+  "editUrl": "https://github.com/ScummDocs/docs/queen.md",
   "sidebar_label": "Flight of the Amazon Queen"
 }

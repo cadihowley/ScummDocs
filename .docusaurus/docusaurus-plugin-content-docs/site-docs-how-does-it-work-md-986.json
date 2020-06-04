@@ -4,12 +4,12 @@
   "description": "Almost all adventure and role-playing games share some common features. The most basic ones are the resources used, which are in the game's data files:",
   "source": "@site/docs/how_does_it_work.md",
   "permalink": "/how_work",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/how_does_it_work.md",
+  "editUrl": "https://github.com/ScummDocs/docs/how_does_it_work.md",
   "sidebar_label": "How Does ScummVM Work?",
   "sidebar": "someSidebar",
   "previous": {
     "title": "What is ScummVM?",
-    "permalink": "/about"
+    "permalink": "/about/about"
   },
   "next": {
     "title": "Supported Games",

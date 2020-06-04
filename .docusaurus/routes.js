@@ -76,14 +76,56 @@ export default [
   
   routes: [
 {
-  path: '/about',
-  component: ComponentCreator('/about'),
+  path: '/Act',
+  component: ComponentCreator('/Act'),
   exact: true,
   
 },
 {
-  path: '/activision',
-  component: ComponentCreator('/activision'),
+  path: '/about/about',
+  component: ComponentCreator('/about/about'),
+  exact: true,
+  
+},
+{
+  path: '/about/compatibility',
+  component: ComponentCreator('/about/compatibility'),
+  exact: true,
+  
+},
+{
+  path: '/about/help_project',
+  component: ComponentCreator('/about/help_project'),
+  exact: true,
+  
+},
+{
+  path: '/about/how_work',
+  component: ComponentCreator('/about/how_work'),
+  exact: true,
+  
+},
+{
+  path: '/about/supported_games',
+  component: ComponentCreator('/about/supported_games'),
+  exact: true,
+  
+},
+{
+  path: '/about/supported_platforms',
+  component: ComponentCreator('/about/supported_platforms'),
+  exact: true,
+  
+},
+{
+  path: '/advanced/command_line',
+  component: ComponentCreator('/advanced/command_line'),
+  exact: true,
+  
+},
+{
+  path: '/advanced/configuration',
+  component: ComponentCreator('/advanced/configuration'),
   exact: true,
   
 },
@@ -112,30 +154,6 @@ export default [
   
 },
 {
-  path: '/command_line',
-  component: ComponentCreator('/command_line'),
-  exact: true,
-  
-},
-{
-  path: '/common_controls',
-  component: ComponentCreator('/common_controls'),
-  exact: true,
-  
-},
-{
-  path: '/compatibility',
-  component: ComponentCreator('/compatibility'),
-  exact: true,
-  
-},
-{
-  path: '/configuration',
-  component: ComponentCreator('/configuration'),
-  exact: true,
-  
-},
-{
   path: '/doc1',
   component: ComponentCreator('/doc1'),
   exact: true,
@@ -154,20 +172,14 @@ export default [
   
 },
 {
+  path: '/games/lucasarts',
+  component: ComponentCreator('/games/lucasarts'),
+  exact: true,
+  
+},
+{
   path: '/get_games',
   component: ComponentCreator('/get_games'),
-  exact: true,
-  
-},
-{
-  path: '/help_project',
-  component: ComponentCreator('/help_project'),
-  exact: true,
-  
-},
-{
-  path: '/how_work',
-  component: ComponentCreator('/how_work'),
   exact: true,
   
 },
@@ -178,14 +190,14 @@ export default [
   
 },
 {
-  path: '/living_books',
-  component: ComponentCreator('/living_books'),
+  path: '/installation/raspberrypi',
+  component: ComponentCreator('/installation/raspberrypi'),
   exact: true,
   
 },
 {
-  path: '/lucasarts',
-  component: ComponentCreator('/lucasarts'),
+  path: '/living_books',
+  component: ComponentCreator('/living_books'),
   exact: true,
   
 },
@@ -232,12 +244,6 @@ export default [
   
 },
 {
-  path: '/raspberrypi',
-  component: ComponentCreator('/raspberrypi'),
-  exact: true,
-  
-},
-{
   path: '/revolution',
   component: ComponentCreator('/revolution'),
   exact: true,
@@ -258,18 +264,6 @@ export default [
 {
   path: '/sound',
   component: ComponentCreator('/sound'),
-  exact: true,
-  
-},
-{
-  path: '/supported_games',
-  component: ComponentCreator('/supported_games'),
-  exact: true,
-  
-},
-{
-  path: '/supported_platforms',
-  component: ComponentCreator('/supported_platforms'),
   exact: true,
   
 },

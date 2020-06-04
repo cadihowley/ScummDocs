@@ -4,7 +4,7 @@
   "description": "At this time ScummVM is still under heavy development.",
   "source": "@site/docs/compatibility.md",
   "permalink": "/compatibility",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/compatibility.md",
+  "editUrl": "https://github.com/ScummDocs/docs/compatibility.md",
   "sidebar_label": "Compatibility",
   "sidebar": "someSidebar",
   "previous": {

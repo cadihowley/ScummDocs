@@ -1,8 +1,8 @@
 {
   "/": {
     "component": "component---theme-doc-page-1-be-9be",
-    "docsMetadata": "docsMetadata---724-aa2",
-    "content": "content---3-d-8-5fb"
+    "docsMetadata": "docsMetadata---517-5ad",
+    "content": "content---8-c-5-972"
   },
   "/blog": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
@@ -84,13 +84,41 @@
     "component": "component---theme-doc-page-1-be-9be",
     "docsMetadata": "docsMetadata---routeec-1-f92"
   },
-  "/about": {
+  "/Act": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---3-d-8-5fb"
+    "content": "content---act-7-a-8-d48"
   },
-  "/activision": {
+  "/about/about": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---activision-7-a-8-b4e"
+    "content": "content---about-aboutceb-a88"
+  },
+  "/about/compatibility": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---about-compatibility-87-c-b2d"
+  },
+  "/about/help_project": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---about-help-projecte-4-e-548"
+  },
+  "/about/how_work": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---about-how-workb-9-d-c5c"
+  },
+  "/about/supported_games": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---about-supported-gamesa-83-2c6"
+  },
+  "/about/supported_platforms": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---about-supported-platforms-5-c-0-bf2"
+  },
+  "/advanced/command_line": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---advanced-command-linebb-9-b8b"
+  },
+  "/advanced/configuration": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---advanced-configuration-97-a-7c5"
   },
   "/adventureland": {
     "component": "component---theme-doc-item-178-a40",
@@ -108,22 +136,6 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---coktel-075-2c8"
   },
-  "/command_line": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---command-line-9-f-9-9a2"
-  },
-  "/common_controls": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---common-controls-038-357"
-  },
-  "/compatibility": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---compatibilitye-29-b87"
-  },
-  "/configuration": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---configuration-9-ed-2cf"
-  },
   "/doc1": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---doc-1-b-2-f-07b"
@@ -136,29 +148,25 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---doc-3616-7d1"
   },
+  "/games/lucasarts": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---games-lucasarts-8-e-8-2ff"
+  },
   "/get_games": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---get-games-87-a-04c"
-  },
-  "/help_project": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---help-project-48-b-025"
-  },
-  "/how_work": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---how-work-986-398"
   },
   "/humongous": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---humongousc-87-451"
   },
+  "/installation/raspberrypi": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---installation-raspberrypi-691-9f0"
+  },
   "/living_books": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---living-books-0-f-6-6df"
-  },
-  "/lucasarts": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---lucasarts-934-a85"
   },
   "/maniac": {
     "component": "component---theme-doc-item-178-a40",
@@ -188,10 +196,6 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---queenbaf-575"
   },
-  "/raspberrypi": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---raspberrypid-68-65c"
-  },
   "/revolution": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---revolution-92-e-811"
@@ -207,14 +211,6 @@
   "/sound": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---soundcd-6-ea3"
-  },
-  "/supported_games": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---supported-gamesc-64-446"
-  },
-  "/supported_platforms": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---supported-platforms-78-c-5ad"
   },
   "/tentacle": {
     "component": "component---theme-doc-item-178-a40",

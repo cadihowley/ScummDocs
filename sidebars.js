@@ -1,8 +1,18 @@
 module.exports = {
-  someSidebar: {
-    About: ['about','how_work','supported_games','supported_platforms','compatibility','help_project'],
-    Installation: ['raspberrypi'],
-    Games: ['lucasarts'],
-    Advanced: ['command_line','configuration'],
+
+landingSideBar: {
+    Proposal: ['_index'],
+    About: ['about/about','about/how_work','about/supported_games','about/supported_platforms','about/compatibility','about/help_project'],
+    Installation: ['installation/raspberrypi'],
+    Games: ['games/lucasarts'],
+    Advanced: ['advanced/command_line','advanced/configuration'],
+
+},
+
+someSidebar: {
+    About: ['about/about','about/how_work','about/supported_games','about/supported_platforms','about/compatibility','about/help_project'],
+    Installation: ['installation/raspberrypi'],
+    Games: ['games/lucasarts'],
+    Advanced: ['advanced/command_line','advanced/configuration'],
   },
 };

@@ -1,6 +1,17 @@
 {
   "docsSidebars": {
-    "someSidebar": [
+    "landingSideBar": [
+      {
+        "type": "category",
+        "label": "Proposal",
+        "items": [
+          {
+            "type": "link",
+            "label": "Proposal",
+            "href": "/_index"
+          }
+        ]
+      },
       {
         "type": "category",
         "label": "About",
@@ -8,32 +19,32 @@
           {
             "type": "link",
             "label": "What is ScummVM?",
-            "href": "/about"
+            "href": "/about/about"
           },
           {
             "type": "link",
             "label": "How Does ScummVM Work?",
-            "href": "/how_work"
+            "href": "/about/how_work"
           },
           {
             "type": "link",
             "label": "Supported Games",
-            "href": "/supported_games"
+            "href": "/about/supported_games"
           },
           {
             "type": "link",
             "label": "Supported Platforms",
-            "href": "/supported_platforms"
+            "href": "/about/supported_platforms"
           },
           {
             "type": "link",
             "label": "Compatibility",
-            "href": "/compatibility"
+            "href": "/about/compatibility"
           },
           {
             "type": "link",
             "label": "Help the Project",
-            "href": "/help_project"
+            "href": "/about/help_project"
           }
         ]
       },
@@ -44,7 +55,7 @@
           {
             "type": "link",
             "label": "Raspberry Pi",
-            "href": "/raspberrypi"
+            "href": "/installation/raspberrypi"
           }
         ]
       },
@@ -55,7 +66,7 @@
           {
             "type": "link",
             "label": "LucasArts Games",
-            "href": "/lucasarts"
+            "href": "/games/lucasarts"
           }
         ]
       },
@@ -66,27 +77,104 @@
           {
             "type": "link",
             "label": "Command Line Options",
-            "href": "/command_line"
+            "href": "/advanced/command_line"
           },
           {
             "type": "link",
             "label": "Configuration File",
-            "href": "/configuration"
+            "href": "/advanced/configuration"
+          }
+        ]
+      }
+    ],
+    "someSidebar": [
+      {
+        "type": "category",
+        "label": "About",
+        "items": [
+          {
+            "type": "link",
+            "label": "What is ScummVM?",
+            "href": "/about/about"
+          },
+          {
+            "type": "link",
+            "label": "How Does ScummVM Work?",
+            "href": "/about/how_work"
+          },
+          {
+            "type": "link",
+            "label": "Supported Games",
+            "href": "/about/supported_games"
+          },
+          {
+            "type": "link",
+            "label": "Supported Platforms",
+            "href": "/about/supported_platforms"
+          },
+          {
+            "type": "link",
+            "label": "Compatibility",
+            "href": "/about/compatibility"
+          },
+          {
+            "type": "link",
+            "label": "Help the Project",
+            "href": "/about/help_project"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Installation",
+        "items": [
+          {
+            "type": "link",
+            "label": "Raspberry Pi",
+            "href": "/installation/raspberrypi"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Games",
+        "items": [
+          {
+            "type": "link",
+            "label": "LucasArts Games",
+            "href": "/games/lucasarts"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Advanced",
+        "items": [
+          {
+            "type": "link",
+            "label": "Command Line Options",
+            "href": "/advanced/command_line"
+          },
+          {
+            "type": "link",
+            "label": "Configuration File",
+            "href": "/advanced/configuration"
           }
         ]
       }
     ]
   },
   "permalinkToSidebar": {
-    "/about": "someSidebar",
-    "/command_line": "someSidebar",
-    "/compatibility": "someSidebar",
-    "/configuration": "someSidebar",
-    "/help_project": "someSidebar",
-    "/how_work": "someSidebar",
-    "/lucasarts": "someSidebar",
-    "/raspberrypi": "someSidebar",
-    "/supported_games": "someSidebar",
-    "/supported_platforms": "someSidebar"
+    "/_index": "landingSideBar",
+    "/about/about": "someSidebar",
+    "/about/compatibility": "someSidebar",
+    "/about/help_project": "someSidebar",
+    "/about/how_work": "someSidebar",
+    "/about/supported_games": "someSidebar",
+    "/about/supported_platforms": "someSidebar",
+    "/advanced/command_line": "someSidebar",
+    "/advanced/configuration": "someSidebar",
+    "/games/lucasarts": "someSidebar",
+    "/installation/raspberrypi": "someSidebar"
   }
 }

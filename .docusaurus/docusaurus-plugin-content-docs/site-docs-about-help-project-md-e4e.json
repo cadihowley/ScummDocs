@@ -1,0 +1,18 @@
+{
+  "id": "about/help_project",
+  "title": "Help the Project",
+  "description": "ScummVM is an open-source project.",
+  "source": "@site/docs/about/help_project.md",
+  "permalink": "/about/help_project",
+  "editUrl": "https://github.com/ScummDocs/docs/about/help_project.md",
+  "sidebar_label": "Help the Project",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Compatibility",
+    "permalink": "/about/compatibility"
+  },
+  "next": {
+    "title": "Quickstart Guide - Raspberry Pi",
+    "permalink": "/installation/raspberrypi"
+  }
+}

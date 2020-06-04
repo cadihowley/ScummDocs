@@ -1,0 +1,18 @@
+{
+  "id": "advanced/command_line",
+  "title": "Command Line Options",
+  "description": "Games can be launched directly from the command line, with a number of options.",
+  "source": "@site/docs/advanced/command_line.md",
+  "permalink": "/advanced/command_line",
+  "editUrl": "https://github.com/ScummDocs/docs/advanced/command_line.md",
+  "sidebar_label": "Command Line Options",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "LucasArts Games",
+    "permalink": "/games/lucasarts"
+  },
+  "next": {
+    "title": "Configuration File",
+    "permalink": "/advanced/configuration"
+  }
+}

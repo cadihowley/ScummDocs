@@ -4,12 +4,12 @@
   "description": "---",
   "source": "@site/docs/raspberrypi.md",
   "permalink": "/raspberrypi",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/raspberrypi.md",
+  "editUrl": "https://github.com/ScummDocs/docs/raspberrypi.md",
   "sidebar_label": "Raspberry Pi",
   "sidebar": "someSidebar",
   "previous": {
     "title": "Help the Project",
-    "permalink": "/help_project"
+    "permalink": "/about/help_project"
   },
   "next": {
     "title": "LucasArts Games",

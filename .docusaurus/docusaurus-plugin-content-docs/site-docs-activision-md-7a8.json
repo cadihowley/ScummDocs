@@ -1,8 +1,8 @@
 {
-  "id": "activision",
-  "title": "activision",
-  "description": "",
+  "id": "Act",
+  "title": "Act",
+  "description": "-",
   "source": "@site/docs/activision.md",
-  "permalink": "/activision",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/activision.md"
+  "permalink": "/Act",
+  "editUrl": "https://github.com/ScummDocs/docs/activision.md"
 }

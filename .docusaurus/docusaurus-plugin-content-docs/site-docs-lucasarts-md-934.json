@@ -4,7 +4,7 @@
   "description": "The following games all use the SCUMM engine.",
   "source": "@site/docs/lucasarts.md",
   "permalink": "/lucasarts",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/lucasarts.md",
+  "editUrl": "https://github.com/ScummDocs/docs/lucasarts.md",
   "sidebar_label": "LucasArts Games",
   "sidebar": "someSidebar",
   "previous": {

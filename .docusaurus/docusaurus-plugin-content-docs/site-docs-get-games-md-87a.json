@@ -1,8 +1,9 @@
 {
   "id": "get_games",
   "title": "Where do I Get the Games?",
+  "description": "Where",
   "source": "@site/docs/get_games.md",
   "permalink": "/get_games",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/get_games.md",
+  "editUrl": "https://github.com/ScummDocs/docs/get_games.md",
   "sidebar_label": "Get the Games"
 }

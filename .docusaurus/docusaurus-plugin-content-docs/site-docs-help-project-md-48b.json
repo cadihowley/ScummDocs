@@ -4,7 +4,7 @@
   "description": "ScummVM is an open-source project.",
   "source": "@site/docs/help_project.md",
   "permalink": "/help_project",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/help_project.md",
+  "editUrl": "https://github.com/ScummDocs/docs/help_project.md",
   "sidebar_label": "Help the Project",
   "sidebar": "someSidebar",
   "previous": {

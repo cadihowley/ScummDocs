@@ -5,27 +5,84 @@ export default {
   "themeConfig": {
     "sidebarCollapsible": false,
     "navbar": {
-      "title": "ScummVM Documentation",
+      "hideOnScroll": true,
+      "title": "GSOD Proposal 2020",
       "logo": {
-        "alt": " ",
+        "alt": "ScummVM Logo",
         "src": "img/logo.svg"
       },
       "links": [
         {
-          "to": "docs/",
-          "activeBasePath": "docs",
-          "label": "Docs",
-          "position": "left"
+          "to": "about/about",
+          "activeBasePath": "about",
+          "label": "About",
+          "position": "left",
+          "items": [
+            {
+              "label": "What is ScummVM?",
+              "href": "about/about"
+            },
+            {
+              "label": "How does it work?",
+              "href": "about/how_work"
+            },
+            {
+              "label": "Supported Games",
+              "href": "about/supported_games"
+            },
+            {
+              "label": "Supported Platforms",
+              "href": "about/supported_platforms"
+            },
+            {
+              "label": "Compatibility",
+              "href": "about/compatibility"
+            },
+            {
+              "label": "Help the Project",
+              "href": "about/help_project"
+            }
+          ]
         },
         {
-          "to": "blog",
-          "label": "Blog",
-          "position": "left"
+          "to": "installation/raspberrypi",
+          "activeBasePath": "installation",
+          "label": "Installation",
+          "position": "left",
+          "items": [
+            {
+              "label": "Raspberry Pi",
+              "href": "installation/raspberrypi"
+            }
+          ]
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
-          "position": "right"
+          "to": "games/lucasarts",
+          "activeBasePath": "games",
+          "label": "Games",
+          "position": "left",
+          "items": [
+            {
+              "label": "LucasArts Games",
+              "href": "games/lucasarts"
+            }
+          ]
+        },
+        {
+          "to": "advanced/command_line",
+          "activeBasePath": "advanced",
+          "label": "Advanced",
+          "position": "left",
+          "items": [
+            {
+              "label": "Command Line Options",
+              "href": "advanced/command_line"
+            },
+            {
+              "label": "Configuration File",
+              "href": "advanced/configuration"
+            }
+          ]
         }
       ]
     },
@@ -36,12 +93,12 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Style Guide",
-              "to": "docs/"
+              "label": "Installation",
+              "to": "installation/raspberrypi"
             },
             {
-              "label": "Second Doc",
-              "to": "docs/doc2/"
+              "label": "Supported Games",
+              "to": "about/supported_games"
             }
           ]
         },
@@ -71,17 +128,17 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/scummvm/scummvm"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2020 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2020 ScummDocs Built with Docusaurus."
     }
   },
   "title": "ScummVM",
-  "tagline": "The tagline of my site",
-  "url": "https://your-docusaurus-test-site.com",
+  "tagline": "Script Creation Utility for Maniac Mansion Virtual Machine",
+  "url": "https://ScummDocs.github.io",
   "baseUrl": "/",
   "favicon": "img/favicon.ico",
   "organizationName": "cadihowley",
@@ -92,9 +149,9 @@ export default {
       {
         "docs": {
           "routeBasePath": "/",
-          "homePageId": "about",
+          "homePageId": "_index",
           "sidebarPath": "/home/pi/ScummDocs/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
+          "editUrl": "https://github.com/ScummDocs"
         },
         "blog": {
           "showReadingTime": true,

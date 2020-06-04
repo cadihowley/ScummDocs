@@ -4,6 +4,6 @@
   "description": "Installing ScummVM",
   "source": "@site/docs/psp.md",
   "permalink": "/psp",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/psp.md",
+  "editUrl": "https://github.com/ScummDocs/docs/psp.md",
   "sidebar_label": "PSP"
 }

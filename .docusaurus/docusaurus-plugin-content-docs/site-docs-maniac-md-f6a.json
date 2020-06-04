@@ -4,6 +4,6 @@
   "description": "About",
   "source": "@site/docs/maniac.md",
   "permalink": "/maniac",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/maniac.md",
+  "editUrl": "https://github.com/ScummDocs/docs/maniac.md",
   "sidebar_label": "Maniac Mansion"
 }

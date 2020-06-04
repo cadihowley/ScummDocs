@@ -4,6 +4,6 @@
   "description": "About",
   "source": "@site/docs/monkey2.md",
   "permalink": "/monkey2",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/monkey2.md",
+  "editUrl": "https://github.com/ScummDocs/docs/monkey2.md",
   "sidebar_label": "Monkey Island 2"
 }

@@ -4,7 +4,7 @@
   "description": "Games can be launched directly from the command line, with a number of options.",
   "source": "@site/docs/command_line.md",
   "permalink": "/command_line",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/command_line.md",
+  "editUrl": "https://github.com/ScummDocs/docs/command_line.md",
   "sidebar_label": "Command Line Options",
   "sidebar": "someSidebar",
   "previous": {

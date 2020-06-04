@@ -1,0 +1,18 @@
+{
+  "id": "installation/raspberrypi",
+  "title": "Quickstart Guide - Raspberry Pi",
+  "description": "Installing ScummVM",
+  "source": "@site/docs/installation/raspberrypi.md",
+  "permalink": "/installation/raspberrypi",
+  "editUrl": "https://github.com/ScummDocs/docs/installation/raspberrypi.md",
+  "sidebar_label": "Raspberry Pi",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Help the Project",
+    "permalink": "/about/help_project"
+  },
+  "next": {
+    "title": "LucasArts Games",
+    "permalink": "/games/lucasarts"
+  }
+}
