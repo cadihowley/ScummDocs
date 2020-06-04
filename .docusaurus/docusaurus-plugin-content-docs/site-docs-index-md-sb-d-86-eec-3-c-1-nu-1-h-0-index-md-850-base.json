@@ -7,7 +7,7 @@
         "items": [
           {
             "type": "link",
-            "label": "Proposal GSOD 2020",
+            "label": "Proposal",
             "href": "/_index"
           }
         ]
@@ -176,5 +176,7 @@
     "/advanced/configuration": "someSidebar",
     "/games/lucasarts": "someSidebar",
     "/installation/raspberrypi": "someSidebar"
-  }
+  },
+  "isHomePage": true,
+  "homePagePath": "/_index"
 }

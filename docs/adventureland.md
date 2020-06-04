@@ -6,8 +6,8 @@ sidebar_label: Adventureland
 ## About
 Adventureland is a text adventure by [Adventure International](https://wiki.scummvm.org/index.php?title=Adventure_International). Travel through an enchanted world in a search for 13 treasures.
 
-### First Released
-1978
+### First Released1
+1978gh
 
 ### Developed by
 [Adventure International](https://wiki.scummvm.org/index.php?title=Adventure_International)

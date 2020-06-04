@@ -16,73 +16,25 @@ export default {
           "to": "about/about",
           "activeBasePath": "about",
           "label": "About",
-          "position": "left",
-          "items": [
-            {
-              "label": "What is ScummVM?",
-              "href": "about/about"
-            },
-            {
-              "label": "How does it work?",
-              "href": "about/how_work"
-            },
-            {
-              "label": "Supported Games",
-              "href": "about/supported_games"
-            },
-            {
-              "label": "Supported Platforms",
-              "href": "about/supported_platforms"
-            },
-            {
-              "label": "Compatibility",
-              "href": "about/compatibility"
-            },
-            {
-              "label": "Help the Project",
-              "href": "about/help_project"
-            }
-          ]
+          "position": "left"
         },
         {
           "to": "installation/raspberrypi",
-          "activeBasePath": "installation",
+          "activeBasePath": "intallation",
           "label": "Installation",
-          "position": "left",
-          "items": [
-            {
-              "label": "Raspberry Pi",
-              "href": "installation/raspberrypi"
-            }
-          ]
+          "position": "left"
         },
         {
           "to": "games/lucasarts",
           "activeBasePath": "games",
           "label": "Games",
-          "position": "left",
-          "items": [
-            {
-              "label": "LucasArts Games",
-              "href": "games/lucasarts"
-            }
-          ]
+          "position": "left"
         },
         {
           "to": "advanced/command_line",
           "activeBasePath": "advanced",
           "label": "Advanced",
-          "position": "left",
-          "items": [
-            {
-              "label": "Command Line Options",
-              "href": "advanced/command_line"
-            },
-            {
-              "label": "Configuration File",
-              "href": "advanced/configuration"
-            }
-          ]
+          "position": "left"
         }
       ]
     },

@@ -129,4 +129,6 @@ C:\Games\LucasArts\scummvm.exe -f -n -pD:\resource\ft
 ````
 
 Running Full Throttle from CD, fullscreen and with subtitles enabled: 
-````/path/to/scummvm -f -n -p/cdrom/resource/ft````
+````
+/path/to/scummvm -f -n -p/cdrom/resource/ft
+````

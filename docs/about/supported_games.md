@@ -4,28 +4,30 @@ title: Supported Games
 sidebar_label: Supported Games
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 Many games supported by ScummVM can still be bought, and many others have been released for free download by their copyright holders. Most games have demo versions to try out which also run with ScummVM. These can be downloaded from the [ScummVM demos page](https://scummvm.org/demos/)
 
-For other out of print games, try [Amazon](amazon.com), [eBay](ebay.com), [Game Trading Zone](https://gametz.com/) or other auction sites. Beware of faulty games (scratched disks etc) and illegal game copies such as from [Butterfly Media](https://forums.scummvm.org/viewtopic.php?t=3443)
+For other out of print games, try [Amazon](amazon.com), [eBay](ebay.com), [Game Trading Zone](https://gametz.com/) or other auction sites. Beware of faulty games (such as scratched disks) and illegal game copies such as those from [Butterfly Media](https://forums.scummvm.org/viewtopic.php?t=3443)
 
 While the ScummVM team does not recommend any individual supplier of games, the project does get a cut from every purchase on GOG.com through affiliate links.
 
 |  Game             | Game ID             |
 | --------------|------------ |
 | **LucasArts (SCUMM) Games:** | |
-| [Maniac Mansion](lucasarts#maniac)| [maniac]|
-| [Zak McKracken and the Alien Mindbenders](lucasarts#zak) | [zak]      |
-| [Indiana Jones and the Last Crusade](lucasarts#indy3)      |[indy3]    |
-| [Loom](lucasarts#loom)          | [loom]     |
-| [Passport to Adventure](lucasarts#pass) | [pass]|
-| [The Secret of Monkey Island](lucasarts#monkey)| [monkey]|
-| [Monkey Island 2: LeChuck's Revenge](lucasarts#monkey2)      |[monkey2]  |
-| [Indiana Jones and the Fate of Atlantis](lucasarts#atlantis)  | [atlantis] |
-| [Day of the Tentacle](lucasarts#tentacle)                     | [tentacle] |
-| [Sam & Max Hit the Road](lucasarts#tentacle) | [samnmax]  |
-| [Full Throttle](lucasarts#ft)        | [ft]       |
-| [The Dig](lucasarts#dig)| [dig]      |
-| [The Curse of Monkey Island](lucasarts#comi)|[comi]|
+| [Maniac Mansion](/games/lucasarts#maniac)| [maniac]|
+| [Zak McKracken and the Alien Mindbenders](/games/lucasarts#zak) | [zak]      |
+| [Indiana Jones and the Last Crusade](/games/lucasarts#indy3)      |[indy3]    |
+| [Loom](/games/lucasarts#loom)          | [loom]     |
+| [Passport to Adventure](/games/lucasarts#pass) | [pass]|
+| [The Secret of Monkey Island](/games/lucasarts#monkey)| [monkey]|
+| [Monkey Island 2: LeChuck's Revenge](/games/lucasarts#monkey2)      |[monkey2]  |
+| [Indiana Jones and the Fate of Atlantis](/games/lucasarts#atlantis)  | [atlantis] |
+| [Day of the Tentacle](/games/lucasarts#tentacle)                     | [tentacle] |
+| [Sam & Max Hit the Road](/games/lucasarts#tentacle) | [samnmax]  |
+| [Full Throttle](/games/lucasarts#ft)        | [ft]       |
+| [The Dig](/games/lucasarts#dig)| [dig]      |
+| [The Curse of Monkey Island](/games/lucasarts#comi)|[comi]|
 | **Activision (MADE) Games**      |             |
 | Leather Goddesses of Phobos 2 | \[lgop2\]   |
 | The Manhole                   | \[manhole\] |
