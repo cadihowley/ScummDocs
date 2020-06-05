@@ -1,9 +1,8 @@
 ---
 id: raspberrypi
-title: Quickstart Guide - Raspberry Pi
+title: Installation guide for the Raspberry Pi
 sidebar_label: Raspberry Pi
 ---
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Installing ScummVM
 
@@ -12,22 +11,21 @@ On a Raspberry Pi running the latest version of Raspberry OS, go to the Terminal
 sudo apt-get updates
 sudo apt-install -y scummvm
 ```
-These commands will update the list of available packages, and then install ScummVM.
+These commands update the list of available packages, and then install ScummVM.
 
 :::tip
-To check that ScummVM has been installed correctly, run the following on the command line. This will show the installed version. 
+To check that ScummVM has been installed correctly, run the following on the command line. This shows the installed version. 
 ```
 scummvm - v
 ```
 :::
 
 ---
-## Loading Games
+## Adding games
 
-ScummVM needs access to the [data files](https://wiki.scummvm.org/index.php?title=Datafiles) for each game.
+ScummVM needs access to the data files for each game.
 
 For games on floppies or CDs:
-
 - If the data files are accessible, transfer these to the Raspberry Pi. 
 - If the data files are not accessible, run the installer on the platform the game was designed for, and then transfer the files to the Raspberry Pi.
 
@@ -41,95 +39,101 @@ If data files need to be transferred from another device onto the Raspberry Pi, 
 - Using a [Samba server](https://pimylifeup.com/raspberry-pi-samba/) or  [FTP](https://www.raspberrypi.org/documentation/remote-access/ftp.md)
 :::
 
+A comprehensive list of required data files for each game can be found on the [ScummVM Wiki Datafiles](https://wiki.scummvm.org/index.php?title=Datafiles) page.
+
+
 :::tip
-ScummVM can run the data files from any folder it has access to (including external media). For ease of use the installation steps create a dedicated games folder, however this is not a requirement. Step 4 onwards explains how to point ScummVM at any folder containing game data files. 
+ScummVM can run the game data files from any directory it has access to, including external media. 
+
+For ease of use, you can create a dedicated games directory into which subdirectories containing game files can be copied. 
+
+The resulting directory structure will look somewhat like this:
+
+````
+mygames
+|-- myfirstgame
+|   |-- readme.txt
+|   |-- firstgame.cpt
+|   |-- firstgame.dnr
+|   `-- firstgame.dsk
+`-- mysecondgame
+    |-- secondgame.1c
+    `-- readme.txt
+````
 ::: 
 
-1. Create a new folder into which all game folders can be copied. Each game should have its own folder which contains its required data files. 
 
-- To use the command line, change your present working directory to the directory in which you wish to create the new folder. To do this, use ```cd``` followed by the path. The tilde ```~``` represents the home directory, so in this example the directory is changed to the home directory. 
+1. From the Applications menu, select **Games&nbsp;>&nbsp;ScummVM** to open the Launcher window.
+![](/img/RaspberryPi/launch_scummvm_rpi.jpg)
 
-```
-    cd ~
-```
+2. In the Launcher window, click **Add Game**. This opens a file browser. To add multiple games at once, hold ```Shift``` while clicking **Add Game**.
 
-- Use ```mkdir``` to create a new folder. In this example, it is called 'mygames' in the /pi/home/ directory. 
-```
-    mkdir mygames
-```
+![](/img/RaspberryPi/blank_launcher_rpi.jpg)
+
+3. Use the file browser to locate the folder containing the game you wish to add. Double click on a folder to open it, and use **Go up** to go back up one level. 
 
 
+4. Once you have selected the folder that contains the data files, click **Choose**. 
 
-2.  Copy the folder containing the game data files for the game you wish to play into the folder you just created. 
+![](/img/RaspberryPi/adding_games_rpi.jpg)
 
-- To use the command line, use ```cp``` to copy the folder of game files. This command works like a 'Copy/Paste', where the first variable is the folder to be copied, and the second is the directory it will be pasted to. 
-    In this example, ```~/myfirstgame/``` is the path to the folder containing the game files of the game to be loaded into ScummVM.
-```
-    cp ~/myfirstgame/ ~/mygames/
-```
 
-3.  Repeat step 2 as required to copy any further games into the folder.  
+5.  A dialog opens to allow configuration of various settings for the game. These can be reconfigured at any time, but for now everything should work at the default settings. Click **Ok**. 
 
-4. From the applications menu select ```Games``` and ```ScummVM``` which will open the Launcher.
+![](/img/RaspberryPi/game_info_rpi.jpg)
 
-<img alt="Launch ScummVM" src={useBaseUrl('img/RaspberryPi/open_launcher.gif')} />
 
-5. Click on the ```Add Game``` button. This opens a file browser. To add multiple games at once, hold the Shift key when clicking on ```Add Game```.
-
-6. Use this browser to locate the folder containing the game. Double click on the name of a folder to go into it, and use the ```Go up``` button to go back up one level. 
-
-7. Once you have selected the folder which contains the data files, click the ```Choose```button. 
-
-<img alt="Load a Game" src={useBaseUrl('img/RaspberryPi/load_game.gif')} />
-
-8.  A window opens to allow configuration of various settings for the game. These can be re-configured at any time, but for now everything should work at the default settings. Select ```Ok```. 
-
-<img alt="Game Options" src={useBaseUrl('img/RaspberryPi/settings.gif')} />
-
-9. Loaded games are now ready to launch!
+6. Added games are now ready to launch!
 
 ---
 
-## Launching a Game
+## Launching games
 
 There are two ways to launch a game:
 
 - From the Launcher: 
-	-	From the applications menu select ```Games``` and ```ScummVM``` which will open the Launcher. Select a game and click on "Start" to play. 
+	-	From the Applications menu, select **Games&nbsp;>&nbsp;ScummVM** to start the Launcher. Select a game and click **Start** to play. 
 
-<img alt="Launch a Game" src={useBaseUrl('img/RaspberryPi/launch_game.gif')} />
-
+![](/img/RaspberryPi/launch_launcher.gif)
 
 - From the command line: 
-  * Run``` scummvm``` , followed by any  required [options](command_line#options) and then the game ID.
-  * To find the game ID, go to the game-specific settings (```Edit Game...```button in the Launcher or the [configuration](#config) file), or find the default ID [here](supported_games.md). 
-  * To launch a game with no additional options, simply type ```scummvm``` followed by the game ID. 
+  * To launch a game with no additional options, run ```scummvm``` followed by the game id.   
+  * To launch a game with options, run``` scummvm``` , followed by any desired options, and then the game ID. For more information, see the [Command line options](/advanced/command_line) page.
+
+  * There are two ways to find the game id:
+     1. Go to the game-specific settings. For more information, see the [Settings](#config) section of this document. 
+     2. Alternatively, find the default game id on the [Supported games](/about/supported_games) page. 
+ 
+
 In the following example, Flight of the Amazon Queen will be launched in full screen:
 
 ```
 scummvm -f queen
 ```
+<p align="center">
+![](/img/RaspberryPi/launch_commandline.gif)
+</p>
 ---
 
-## Settings Configuration <a id="config"></a>
+## Settings <a id="config"></a>
 
 Settings can be configured from the ScummVM Launcher, or by editing the configuration file directly. 
 
-To edit general settings through the Launcher, run ScummVM and select ```Options```. To edit game-specific settings, choose the game and select ```Edit Game```.
+To edit general settings through the Launcher, run ScummVM and click **Options**. To edit game-specific settings, choose the game and click **Edit Game**.
 
 On the Raspberry Pi, the configuration file path is ```~/.config/scummvm/scummvm.ini```
 
-To edit settings directly in the configuration file, navigate to the file in the File Manager. If the .config directory is not visible in the Home directory, go to ```View --> Show Hidden```. 
+To edit settings directly in the config file, navigate to the file in the File Manager. If the .config directory is not visible in the Home directory, select **View&nbsp;>&nbsp;Show Hidden**. Open the config file with a text editor, and save it when the desired changes have been made. 
 
-To edit the configuration file from the command line, type the following:
+To edit the config file from the command line, type the following:
 ````
 nano ~/.config/scummvm/scummvm.ini 
 ````
-Use Ctrl+O to save any changes. 
+Use ```Control+O``` to save any changes. 
 
 There are many [recognized configuration keywords](configuration.md).
 
-### Game Saves
+### Game saves
 
 By default, games are saved to
 ````
@@ -137,3 +141,5 @@ By default, games are saved to
 ````
 
 The save path can be changed in the config file by setting the savepath parameter.
+
+Some engines allow saved games to be loaded directly from the command line. For more information, see the [List save section](/advanced/command_line#list_save) on the Command line options page. 

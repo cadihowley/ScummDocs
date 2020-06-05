@@ -1,7 +1,7 @@
 ---
 id: configuration
-title: Configuration File
-sidebar_label: Configuration File
+title: Configuration file
+sidebar_label: Configuration file
 ---
 
 ### Keywords

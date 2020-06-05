@@ -130,6 +130,12 @@ export default [
   
 },
 {
+  path: '/installation/deleted_rpi_steps',
+  component: ComponentCreator('/installation/deleted_rpi_steps'),
+  exact: true,
+  
+},
+{
   path: '/installation/raspberrypi',
   component: ComponentCreator('/installation/raspberrypi'),
   exact: true,

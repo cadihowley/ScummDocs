@@ -1,14 +1,14 @@
 {
   "id": "advanced/configuration",
-  "title": "Configuration File",
+  "title": "Configuration file",
   "description": "Keywords",
   "source": "@site/docs/advanced/configuration.md",
   "permalink": "/advanced/configuration",
   "editUrl": "https://github.com/ScummDocs/docs/advanced/configuration.md",
-  "sidebar_label": "Configuration File",
+  "sidebar_label": "Configuration file",
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Command Line Options",
+    "title": "Command line options",
     "permalink": "/advanced/command_line"
   }
 }

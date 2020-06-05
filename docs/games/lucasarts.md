@@ -1,7 +1,7 @@
 ---
 id: lucasarts
-title: LucasArts Games 
-sidebar_label: LucasArts Games
+title: LucasArts games 
+sidebar_label: LucasArts games
 ---
 The following games all use the [SCUMM](https://wiki.scummvm.org/index.php?title=SCUMM) engine. 
 
@@ -24,7 +24,7 @@ The following games all use the [SCUMM](https://wiki.scummvm.org/index.php?title
 ---
 ## Controls
 
-#### Global Menu
+#### Global menu
 
 The global menu can be reached by pressing Ctrl+F5.
 From this menu there are the following buttons:
@@ -66,7 +66,7 @@ Using Ctrl-f or Ctrl-g is not recommended: games can crash when being run faster
                              This can also be triggered by a long press
                              of the middle mouse button or wheel.
 
-##### SCUMM Engine
+##### SCUMM engine
     Alt-x                  - Quit
     Ctrl 0-9 and Alt 0-9   - Load and save game state
     Ctrl-d                 - Starts the debugger
@@ -91,9 +91,9 @@ Using Ctrl-f or Ctrl-g is not recommended: games can crash when being run faster
     Tab                    - Simulate right mouse button press
 
 ---
-## Copy Protection
+## Copy protection
 
-The ScummVM team does not condone piracy. However, there are cases where the game companies (such as LucasArts) themselves bundled 'cracked' executables with their games -- in these cases the data files still contain the copy protection scripts, but the interpreter bypasses them (similar to what an illegally cracked version might do, only that here the producer of the game did it). There is no way for us to tell the difference between legitimate and pirated data files, so for the games where we know that a cracked version of the original interpreter was sold at some point, ScummVM will always have to bypass the copy protection.
+The ScummVM team does not condone piracy; however, there are cases where game companies such as LucasArts themselves bundled "cracked" executables with their games. In these cases the data files still contain the copy protection scripts, but the interpreter bypasses them in the same way an illegally cracked version would. Unfortunately there is no way for us to tell the difference between legitimate and pirated data files, so for the games where we know that a cracked version of the original interpreter was sold at some point ScummVM has to bypass the copy protection.
 
 In some cases ScummVM will still show the copy protection screen. Try entering any answer. Chances are that it will work.
 
@@ -106,24 +106,24 @@ ScummVM will skip copy protection in the following LucasArts games:
 - Zak McKracken and the Alien Mindbenders
 
 ---
-## Macintosh Versions
+## Macintosh versions
 
-All LucasArts SCUMM based adventures, except Curse of Monkey Island, also exist in versions for the Macintosh. ScummVM can use most of them, however, in some cases some additional work is required. 
+All LucasArts SCUMM based adventures, except The Curse of Monkey Island, also exist in versions for the Macintosh. ScummVM can use most of them, however, in some cases some additional work is required. 
 
 The original CD or Floppy for the Mac is in a disk format called HFS, which other operating systems usually do not support.  
-To read HFS volumes on other operating systems there are various free tools available, such as:
+To read HFS volumes on other operating systems there are various free tools available:
 - HFSExplorer for Windows 
 - hfsutils for Linux and other Unix-like operating systems.
 
-Most of the newer games on the Macintosh shipped with only a single data file. ScummVM is able to directly use such a data file; simply point ScummVM at the directory containing the file.
+Most of the newer games on the Macintosh shipped with only a single data file. ScummVM is able to directly use such a data file by pointing ScummVM at the directory containing the file.
 
 :::note 
-In some cases this data file was made invisible, so you may need extra tools in order to copy it
+In some cases the Macintosh data file was made invisible. To see hidden files, press CMD + Shift + Dot
 :::
 
-We also provide a tool called ```extract_scumm_mac``` in the tools package to extract the data from these data files, but this is neither required nor recommended.
+We provide a tool called ```extract_scumm_mac``` in the tools package to extract the data from these data files, but this is neither required nor recommended.
 
-The [wiki](https://wiki.scummvm.org/index.php/HOWTO-Mac_Games) contains further information on copying Macintosh game files to the hard disk. 
+For more information on copying Macintosh game files to the hard disk see the [ScummVM wiki](https://wiki.scummvm.org/index.php/HOWTO-Mac_Games).
 
 ---
 ## Maniac Mansion (1987) <a id="maniac"></a>
@@ -146,18 +146,18 @@ The game follows Dave Miller and a group of his friends as they break into a str
 
 #### Variants
 
-The DOS versions came in two variations, a 16 color EGA version and an "enhanced version" with higher resolution EGA graphics.
+The DOS versions came in two variations, a 16 color EGA version (V1) and an enhanced version (V2) with higher resolution EGA graphics.
 
-The Nintendo Entertainment System version featured additional music for cut-scenes and themes for each playable character. It also contained many changes from the original due to standards and practices at Nintendo, such as the removal of the statue on the second floor and the changing of several words Nintendo found inappropriate. The Famicom version of Maniac Mansion, released exclusively in Japan did not use the SCUMM engine.
+The Nintendo Entertainment System version featured additional music for cut-scenes and themes for each playable character. It also contained many changes from the original due to standards and practices at Nintendo, such as the removal of the statue on the second floor and the changing of several words Nintendo found inappropriate. The Famicom version of Maniac Mansion, released exclusively in Japan, did not use the SCUMM engine.
 
 Maniac Mansion is also included in [Day of the Tentacle](#tentacle). The English version contains the V1 DOS version while non-English versions are V2 DOS. If you have the Macintosh version of Day of the Tentacle you will need to extract the *.LFL files from the Day of the Tentacle Data file using ````extract_scumm_mac```
 
 #### Download
 Available from [GOG.com](http://gog.com/game/maniac_mansion?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) or [Steam](http://store.steampowered.com/app/529890)
 
-#### Data Files
+#### Data files
 
-A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Maniac_Mansion_.28Original_or_Enhanced.29)
+A list of required data files can be found on the [wiki](https://wiki.scummvm.org/index.php?title=Datafiles#Maniac_Mansion_.28Original_or_Enhanced.29).
 
 ---
 
@@ -181,15 +181,16 @@ Zak McKracken and the Alien Mindbenders was the second game to use the SCUMM scr
 #### Download
 Available from [GOG.com](http://gog.com/game/zak_mckracken_and_the_alien_mindbenders?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)
 
-#### Data Files
+#### Data files
 
-A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Zak_McKracken_and_the_Alien_Mindbenders)
+A list of required data files can be found on the [wiki](https://wiki.scummvm.org/index.php?title=Datafiles#Zak_McKracken_and_the_Alien_Mindbenders)
 
-#### Language Options
-ScummVM allows the language to be changed by either:
+#### Language options
+ScummVM allows the language to be changed:
 
-- Editing the [Configuration file](command_line#language)
-- Changing the language in the ```Edit Game``` settings from the Launcher
+- By changing the language in the ```Edit Game``` settings from the Launcher
+- By editing the [Config file](/advanced/configuration)
+- By changing the language option at launch. For more information, see the [Command line options](/advanced/command_line) page.
 ````
     en  - English (default)
     de  - German
@@ -198,7 +199,7 @@ ScummVM allows the language to be changed by either:
     es  - Spanish
 ````
 :::note
-Using this option does not change the language of the game, but rather is only used to select the appropriate font (e.g. for a German version of a game, one containing umlauts).
+Using the language option does not change the language of the game, as this is hard-coded. The option merely selects the appropriate font for the chosen language.
 :::
 ---
 
@@ -232,7 +233,7 @@ The PC floppy and PC CD-ROM VGA versions are updated to use 256 colors. The FM-T
 #### Download
 Available from [GOG.com](http://gog.com/game/indiana_jones_and_the_last_crusade?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) or [Steam](http://store.steampowered.com/app/32310)
 
-#### Data Files
+#### Data files
 
 A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Indiana_Jones_and_the_Last_Crusade)
 
@@ -265,15 +266,15 @@ The DOS floppy EGA version contained only 16 colors.
 
 Available from [GOG.com](http://gog.com/game/loom?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) or [Steam](http://store.steampowered.com/app/32340)
 
-#### Data Files
+#### Data files
 
 A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Loom)
 
-#### Known Problems
+#### Known problems
 
 - Turning off the subtitles via the config file does not work reliably as the Loom scripts automatically turn them on again.
 - MIDI support in the EGA version requires the Roland update from LucasArts.
-T- he PC-Engine Kanji version requires the system card rom.
+- The PC-Engine Kanji version requires the system card rom.
 
 ---
 ## Passport to Adventure (1990) <a id="pass"></a>
@@ -295,7 +296,7 @@ Passport to Adventure is a pack of demos of various games by Lucasfilm Games tha
 #### Download
 Available from our [Demos page](https://www.scummvm.org/demos)
 
-#### Data Files
+#### Data files
 
 A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Passport_to_Adventure)
 
@@ -326,11 +327,11 @@ The Special Edition version is available from [GOG.com](http://gog.com/game/the_
 The process to make this version playable via ScummVM is described in [this thread](https://forums.scummvm.org/viewtopic.php?t=7671). Only the classic mode is playable.
 :::
 
-#### Data Files
+#### Data files
 
 A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Secret_of_Monkey_Island.2C_The)
 
-#### Known Problems
+#### Known problems
 - MIDI support in the EGA version requires the Roland update from LucasArts.
 ---
 
@@ -355,7 +356,7 @@ ScummVM!|
 #### Download
 The Special Edition version is available from [GOG.com](http://gog.com/game/monkey_island_2_special_edition_lechucks_revenge?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) or [Steam](http://store.steampowered.com/app/32460). 
 
-#### Data Files
+#### Data files
 
 A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Monkey_Island_2:_LeChuck.27s_Revenge)
 
@@ -380,7 +381,7 @@ English-only version available from [Steam](http://store.steampowered.com/app/60
 
 English version with text-only options for French, German, Italian and Spanish available from [GOG.com](http://gog.com/game/indiana_jones_and_the_fate_of_atlantis?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)
 
-#### Data Files
+#### Data files
 
 A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Indiana_Jones_and_the_Fate_of_Atlantis)
 
@@ -410,11 +411,11 @@ It is possible to make the remastered version playable via ScummVM using [Double
 Note that only the classic mode is playable when this method is used. 
 :::
 
-#### Data Files
+#### Data files
 
 A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Day_of_the_Tentacle)
 
-#### Game Notes
+#### Game notes
 
 At one point in the game, you come across a computer that allows you to play the original Maniac Mansion as an easter egg. ScummVM supports this, with a few caveats:
 
@@ -453,7 +454,7 @@ The CD versions were "talkie versions" and included speech for each of the lines
 
 Available from [GOG.com](http://gog.com/game/sam_max_hit_the_road?pp=22d200f8670dbdb3e253a90eee5098477c95c23d)
 
-#### Data Files
+#### Data files
 
 A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Sam_.26_Max_Hit_the_Road)
 
@@ -478,7 +479,7 @@ Full Throttle was the tenth game to use the SCUMM scripting language. The game f
 #### Download
 Full Throttle is not available for download
 
-#### Data Files
+#### Data files
 
 A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Full_Throttle)
 
@@ -503,18 +504,24 @@ The Dig was the eleventh game to use the SCUMM scripting language. The game, bas
 
 Available from [GOG.com](http://gog.com/game/the_dig?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) or [Steam](http://store.steampowered.com/app/6040)
 
-#### Data Files
+#### Data files
 
 A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Dig.2C_The)
 
-#### [Language Options](command_line#language)
+#### Language options
+
+ScummVM allows the language to be changed:
+
+- By changing the language in the ```Edit Game``` settings from the Launcher
+- By editing the [config file](/advanced/configuration)
+- By changing the language option at launch. For more information, see the [Command line options](/advanced/command_line) page.
 
     jp  - Japanese
     zh  - Chinese
     kr  - Korean
 
 :::note
-Using this option does not change the language of the game, but rather is only used to select the appropriate font. 
+Using the language option does not change the language of the game, as this is hard-coded. The option merely selects the appropriate font.
 
 Non-English versions can be set to 'English.' This only affects subtitles; game speech will remain the same.
 :::
@@ -543,17 +550,23 @@ COMI, CMI|
 #### Download
 Available from [GOG.com](http://gog.com/game/the_curse_of_monkey_island?pp=22d200f8670dbdb3e253a90eee5098477c95c23d) or [Steam](http://store.steampowered.com/app/730820)
 
-#### Data Files
+#### Data files
 
 A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Curse_of_Monkey_Island.2C_The)
 
-#### Game Notes
+#### Game notes
 
-For this game, you will need the comi.la0, comi.la1 and comi.la2 files. The comi.la0 file can be found on either CD, but since they are identical it doesn't matter which one of them you use.
+For this game, the comi.la0, comi.la1 and comi.la2 files are needed. The comi.la0 file can be found on either CD, but since they are identical it doesn't matter which one of them is used. 
 
-In addition, you will need to create a "resource" subdirectory containing all of the files from -both- "resource" subdirectories on the two CDs. Some of the files appear on both CDs, but again they're identical.
+Create a ```resource``` subdirectory that contains all of the files from both ```resource``` subdirectories on the two CDs. Some of the files appear on both CDs; they're identical so it doesn't matter which are used.
 
-#### [Language Options](command_line#language)
+#### Language options
+
+ScummVM allows the language to be changed:
+
+- By changing the language in the ```Edit Game``` settings from the Launcher
+- By editing the [config file](/advanced/configuration)
+- By changing the language option at launch. For more information, see the [Command line options](/advanced/command_line) page.
 
     en  - English (default)
     de  - German
@@ -566,7 +579,7 @@ In addition, you will need to create a "resource" subdirectory containing all of
     kr  - Korean
 
 :::note
-Using this option does not change the language of the game, but rather is only used to select the appropriate font. 
+Using the language option does not change the language of the game, as this is hard-coded. The option merely selects the appropriate font for the chosen language. 
 :::
 
 
