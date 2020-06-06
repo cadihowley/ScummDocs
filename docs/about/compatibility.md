@@ -5,7 +5,11 @@ sidebar_label: Compatibility
 ---
 
 At this time ScummVM is still under heavy development. 
+While we do our best to make sure that as many games  as possible can be completed with no major bugs, crashes can happen and we offer no warranty. 
 
-Be aware that whilst we attempt to make sure that many games can be completed with no major bugs, crashes can happen and we offer no warranty. That being said, some of the games have been supported for a long time and should work fine with any recent stable release. You can get a feeling of how well each game is working in ScummVM by looking at the [compatibility](https://www.scummvm.org/compatibility/) page. 
+Some games have been supported for a long time and should work fine with any recent stable release. You can get a feel for how well each game is working in ScummVM by checking out the [compatibility page](https://www.scummvm.org/compatibility/) on the ScummVM website. 
 
-In some cases ScummVM is being used commercially to re-release some of the supported games on modern platforms. This shows that several companies are happy with the quality of the software and how well it can run some of the games.
+ScummVM is being used commercially by some companies to re-release supported games on modern platforms, which shows high levels of trust in the quality of our product. 
+
+
+

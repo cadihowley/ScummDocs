@@ -27,12 +27,12 @@ The following games all use the [SCUMM](https://wiki.scummvm.org/index.php?title
 #### Global menu
 
 The global menu can be reached by pressing Ctrl+F5.
-From this menu there are the following buttons:
-- Resume
-- Options -> opens a dialog with basic audio settings
-- About
-- Return to Launcher -> closes the current game and returns the user to the Launcher
-- Quit. 
+From this menu there are the following options:
+- **Resume**
+- **Options**. Opens a dialog with basic audio settings
+- **About**
+- **Return to Launcher**. Closes the current game and returns the user to the Launcher
+- Quit 
 
 
 #### Hotkeys
@@ -93,9 +93,9 @@ Using Ctrl-f or Ctrl-g is not recommended: games can crash when being run faster
 ---
 ## Copy protection
 
-The ScummVM team does not condone piracy; however, there are cases where game companies such as LucasArts themselves bundled "cracked" executables with their games. In these cases the data files still contain the copy protection scripts, but the interpreter bypasses them in the same way an illegally cracked version would. Unfortunately there is no way for us to tell the difference between legitimate and pirated data files, so for the games where we know that a cracked version of the original interpreter was sold at some point ScummVM has to bypass the copy protection.
+The ScummVM team does not condone piracy; however, there are cases where game companies such as LucasArts themselves bundled "cracked" executables with their games. In these cases the data files still contain the copy protection scripts, but the interpreter bypasses them in the same way an illegally cracked version would. Unfortunately there is no way for us to tell the difference between legitimate and pirated data files, so for the games where we know that a cracked version of the original interpreter was sold at some point, ScummVM has to bypass the copy protection.
 
-In some cases ScummVM will still show the copy protection screen. Try entering any answer. Chances are that it will work.
+In some cases ScummVM will still show the copy protection screen. Try entering any answer; chances are that it will work.
 
 ScummVM will skip copy protection in the following LucasArts games:
 
@@ -110,20 +110,18 @@ ScummVM will skip copy protection in the following LucasArts games:
 
 All LucasArts SCUMM based adventures, except The Curse of Monkey Island, also exist in versions for the Macintosh. ScummVM can use most of them, however, in some cases some additional work is required. 
 
-The original CD or Floppy for the Mac is in a disk format called HFS, which other operating systems usually do not support.  
-To read HFS volumes on other operating systems there are various free tools available:
-- HFSExplorer for Windows 
+The original CD or Floppy for the Mac is in a disk format called HFS, which other operating systems do not usually support.  
+To read HFS volumes on other operating systems there are various free tools available, such as:
+- HFSExplorer for Windows. 
 - hfsutils for Linux and other Unix-like operating systems.
 
-Most of the newer games on the Macintosh shipped with only a single data file. ScummVM is able to directly use such a data file by pointing ScummVM at the directory containing the file.
+Most of the newer games on the Macintosh shipped with only a single data file. ScummVM is able to directly use such a file. Although we provide a tool called ```extract_scumm_mac``` in the tools package which can extract the data from these data files, this is neither required nor recommended.
 
 :::note 
 In some cases the Macintosh data file was made invisible. To see hidden files, press CMD + Shift + Dot
 :::
 
-We provide a tool called ```extract_scumm_mac``` in the tools package to extract the data from these data files, but this is neither required nor recommended.
-
-For more information on copying Macintosh game files to the hard disk see the [ScummVM wiki](https://wiki.scummvm.org/index.php/HOWTO-Mac_Games).
+For further information on copying Macintosh game files to the hard disk see the [ScummVM wiki](https://wiki.scummvm.org/index.php/HOWTO-Mac_Games).
 
 ---
 ## Maniac Mansion (1987) <a id="maniac"></a>
@@ -188,9 +186,9 @@ A list of required data files can be found on the [wiki](https://wiki.scummvm.or
 #### Language options
 ScummVM allows the language to be changed:
 
-- By changing the language in the ```Edit Game``` settings from the Launcher
-- By editing the [Config file](/advanced/configuration)
-- By changing the language option at launch. For more information, see the [Command line options](/advanced/command_line) page.
+- By changing the language in the **Edit Game** settings dialog from the Launcher.
+- By editing the config file. For more information, see the [Configuration page](/advanced/configuration).
+- By changing the language option from the command line at launch. For more information, see the [Command line options](/advanced/command_line) page.
 ````
     en  - English (default)
     de  - German
@@ -199,7 +197,7 @@ ScummVM allows the language to be changed:
     es  - Spanish
 ````
 :::note
-Using the language option does not change the language of the game, as this is hard-coded. The option merely selects the appropriate font for the chosen language.
+Using the language option does not change the language of the game, as this is usually hard-coded. The option merely selects the appropriate font for the chosen language.
 :::
 ---
 
@@ -512,16 +510,16 @@ A list of required data files can be found [here](https://wiki.scummvm.org/index
 
 ScummVM allows the language to be changed:
 
-- By changing the language in the ```Edit Game``` settings from the Launcher
-- By editing the [config file](/advanced/configuration)
-- By changing the language option at launch. For more information, see the [Command line options](/advanced/command_line) page.
+- By changing the language in the **Edit Game** settings dialog from the Launcher.
+- By editing the config file. For more information, see the [Configuration page](/advanced/configuration).
+- By changing the language option from the command line at launch. For more information, see the [Command line options](/advanced/command_line) page.
 
     jp  - Japanese
     zh  - Chinese
     kr  - Korean
 
 :::note
-Using the language option does not change the language of the game, as this is hard-coded. The option merely selects the appropriate font.
+Using the language option does not change the language of the game, as this is usually hard-coded. The option merely selects the appropriate font.
 
 Non-English versions can be set to 'English.' This only affects subtitles; game speech will remain the same.
 :::

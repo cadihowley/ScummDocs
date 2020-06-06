@@ -4,6 +4,8 @@ title: Installation guide for the Raspberry Pi
 sidebar_label: Raspberry Pi
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl'
+
 ## Installing ScummVM
 
 On a Raspberry Pi running the latest version of Raspberry OS, go to the Terminal and enter the following commands into the command line:
@@ -94,7 +96,11 @@ There are two ways to launch a game:
 - From the Launcher: 
 	-	From the Applications menu, select **Games&nbsp;>&nbsp;ScummVM** to start the Launcher. Select a game and click **Start** to play. 
 
-![](/img/RaspberryPi/launch_launcher.gif)
+<img
+  class="gif" 
+  alt=" "
+  src={useBaseUrl('img/RaspberryPi/launch_launcher.gif')}
+/>
 
 - From the command line: 
   * To launch a game with no additional options, run ```scummvm``` followed by the game id.   
@@ -110,9 +116,13 @@ In the following example, Flight of the Amazon Queen will be launched in full sc
 ```
 scummvm -f queen
 ```
-<p align="center">
-![](/img/RaspberryPi/launch_commandline.gif)
-</p>
+
+<img
+  class="gif" 
+  alt=" "
+  src={useBaseUrl('img/RaspberryPi/launch_commandline.gif')}
+/>
+
 ---
 
 ## Settings <a id="config"></a>

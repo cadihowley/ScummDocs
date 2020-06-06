@@ -3,6 +3,11 @@ id: configuration
 title: Configuration file
 sidebar_label: Configuration file
 ---
+## Location
+
+The configuration file saves to different default locations depending on the platform on which you are running ScummVM. For more information on location and how to access the config file, see the relevant platform Installation page. 
+
+Most settings are also accessible directly from the Launcher, by clicking **Options**. To edit game-specific settings, select a game and then click **Edit Game**.
 
 ### Keywords
 There are many recognized configuration keywords:
@@ -94,7 +99,7 @@ boot_param         number   Pass this number to the boot script
 ````
 
 
-### Example
+## Example file
 
     [scummvm]
     gfx_mode=supereagle
