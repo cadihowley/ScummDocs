@@ -1,8 +1,8 @@
 module.exports = {
   title: 'ScummVM',
   tagline: 'Script Creation Utility for Maniac Mansion Virtual Machine',
-  url: 'https://ScummDocs.github.io',
-  baseUrl: '/',
+  url: 'https://cadihowley.github.io',
+  baseUrl: '/ScummDocs/',
   favicon: 'img/favicon.ico',
   organizationName: 'cadihowley', // Usually your GitHub org/user name.
   projectName: 'ScummDocs', // Usually your repo name.

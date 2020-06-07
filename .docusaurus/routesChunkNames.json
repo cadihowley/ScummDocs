@@ -1,131 +1,131 @@
 {
   "/": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "docsMetadata": "docsMetadata---517-5ad",
-    "content": "content---8-c-5-972"
+    "component": "1be78505",
+    "docsMetadata": "5172f806",
+    "content": "8c558c4b"
   },
   "/blog": {
-    "component": "component---theme-blog-list-pagea-6-a-7ba",
+    "component": "a6aa9e1f",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       },
       {
-        "content": "content---blog-357-22b"
+        "content": "3570154c"
       },
       {
-        "content": "content---blog-8-e-9-35c"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---blogbbb-5f9"
+    "metadata": "bbb4ffb5"
   },
   "/blog/hello-world": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "content": "content---blog-hello-worldd-61-086"
+    "component": "ccc49370",
+    "content": "d610846f"
   },
   "/blog/hola": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "content": "content---blog-holabdd-150"
+    "component": "ccc49370",
+    "content": "bdd709f1"
   },
   "/blog/tags": {
-    "component": "component---theme-blog-tags-list-page-01-a-d0b",
-    "tags": "tags---blog-tags-8-be-13d"
+    "component": "01a85c17",
+    "tags": "8be5b89e"
   },
   "/blog/tags/docusaurus": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "component": "6875c492",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       },
       {
-        "content": "content---blog-357-22b"
+        "content": "3570154c"
       },
       {
-        "content": "content---blog-8-e-9-35c"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---blog-tags-docusaurus-6-ca-f43"
+    "metadata": "6ca375e2"
   },
   "/blog/tags/facebook": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "component": "6875c492",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       }
     ],
-    "metadata": "metadata---blog-tags-facebookeec-618"
+    "metadata": "eec15bdb"
   },
   "/blog/tags/hello": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "component": "6875c492",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       },
       {
-        "content": "content---blog-357-22b"
+        "content": "3570154c"
       }
     ],
-    "metadata": "metadata---blog-tags-hello-3-a-6-b36"
+    "metadata": "3a6eb64e"
   },
   "/blog/tags/hola": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "component": "6875c492",
     "items": [
       {
-        "content": "content---blog-8-e-9-35c"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---blog-tags-hola-31-d-e2f"
+    "metadata": "31d49d87"
   },
   "/blog/welcome": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "content": "content---blog-welcome-286-e55"
+    "component": "ccc49370",
+    "content": "2868cdab"
   },
   "/:route": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "docsMetadata": "docsMetadata---routeec-1-f92"
+    "component": "1be78505",
+    "docsMetadata": "ec1ed54d"
   },
   "/about/about": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---about-aboutceb-a88"
+    "component": "17896441",
+    "content": "ceb5ae55"
   },
   "/about/compatibility": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---about-compatibility-87-c-b2d"
+    "component": "17896441",
+    "content": "87c4c987"
   },
   "/about/help_project": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---about-help-projecte-4-e-548"
+    "component": "17896441",
+    "content": "e4ef6dc7"
   },
   "/about/how_work": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---about-how-workb-9-d-c5c"
+    "component": "17896441",
+    "content": "b9df8730"
   },
   "/about/supported_games": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---about-supported-gamesa-83-2c6"
+    "component": "17896441",
+    "content": "a831a84e"
   },
   "/about/supported_platforms": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---about-supported-platforms-5-c-0-bf2"
+    "component": "17896441",
+    "content": "5c0da15a"
   },
   "/advanced/command_line": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---advanced-command-linebb-9-b8b"
+    "component": "17896441",
+    "content": "bb954fde"
   },
   "/advanced/configuration": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---advanced-configuration-97-a-7c5"
+    "component": "17896441",
+    "content": "97a009a6"
   },
   "/games/lucasarts": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---games-lucasarts-8-e-8-2ff"
+    "component": "17896441",
+    "content": "8e8e0898"
   },
   "/installation/deleted_rpi_steps": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---installation-deleted-rpi-stepscbe-445"
+    "component": "17896441",
+    "content": "cbe1eb6d"
   },
   "/installation/raspberrypi": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---installation-raspberrypi-691-9f0"
+    "component": "17896441",
+    "content": "691bd1b7"
   }
 }
