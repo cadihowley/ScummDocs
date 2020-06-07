@@ -28,6 +28,8 @@ I propose to start by combing the existing documentation; Readme, Website and Wi
 
 Once this preliminary work is done, I will coordinate with developers and port maintainers to ensure the information presented in the documentation is as comprehensive as possible. 
 
+Table:
+
 ### Why me?
 
 I believe I am well suited to the project because:
