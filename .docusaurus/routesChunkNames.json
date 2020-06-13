@@ -1,147 +1,147 @@
 {
   "/ScummDocs/": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "docsMetadata": "docsMetadata---scumm-docs-517-958",
-    "content": "content---scumm-docs-8-c-5-d67"
+    "component": "1be78505",
+    "docsMetadata": "5172f806",
+    "content": "8c558c4b"
   },
   "/ScummDocs/blog": {
-    "component": "component---theme-blog-list-pagea-6-a-7ba",
+    "component": "a6aa9e1f",
     "items": [
       {
-        "content": "content---scumm-docs-blogaf-1-a9a"
+        "content": "af172acd"
       },
       {
-        "content": "content---scumm-docs-blog-357-89c"
+        "content": "3570154c"
       },
       {
-        "content": "content---scumm-docs-blog-8-e-9-6ae"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---scumm-docs-bloged-1-588"
+    "metadata": "ed1ba0fb"
   },
   "/ScummDocs/blog/hello-world": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "content": "content---scumm-docs-blog-hello-worldd-61-f00"
+    "component": "ccc49370",
+    "content": "d610846f"
   },
   "/ScummDocs/blog/hola": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "content": "content---scumm-docs-blog-holabdd-2ea"
+    "component": "ccc49370",
+    "content": "bdd709f1"
   },
   "/ScummDocs/blog/tags": {
-    "component": "component---theme-blog-tags-list-page-01-a-d0b",
-    "tags": "tags---scumm-docs-blog-tagsbb-3-a96"
+    "component": "01a85c17",
+    "tags": "bb353581"
   },
   "/ScummDocs/blog/tags/docusaurus": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "component": "6875c492",
     "items": [
       {
-        "content": "content---scumm-docs-blogaf-1-a9a"
+        "content": "af172acd"
       },
       {
-        "content": "content---scumm-docs-blog-357-89c"
+        "content": "3570154c"
       },
       {
-        "content": "content---scumm-docs-blog-8-e-9-6ae"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---scumm-docs-blog-tags-docusaurusc-79-233"
+    "metadata": "c79bfd83"
   },
   "/ScummDocs/blog/tags/facebook": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "component": "6875c492",
     "items": [
       {
-        "content": "content---scumm-docs-blogaf-1-a9a"
+        "content": "af172acd"
       }
     ],
-    "metadata": "metadata---scumm-docs-blog-tags-facebookb-16-7ee"
+    "metadata": "b16e85a7"
   },
   "/ScummDocs/blog/tags/hello": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "component": "6875c492",
     "items": [
       {
-        "content": "content---scumm-docs-blogaf-1-a9a"
+        "content": "af172acd"
       },
       {
-        "content": "content---scumm-docs-blog-357-89c"
+        "content": "3570154c"
       }
     ],
-    "metadata": "metadata---scumm-docs-blog-tags-helloaa-2-dba"
+    "metadata": "aa26aa17"
   },
   "/ScummDocs/blog/tags/hola": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "component": "6875c492",
     "items": [
       {
-        "content": "content---scumm-docs-blog-8-e-9-6ae"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---scumm-docs-blog-tags-hola-53-b-2cf"
+    "metadata": "53b14c7e"
   },
   "/ScummDocs/blog/welcome": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "content": "content---scumm-docs-blog-welcome-286-3f0"
+    "component": "ccc49370",
+    "content": "2868cdab"
   },
   "/ScummDocs/:route": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "docsMetadata": "docsMetadata---scumm-docs-route-10-b-bf5"
+    "component": "1be78505",
+    "docsMetadata": "10b1394a"
   },
   "/ScummDocs/about/about": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---scumm-docs-about-aboutceb-407"
+    "component": "17896441",
+    "content": "ceb5ae55"
   },
   "/ScummDocs/about/compatibility": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---scumm-docs-about-compatibility-87-c-6a4"
+    "component": "17896441",
+    "content": "87c4c987"
   },
   "/ScummDocs/about/help_project": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---scumm-docs-about-help-projecte-4-e-003"
+    "component": "17896441",
+    "content": "e4ef6dc7"
   },
   "/ScummDocs/about/how_work": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---scumm-docs-about-how-workb-9-d-759"
+    "component": "17896441",
+    "content": "b9df8730"
   },
   "/ScummDocs/about/supported_games": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---scumm-docs-about-supported-gamesa-83-6ba"
+    "component": "17896441",
+    "content": "a831a84e"
   },
   "/ScummDocs/about/supported_platforms": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---scumm-docs-about-supported-platforms-5-c-0-4c0"
+    "component": "17896441",
+    "content": "5c0da15a"
   },
   "/ScummDocs/advanced/command_line": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---scumm-docs-advanced-command-linebb-9-2db"
+    "component": "17896441",
+    "content": "bb954fde"
   },
   "/ScummDocs/advanced/configuration": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---scumm-docs-advanced-configurationd-44-43c"
+    "component": "17896441",
+    "content": "d44590cc"
   },
   "/ScummDocs/games/lucasarts": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---scumm-docs-games-lucasarts-8-e-8-e2f"
+    "component": "17896441",
+    "content": "8e8e0898"
   },
   "/ScummDocs/installation/deleted_rpi_steps": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---scumm-docs-installation-deleted-rpi-stepscbe-80c"
+    "component": "17896441",
+    "content": "cbe1eb6d"
   },
   "/ScummDocs/installation/raspberrypi": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---scumm-docs-installation-raspberrypi-691-2b1"
+    "component": "17896441",
+    "content": "691bd1b7"
   },
   "/ScummDocs/using/game_settings": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---scumm-docs-using-game-settingsb-25-feb"
+    "component": "17896441",
+    "content": "b25c27e8"
   },
   "/ScummDocs/using/global_settings": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---scumm-docs-using-global-settings-0-b-9-342"
+    "component": "17896441",
+    "content": "0b98f04c"
   },
   "/ScummDocs/using/keyboard": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---scumm-docs-using-keyboard-8-a-5-7c2"
+    "component": "17896441",
+    "content": "8a5b3de9"
   },
   "/ScummDocs/using/launcher": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---scumm-docs-using-launcher-9-be-46e"
+    "component": "17896441",
+    "content": "9bea9a39"
   }
 }

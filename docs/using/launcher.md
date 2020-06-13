@@ -57,7 +57,7 @@ Note that there are games that do not support this feature altogether, or whose 
 />
 
 
-This menu allows you to define default game options, as well as change a number of the ScummVM Launcher's settings. For more details on how to fine-tune ScummVM, see the [General options](../using/general_options) page.
+This menu allows you to define default game options, as well as change a number of the ScummVM Launcher's settings. For more details on how to fine-tune ScummVM, see the [Global settings](../using/global_settings) page.
 
 ---
 ## The game settings window
