@@ -24,7 +24,7 @@ The following games all use the [SCUMM](https://wiki.scummvm.org/index.php?title
 ---
 
 ## Keyboard Shortcuts
-In addition to the common [keyboard shortcuts](using/keyboard), SCUMM games have further shortcuts:
+In addition to the common [keyboard shortcuts](../using/keyboard), SCUMM games have further shortcuts:
 ````
 
     Alt+x                  - Quit

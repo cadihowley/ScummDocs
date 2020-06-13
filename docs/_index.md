@@ -16,16 +16,55 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 
 2.  Advanced users need additional behind-the-scenes options to tweak how their games run, including how to report any bugs. 
 
-3.  Information relating to each supported game needs to be in one place, including, but not limited to;
-   * What is the game about, and if the user doesn't have the game, where can they get it?
+3.  Information relating to each supported game should be in one place - a complete reference including, but not limited to;
+   * What is the game about?
+   * If the user doesn't have the game, where can they get it?
    * Is there anything unusual the user needs to know about the install?
    * What are the engine or game-specific controls the user should know about?
    * Are there any known problems with the game when played via ScummVM?
 
-###  Suggested Format
+###  Suggested documentation structure
+````
+Home Page
+|-- About ScummmVM
+|   |-- What is it?
+|   |-- How does it work?
+|   |-- Supported games
+|   |-- Supported platforms
+|   |-- Compatibility
+|   `-- Help the project
+|-- Installing ScummVM
+|   |-- Nintendo 3DS
+|   |-- AmigaOS
+|   |-- Android
+|   |-- (every)
+|   |-- (common)
+|   |-- (supported)
+|   `-- (platform)
+|-- Using ScummVM
+|   |-- The interface
+|   |-- Global settings
+|   |-- Game settings
+|   `-- Keyboard shortcuts
+|-- About the games
+|   |-- LucasArts games 
+|   |-- Activision games
+|   |-- Adventuresoft/Horrorsoft games
+|   |-- Coktel Vision games
+|   |-- Sierra games
+|   `-- Other games
+|-- Advanced options
+|   |-- Cloud and LAN
+|   |-- Control Mapping
+|   |-- Configuration
+|   |-- Command line options
+|   |-- Music and sound
+|   `-- Render modes
+`-- Help
+    |-- FAQ
+    |-- Contacts
+    `-- Reporting a bug
 
-<img
-  alt=" "
-  src={useBaseUrl('img/structure.png')}
-/>
+````
+
 

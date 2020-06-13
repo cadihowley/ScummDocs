@@ -8,18 +8,16 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 
 ## Installing ScummVM
 
-On a Raspberry Pi running the latest version of Raspberry OS, go to the Terminal and enter the following commands into the command line:
+On a Raspberry Pi running the latest version of Raspberry OS, go to the Terminal and enter the following command into the command line:
 ```
-sudo apt-get updates
-sudo apt-get upgrades
-sudo apt-install -y scummvm
+sudo apt install -y scummvm
 ```
-These commands update the list of available packages, and then install ScummVM.
+This command installs ScummVM.
 
 :::tip
 To check that ScummVM has been installed correctly, run the following on the command line. This shows the installed version. 
 ```
-scummvm - v
+scummvm -v
 ```
 :::
 
@@ -116,7 +114,7 @@ There are two ways to launch a game:
 
 - From the command line: 
   * To launch a game with no additional options, run ```scummvm``` followed by the game id.   
-  * To launch a game with options, run``` scummvm``` , followed by any desired options, and then the game ID. For more information, see the [Command line options](/advanced/command_line) page.
+  * To launch a game with options, run``` scummvm``` , followed by any desired options, and then the game ID. For more information, see the [Command line options](../advanced/command_line) page.
 
   * There are two ways to find the game id:
      1. Go to the game-specific settings. For more information, see the [Settings](#config) section.
