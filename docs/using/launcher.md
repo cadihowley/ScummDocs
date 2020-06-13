@@ -57,7 +57,7 @@ Note that there are games that do not support this feature altogether, or whose 
 />
 
 
-This menu allows you to define default game options, as well as change a number of the ScummVM Launcher's settings. For more details on how to fine-tune ScummVM, see the [General options](/using/general_options) page.
+This menu allows you to define default game options, as well as change a number of the ScummVM Launcher's settings. For more details on how to fine-tune ScummVM, see the [General options](../using/general_options) page.
 
 ---
 ## The game settings window
@@ -67,7 +67,7 @@ This menu allows you to define default game options, as well as change a number 
   src={useBaseUrl('img/Launcher/Configdone.png')}
 />
 
-You see this game configuration window whenever you add a game to the Launcher or click on **Edit Game** button. Here you can configure a game individually by overriding the default game settings you have set in the Launcher's Options, as well as change the game's language and original platform (if applicable). For more information, see the [Game settings](/using/game_settings) page. 
+You see this game configuration window whenever you add a game to the Launcher or click on **Edit Game** button. Here you can configure a game individually by overriding the default game settings you have set in the Launcher's Options, as well as change the game's language and original platform (if applicable). For more information, see the [Game settings](../using/game_settings) page. 
 
 ---
 

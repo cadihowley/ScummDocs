@@ -87,7 +87,7 @@ mygames
 
 <img
   alt=" "
-  src={useBaseUrl('img/RaspberryPi/adding_games.jpg')}
+  src={useBaseUrl('img/RaspberryPi/adding_games_rpi.jpg')}
 />
 
 5.  A dialog opens to allow configuration of various settings for the game. These can be reconfigured at any time, but for now everything should work at the default settings. Click **Ok**. 
