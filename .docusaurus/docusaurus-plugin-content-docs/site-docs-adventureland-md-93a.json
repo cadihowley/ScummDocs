@@ -1,9 +1,0 @@
-{
-  "id": "adventureland",
-  "title": "Game Guide - Adventureland",
-  "description": "About",
-  "source": "@site/docs/adventureland.md",
-  "permalink": "/adventureland",
-  "editUrl": "https://github.com/ScummDocs/docs/adventureland.md",
-  "sidebar_label": "Adventureland"
-}

@@ -11,6 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 On a Raspberry Pi running the latest version of Raspberry OS, go to the Terminal and enter the following commands into the command line:
 ```
 sudo apt-get updates
+sudo apt-get upgrades
 sudo apt-install -y scummvm
 ```
 These commands update the list of available packages, and then install ScummVM.
@@ -118,8 +119,8 @@ There are two ways to launch a game:
   * To launch a game with options, run``` scummvm``` , followed by any desired options, and then the game ID. For more information, see the [Command line options](/advanced/command_line) page.
 
   * There are two ways to find the game id:
-     1. Go to the game-specific settings. For more information, see the [Settings](#config) section of this document. 
-     2. Alternatively, find the default game id on the [Supported games](/about/supported_games) page. 
+     1. Go to the game-specific settings. For more information, see the [Settings](#config) section.
+     2. Alternatively, find the default game id on the [Supported games](../about/supported_games) page. 
  
 
 In the following example, Flight of the Amazon Queen will be launched in full screen:
@@ -140,11 +141,11 @@ scummvm -f queen
 
 Settings can be configured from the ScummVM Launcher, or by editing the configuration file directly. 
 
-To edit general settings through the Launcher, run ScummVM and click **Options**. To edit game-specific settings, choose the game and click **Edit Game**.
+To edit global settings in the Launcher, run ScummVM and click **Options**. To edit game settings, choose a game and click **Edit Game**.
 
 On the Raspberry Pi, the configuration file path is ```~/.config/scummvm/scummvm.ini```
 
-To edit settings directly in the config file, navigate to the file in the File Manager. If the .config directory is not visible in the Home directory, select **View&nbsp;>&nbsp;Show Hidden**. Open the config file with a text editor, and save it when the desired changes have been made. 
+To edit settings directly in the config file, navigate to the file in the File Manager. If the .config directory is not visible in the Home directory, select **View&nbsp;>&nbsp;Show Hidden** in the top menu. Open the config file with a text editor, and save it when the desired changes have been made. 
 
 To edit the config file from the command line, type the following:
 ````
@@ -152,7 +153,7 @@ nano ~/.config/scummvm/scummvm.ini
 ````
 Use ```Control+O``` to save any changes. 
 
-There are many [recognized configuration keywords](configuration.md).
+For more information about settings, see the [Global settings](../using/global_settings) or [Game settings](../using/game_settings) page. 
 
 ### Game saves
 
@@ -163,4 +164,4 @@ By default, games are saved to
 
 The save path can be changed in the config file by setting the savepath parameter.
 
-Some engines allow saved games to be loaded directly from the command line. For more information, see the [List save section](/advanced/command_line#list_save) on the Command line options page. 
+Some engines allow saved games to be loaded directly from the command line. For more information, see the [List save section](../advanced/command_line#list_save) on the Command line options page. 

@@ -1,9 +1,0 @@
-{
-  "id": "maniac",
-  "title": "Game Guide - Maniac Mansion",
-  "description": "About",
-  "source": "@site/docs/maniac.md",
-  "permalink": "/maniac",
-  "editUrl": "https://github.com/ScummDocs/docs/maniac.md",
-  "sidebar_label": "Maniac Mansion"
-}

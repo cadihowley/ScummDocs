@@ -1,9 +1,0 @@
-{
-  "id": "psp",
-  "title": "Quickstart Guide - Playstation Portable",
-  "description": "Installing ScummVM",
-  "source": "@site/docs/psp.md",
-  "permalink": "/psp",
-  "editUrl": "https://github.com/ScummDocs/docs/psp.md",
-  "sidebar_label": "PSP"
-}

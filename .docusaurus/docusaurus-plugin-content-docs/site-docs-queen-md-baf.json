@@ -1,9 +1,0 @@
-{
-  "id": "queen",
-  "title": "Game Guide - Flight of the Amazon Queen",
-  "description": "About",
-  "source": "@site/docs/queen.md",
-  "permalink": "/queen",
-  "editUrl": "https://github.com/ScummDocs/docs/queen.md",
-  "sidebar_label": "Flight of the Amazon Queen"
-}

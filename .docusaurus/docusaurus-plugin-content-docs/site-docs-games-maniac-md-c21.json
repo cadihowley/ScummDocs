@@ -1,9 +1,0 @@
-{
-  "id": "Games/maniac",
-  "title": "Game Guide - Maniac Mansion",
-  "description": "About",
-  "source": "@site/docs/Games/maniac.md",
-  "permalink": "/Games/maniac",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Games/maniac.md",
-  "sidebar_label": "Maniac Mansion"
-}

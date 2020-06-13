@@ -134,8 +134,8 @@ A list of required data files can be found on the [wiki](https://wiki.scummvm.or
 ScummVM allows the language to be changed:
 
 - By changing the language in the **Edit Game** settings dialog from the Launcher.
-- By editing the config file. For more information, see the [Configuration page](/advanced/configuration).
-- By changing the language option from the command line at launch. For more information, see the [Command line options](/advanced/command_line) page.
+- By editing the config file. For more information, see the [configuration file](../advanced/configuration) page.
+- By changing the language option from the command line at launch. For more information, see the [Command line options](../advanced/command_line) page.
 ````
     en  - English (default)
     de  - German
@@ -181,11 +181,6 @@ Available from [GOG.com](http://gog.com/game/indiana_jones_and_the_last_crusade?
 #### Data files
 
 A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Indiana_Jones_and_the_Last_Crusade)
-
-#### Unique Keyboard Shortcuts
-````
-i		Displays IQ points
-````
 
 ---
 
@@ -463,13 +458,13 @@ A list of required data files can be found [here](https://wiki.scummvm.org/index
 ScummVM allows the language to be changed:
 
 - By changing the language in the **Edit Game** settings dialog from the Launcher.
-- By editing the config file. For more information, see the [Configuration page](/advanced/configuration).
-- By changing the language option from the command line at launch. For more information, see the [Command line options](/advanced/command_line) page.
-
+- By editing the config file. For more information, see the [Configuration file](../advanced/configuration) page.
+- By changing the language option from the command line at launch. For more information, see the [Command line options](../advanced/command_line) page.
+````
     jp  - Japanese
     zh  - Chinese
     kr  - Korean
-
+````
 :::note
 Using the language option does not change the language of the game, as this is usually hard-coded. The option merely selects the appropriate font.
 
@@ -485,9 +480,7 @@ The Curse of Monkey Island was the third game in the Monkey Island series, and t
 | | The Curse of Monkey Island|
 |-|-|
 |First release|	1997|
-|Also known as|	Monkey Island 3,
-Monkey 3, MI3,
-COMI, CMI|
+|Also known as|	Monkey Island 3, Monkey 3, MI3, COMI, CMI|
 |Developed by	|LucasArts|
 |Published by	|LucasArts|
 |Distributed by|	Activision|
@@ -515,9 +508,9 @@ Create a ```resource``` subdirectory that contains all of the files from both ``
 ScummVM allows the language to be changed:
 
 - By changing the language in the ```Edit Game``` settings from the Launcher
-- By editing the [config file](/advanced/configuration)
+- By editing the [config file](../advanced/configuration) For more information, see the [Configuration file](../advanced/configuration) page.
 - By changing the language option at launch. For more information, see the [Command line options](/advanced/command_line) page.
-
+````
     en  - English (default)
     de  - German
     fr  - French
@@ -527,7 +520,7 @@ ScummVM allows the language to be changed:
     jp  - Japanese
     zh  - Chinese
     kr  - Korean
-
+````
 :::note
 Using the language option does not change the language of the game, as this is hard-coded. The option merely selects the appropriate font for the chosen language. 
 :::

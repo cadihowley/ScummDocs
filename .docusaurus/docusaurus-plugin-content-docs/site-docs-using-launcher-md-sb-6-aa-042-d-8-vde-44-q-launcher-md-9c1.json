@@ -1,9 +1,0 @@
-{
-  "id": "using/launcher.md.sb-6aa042d8-Vde44Q/launcher",
-  "title": "The Launcher",
-  "description": "This is the ScummVM main window, otherwise called \"Launcher\". You get to the Launcher whenever you start ScummVM without using command-line parameters to launch a game directly.",
-  "source": "@site/docs/using/launcher.md.sb-6aa042d8-Vde44Q/launcher.md",
-  "permalink": "/ScummDocs/using/launcher.md.sb-6aa042d8-Vde44Q/launcher",
-  "editUrl": "https://github.com/ScummDocs/docs/using/launcher.md.sb-6aa042d8-Vde44Q/launcher.md",
-  "sidebar_label": "The Launcher"
-}
