@@ -1,0 +1,18 @@
+{
+  "id": "using/launcher",
+  "title": "The ScummVM Interface",
+  "description": "The Launcher window",
+  "source": "@site/docs/using/launcher.md",
+  "permalink": "/ScummDocs/using/launcher",
+  "editUrl": "https://github.com/ScummDocs/docs/using/launcher.md",
+  "sidebar_label": "The interface",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Installation guide for the Raspberry Pi",
+    "permalink": "/ScummDocs/installation/raspberrypi"
+  },
+  "next": {
+    "title": "Global settings",
+    "permalink": "/ScummDocs/using/global_settings"
+  }
+}

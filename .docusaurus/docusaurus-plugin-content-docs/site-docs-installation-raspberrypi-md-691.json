@@ -3,16 +3,16 @@
   "title": "Installation guide for the Raspberry Pi",
   "description": "Installing ScummVM",
   "source": "@site/docs/installation/raspberrypi.md",
-  "permalink": "/installation/raspberrypi",
+  "permalink": "/ScummDocs/installation/raspberrypi",
   "editUrl": "https://github.com/ScummDocs/docs/installation/raspberrypi.md",
   "sidebar_label": "Raspberry Pi",
   "sidebar": "someSidebar",
   "previous": {
     "title": "Help the Project",
-    "permalink": "/about/help_project"
+    "permalink": "/ScummDocs/about/help_project"
   },
   "next": {
-    "title": "LucasArts games",
-    "permalink": "/games/lucasarts"
+    "title": "The ScummVM Interface",
+    "permalink": "/ScummDocs/using/launcher"
   }
 }

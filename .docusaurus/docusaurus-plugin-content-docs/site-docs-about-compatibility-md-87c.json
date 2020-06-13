@@ -3,16 +3,16 @@
   "title": "Compatibility",
   "description": "At this time ScummVM is still under heavy development.",
   "source": "@site/docs/about/compatibility.md",
-  "permalink": "/about/compatibility",
+  "permalink": "/ScummDocs/about/compatibility",
   "editUrl": "https://github.com/ScummDocs/docs/about/compatibility.md",
   "sidebar_label": "Compatibility",
   "sidebar": "someSidebar",
   "previous": {
     "title": "Supported platforms",
-    "permalink": "/about/supported_platforms"
+    "permalink": "/ScummDocs/about/supported_platforms"
   },
   "next": {
     "title": "Help the Project",
-    "permalink": "/about/help_project"
+    "permalink": "/ScummDocs/about/help_project"
   }
 }

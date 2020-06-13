@@ -22,63 +22,23 @@ The following games all use the [SCUMM](https://wiki.scummvm.org/index.php?title
 |[The Curse of Monkey Island](#comi)|comi|
 
 ---
-## Controls
 
-#### Global menu
+## Keyboard Shortcuts
+In addition to the common [keyboard shortcuts](using/keyboard), SCUMM games have further shortcuts:
+````
 
-The global menu can be reached by pressing Ctrl+F5.
-From this menu there are the following options:
-- **Resume**
-- **Options**. Opens a dialog with basic audio settings
-- **About**
-- **Return to Launcher**. Closes the current game and returns the user to the Launcher
-- Quit 
-
-
-#### Hotkeys
-
-:::note 
-Using Ctrl-f or Ctrl-g is not recommended: games can crash when being run faster than their normal speed, as scripts will lose synchronisation.
-:::
-
-##### Common
-
-    Ctrl-F5                - Displays the Global Menu
-    Cmd-q                  - Quit (Mac OS X)
-    Ctrl-q                 - Quit (other unices including Linux)
-    Alt-F4                 - Quit (Windows)
-    Ctrl-z                 - Quit (other platforms)
-    Ctrl-u                 - Mute all sounds
-    Ctrl-m                 - Toggle mouse capture
-    Ctrl-Alt 1-8           - Switch between graphics filters
-    Ctrl-Alt + and -       - Increase/Decrease the scale factor
-    Ctrl-Alt a             - Toggle aspect-ratio correction on/off
-                             Most of the games use a 320x200 pixel
-                             resolution, which may look squashed on
-                             modern monitors. Aspect-ratio correction
-                             stretches the image to use 320x240 pixels
-                             instead, or a multiple thereof
-    Ctrl-Alt f             - Enable/disable graphics filtering
-    Ctrl-Alt s             - Cycle through scaling modes
-    Alt-Enter              - Toggles full screen/windowed
-    Alt-s                  - Make a screenshot (SDL backend only)
-    Ctrl-F7                - Open virtual keyboard (if enabled)
-                             This can also be triggered by a long press
-                             of the middle mouse button or wheel.
-
-##### SCUMM engine
-    Alt-x                  - Quit
+    Alt+x                  - Quit
     Ctrl 0-9 and Alt 0-9   - Load and save game state
-    Ctrl-d                 - Starts the debugger
-    Ctrl-f                 - Toggle fast mode
-    Ctrl-g                 - Runs in really REALLY fast mode
-    Ctrl-t                 - Switch between 'Speech only',
+    Ctrl+d                 - Starts the debugger
+    Ctrl+f                 - Toggle fast mode
+    Ctrl+g                 - Runs in really REALLY fast mode
+    Ctrl+t                 - Switch between 'Speech only',
                              'Speech and Subtitles' and 'Subtitles only'
     Tilde (~)              - Show/hide the debugging console
     [ and ]                - Music volume, down/up
     - and +                - Text speed, slower/faster
     F5                     - Displays a save/load box
-    Alt-F5                 - Displays the original save/load box, if the
+    Alt+F5                 - Displays the original save/load box, if the
                              game has one. You can save and load games using
                              this, however it is not intended for this purpose,
                              and may even crash ScummVM in some games.
@@ -90,20 +50,7 @@ Using Ctrl-f or Ctrl-g is not recommended: games can crash when being run faster
     Enter                  - Simulate left mouse button press
     Tab                    - Simulate right mouse button press
 
----
-## Copy protection
-
-The ScummVM team does not condone piracy; however, there are cases where game companies such as LucasArts themselves bundled "cracked" executables with their games. In these cases the data files still contain the copy protection scripts, but the interpreter bypasses them in the same way an illegally cracked version would. Unfortunately there is no way for us to tell the difference between legitimate and pirated data files, so for the games where we know that a cracked version of the original interpreter was sold at some point, ScummVM has to bypass the copy protection.
-
-In some cases ScummVM will still show the copy protection screen. Try entering any answer; chances are that it will work.
-
-ScummVM will skip copy protection in the following LucasArts games:
-
-- Loom (EGA DOS)
-- Maniac Mansion
-- Monkey Island 2: LeChuck's Revenge
-- The Secret of Monkey Island (VGA)
-- Zak McKracken and the Alien Mindbenders
+````
 
 ---
 ## Macintosh versions
@@ -234,6 +181,11 @@ Available from [GOG.com](http://gog.com/game/indiana_jones_and_the_last_crusade?
 #### Data files
 
 A list of required data files can be found [here](https://wiki.scummvm.org/index.php?title=Datafiles#Indiana_Jones_and_the_Last_Crusade)
+
+#### Unique Keyboard Shortcuts
+````
+i		Displays IQ points
+````
 
 ---
 

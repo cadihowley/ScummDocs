@@ -3,16 +3,16 @@
   "title": "Help the Project",
   "description": "ScummVM is an open-source project.",
   "source": "@site/docs/about/help_project.md",
-  "permalink": "/about/help_project",
+  "permalink": "/ScummDocs/about/help_project",
   "editUrl": "https://github.com/ScummDocs/docs/about/help_project.md",
   "sidebar_label": "Help the project",
   "sidebar": "someSidebar",
   "previous": {
     "title": "Compatibility",
-    "permalink": "/about/compatibility"
+    "permalink": "/ScummDocs/about/compatibility"
   },
   "next": {
     "title": "Installation guide for the Raspberry Pi",
-    "permalink": "/installation/raspberrypi"
+    "permalink": "/ScummDocs/installation/raspberrypi"
   }
 }

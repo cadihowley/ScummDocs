@@ -6,7 +6,7 @@ export default {
     "sidebarCollapsible": false,
     "navbar": {
       "hideOnScroll": true,
-      "title": "GSOD Proposal 2020",
+      "title": "GSOD 2020",
       "logo": {
         "alt": "ScummVM Logo",
         "src": "img/logo.svg"
@@ -90,8 +90,8 @@ export default {
   },
   "title": "ScummVM",
   "tagline": "Script Creation Utility for Maniac Mansion Virtual Machine",
-  "url": "https://ScummDocs.github.io",
-  "baseUrl": "/",
+  "url": "https://cadihowley.github.io/",
+  "baseUrl": "/ScummDocs/",
   "favicon": "img/favicon.ico",
   "organizationName": "cadihowley",
   "projectName": "ScummDocs",

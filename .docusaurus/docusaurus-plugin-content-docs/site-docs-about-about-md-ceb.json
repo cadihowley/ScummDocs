@@ -3,12 +3,12 @@
   "title": "What is ScummVM?",
   "description": "ScummVM is a program that allows users to run certain classic graphical point-and-click adventure games, provided they already have the game data files. ScummVM replaces the executable files shipped with the games, which means they can be played on systems they were never designed for!",
   "source": "@site/docs/about/about.md",
-  "permalink": "/about/about",
+  "permalink": "/ScummDocs/about/about",
   "editUrl": "https://github.com/ScummDocs/docs/about/about.md",
-  "sidebar_label": "What is ScummVM?",
+  "sidebar_label": "What is it?",
   "sidebar": "someSidebar",
   "next": {
     "title": "How does ScummVM work?",
-    "permalink": "/about/how_work"
+    "permalink": "/ScummDocs/about/how_work"
   }
 }

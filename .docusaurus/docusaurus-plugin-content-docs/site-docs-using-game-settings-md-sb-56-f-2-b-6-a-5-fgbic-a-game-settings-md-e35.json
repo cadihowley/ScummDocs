@@ -1,0 +1,9 @@
+{
+  "id": "using/game_settings.md.sb-56f2b6a5-FgbicA/game_settings",
+  "title": "Game settings",
+  "description": "We can run any of our games using specific settings, overriding the defaults we have set up in the Options menu, by configuring that game separately in the Edit Game window. We get to this window whenever we add a game to the Launcher, or highlight a game and click on the Edit Game button on the right-hand side of the Launcher window. There are many options, and they are separated into tabs:",
+  "source": "@site/docs/using/game_settings.md.sb-56f2b6a5-FgbicA/game_settings.md",
+  "permalink": "/ScummDocs/using/game_settings.md.sb-56f2b6a5-FgbicA/game_settings",
+  "editUrl": "https://github.com/ScummDocs/docs/using/game_settings.md.sb-56f2b6a5-FgbicA/game_settings.md",
+  "sidebar_label": "Game settings"
+}

@@ -1,10 +1,10 @@
 {
-  "/": {
+  "/ScummDocs/": {
     "component": "1be78505",
     "docsMetadata": "5172f806",
     "content": "8c558c4b"
   },
-  "/blog": {
+  "/ScummDocs/blog": {
     "component": "a6aa9e1f",
     "items": [
       {
@@ -17,21 +17,21 @@
         "content": "8e9f0a8a"
       }
     ],
-    "metadata": "bbb4ffb5"
+    "metadata": "ed1ba0fb"
   },
-  "/blog/hello-world": {
+  "/ScummDocs/blog/hello-world": {
     "component": "ccc49370",
     "content": "d610846f"
   },
-  "/blog/hola": {
+  "/ScummDocs/blog/hola": {
     "component": "ccc49370",
     "content": "bdd709f1"
   },
-  "/blog/tags": {
+  "/ScummDocs/blog/tags": {
     "component": "01a85c17",
-    "tags": "8be5b89e"
+    "tags": "bb353581"
   },
-  "/blog/tags/docusaurus": {
+  "/ScummDocs/blog/tags/docusaurus": {
     "component": "6875c492",
     "items": [
       {
@@ -44,18 +44,18 @@
         "content": "8e9f0a8a"
       }
     ],
-    "metadata": "6ca375e2"
+    "metadata": "c79bfd83"
   },
-  "/blog/tags/facebook": {
+  "/ScummDocs/blog/tags/facebook": {
     "component": "6875c492",
     "items": [
       {
         "content": "af172acd"
       }
     ],
-    "metadata": "eec15bdb"
+    "metadata": "b16e85a7"
   },
-  "/blog/tags/hello": {
+  "/ScummDocs/blog/tags/hello": {
     "component": "6875c492",
     "items": [
       {
@@ -65,67 +65,83 @@
         "content": "3570154c"
       }
     ],
-    "metadata": "3a6eb64e"
+    "metadata": "aa26aa17"
   },
-  "/blog/tags/hola": {
+  "/ScummDocs/blog/tags/hola": {
     "component": "6875c492",
     "items": [
       {
         "content": "8e9f0a8a"
       }
     ],
-    "metadata": "31d49d87"
+    "metadata": "53b14c7e"
   },
-  "/blog/welcome": {
+  "/ScummDocs/blog/welcome": {
     "component": "ccc49370",
     "content": "2868cdab"
   },
-  "/:route": {
+  "/ScummDocs/:route": {
     "component": "1be78505",
-    "docsMetadata": "ec1ed54d"
+    "docsMetadata": "10b1394a"
   },
-  "/about/about": {
+  "/ScummDocs/about/about": {
     "component": "17896441",
     "content": "ceb5ae55"
   },
-  "/about/compatibility": {
+  "/ScummDocs/about/compatibility": {
     "component": "17896441",
     "content": "87c4c987"
   },
-  "/about/help_project": {
+  "/ScummDocs/about/help_project": {
     "component": "17896441",
     "content": "e4ef6dc7"
   },
-  "/about/how_work": {
+  "/ScummDocs/about/how_work": {
     "component": "17896441",
     "content": "b9df8730"
   },
-  "/about/supported_games": {
+  "/ScummDocs/about/supported_games": {
     "component": "17896441",
     "content": "a831a84e"
   },
-  "/about/supported_platforms": {
+  "/ScummDocs/about/supported_platforms": {
     "component": "17896441",
     "content": "5c0da15a"
   },
-  "/advanced/command_line": {
+  "/ScummDocs/advanced/command_line": {
     "component": "17896441",
     "content": "bb954fde"
   },
-  "/advanced/configuration": {
+  "/ScummDocs/advanced/configuration": {
     "component": "17896441",
-    "content": "97a009a6"
+    "content": "d44590cc"
   },
-  "/games/lucasarts": {
+  "/ScummDocs/games/lucasarts": {
     "component": "17896441",
     "content": "8e8e0898"
   },
-  "/installation/deleted_rpi_steps": {
+  "/ScummDocs/installation/deleted_rpi_steps": {
     "component": "17896441",
     "content": "cbe1eb6d"
   },
-  "/installation/raspberrypi": {
+  "/ScummDocs/installation/raspberrypi": {
     "component": "17896441",
     "content": "691bd1b7"
+  },
+  "/ScummDocs/using/game_settings": {
+    "component": "17896441",
+    "content": "b25c27e8"
+  },
+  "/ScummDocs/using/global_settings": {
+    "component": "17896441",
+    "content": "0b98f04c"
+  },
+  "/ScummDocs/using/keyboard": {
+    "component": "17896441",
+    "content": "8a5b3de9"
+  },
+  "/ScummDocs/using/launcher": {
+    "component": "17896441",
+    "content": "9bea9a39"
   }
 }

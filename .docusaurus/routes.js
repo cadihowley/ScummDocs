@@ -5,139 +5,163 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   
 {
-  path: '/',
-  component: ComponentCreator('/'),
+  path: '/ScummDocs/',
+  component: ComponentCreator('/ScummDocs/'),
   exact: true,
   
 },
 {
-  path: '/',
-  component: ComponentCreator('/'),
+  path: '/ScummDocs/',
+  component: ComponentCreator('/ScummDocs/'),
   exact: true,
   
 },
 {
-  path: '/blog',
-  component: ComponentCreator('/blog'),
+  path: '/ScummDocs/blog',
+  component: ComponentCreator('/ScummDocs/blog'),
   exact: true,
   
 },
 {
-  path: '/blog/hello-world',
-  component: ComponentCreator('/blog/hello-world'),
+  path: '/ScummDocs/blog/hello-world',
+  component: ComponentCreator('/ScummDocs/blog/hello-world'),
   exact: true,
   
 },
 {
-  path: '/blog/hola',
-  component: ComponentCreator('/blog/hola'),
+  path: '/ScummDocs/blog/hola',
+  component: ComponentCreator('/ScummDocs/blog/hola'),
   exact: true,
   
 },
 {
-  path: '/blog/tags',
-  component: ComponentCreator('/blog/tags'),
+  path: '/ScummDocs/blog/tags',
+  component: ComponentCreator('/ScummDocs/blog/tags'),
   exact: true,
   
 },
 {
-  path: '/blog/tags/docusaurus',
-  component: ComponentCreator('/blog/tags/docusaurus'),
+  path: '/ScummDocs/blog/tags/docusaurus',
+  component: ComponentCreator('/ScummDocs/blog/tags/docusaurus'),
   exact: true,
   
 },
 {
-  path: '/blog/tags/facebook',
-  component: ComponentCreator('/blog/tags/facebook'),
+  path: '/ScummDocs/blog/tags/facebook',
+  component: ComponentCreator('/ScummDocs/blog/tags/facebook'),
   exact: true,
   
 },
 {
-  path: '/blog/tags/hello',
-  component: ComponentCreator('/blog/tags/hello'),
+  path: '/ScummDocs/blog/tags/hello',
+  component: ComponentCreator('/ScummDocs/blog/tags/hello'),
   exact: true,
   
 },
 {
-  path: '/blog/tags/hola',
-  component: ComponentCreator('/blog/tags/hola'),
+  path: '/ScummDocs/blog/tags/hola',
+  component: ComponentCreator('/ScummDocs/blog/tags/hola'),
   exact: true,
   
 },
 {
-  path: '/blog/welcome',
-  component: ComponentCreator('/blog/welcome'),
+  path: '/ScummDocs/blog/welcome',
+  component: ComponentCreator('/ScummDocs/blog/welcome'),
   exact: true,
   
 },
 {
-  path: '/:route',
-  component: ComponentCreator('/:route'),
+  path: '/ScummDocs/:route',
+  component: ComponentCreator('/ScummDocs/:route'),
   
   routes: [
 {
-  path: '/about/about',
-  component: ComponentCreator('/about/about'),
+  path: '/ScummDocs/about/about',
+  component: ComponentCreator('/ScummDocs/about/about'),
   exact: true,
   
 },
 {
-  path: '/about/compatibility',
-  component: ComponentCreator('/about/compatibility'),
+  path: '/ScummDocs/about/compatibility',
+  component: ComponentCreator('/ScummDocs/about/compatibility'),
   exact: true,
   
 },
 {
-  path: '/about/help_project',
-  component: ComponentCreator('/about/help_project'),
+  path: '/ScummDocs/about/help_project',
+  component: ComponentCreator('/ScummDocs/about/help_project'),
   exact: true,
   
 },
 {
-  path: '/about/how_work',
-  component: ComponentCreator('/about/how_work'),
+  path: '/ScummDocs/about/how_work',
+  component: ComponentCreator('/ScummDocs/about/how_work'),
   exact: true,
   
 },
 {
-  path: '/about/supported_games',
-  component: ComponentCreator('/about/supported_games'),
+  path: '/ScummDocs/about/supported_games',
+  component: ComponentCreator('/ScummDocs/about/supported_games'),
   exact: true,
   
 },
 {
-  path: '/about/supported_platforms',
-  component: ComponentCreator('/about/supported_platforms'),
+  path: '/ScummDocs/about/supported_platforms',
+  component: ComponentCreator('/ScummDocs/about/supported_platforms'),
   exact: true,
   
 },
 {
-  path: '/advanced/command_line',
-  component: ComponentCreator('/advanced/command_line'),
+  path: '/ScummDocs/advanced/command_line',
+  component: ComponentCreator('/ScummDocs/advanced/command_line'),
   exact: true,
   
 },
 {
-  path: '/advanced/configuration',
-  component: ComponentCreator('/advanced/configuration'),
+  path: '/ScummDocs/advanced/configuration',
+  component: ComponentCreator('/ScummDocs/advanced/configuration'),
   exact: true,
   
 },
 {
-  path: '/games/lucasarts',
-  component: ComponentCreator('/games/lucasarts'),
+  path: '/ScummDocs/games/lucasarts',
+  component: ComponentCreator('/ScummDocs/games/lucasarts'),
   exact: true,
   
 },
 {
-  path: '/installation/deleted_rpi_steps',
-  component: ComponentCreator('/installation/deleted_rpi_steps'),
+  path: '/ScummDocs/installation/deleted_rpi_steps',
+  component: ComponentCreator('/ScummDocs/installation/deleted_rpi_steps'),
   exact: true,
   
 },
 {
-  path: '/installation/raspberrypi',
-  component: ComponentCreator('/installation/raspberrypi'),
+  path: '/ScummDocs/installation/raspberrypi',
+  component: ComponentCreator('/ScummDocs/installation/raspberrypi'),
+  exact: true,
+  
+},
+{
+  path: '/ScummDocs/using/game_settings',
+  component: ComponentCreator('/ScummDocs/using/game_settings'),
+  exact: true,
+  
+},
+{
+  path: '/ScummDocs/using/global_settings',
+  component: ComponentCreator('/ScummDocs/using/global_settings'),
+  exact: true,
+  
+},
+{
+  path: '/ScummDocs/using/keyboard',
+  component: ComponentCreator('/ScummDocs/using/keyboard'),
+  exact: true,
+  
+},
+{
+  path: '/ScummDocs/using/launcher',
+  component: ComponentCreator('/ScummDocs/using/launcher'),
   exact: true,
   
 }],

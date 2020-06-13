@@ -1,7 +1,7 @@
 ---
 id: about
 title: What is ScummVM?
-sidebar_label: What is ScummVM?
+sidebar_label: What is it?
 ---
 
 ScummVM is a program that allows users to run certain classic graphical point-and-click adventure games, provided they already have the game data files. ScummVM replaces the executable files shipped with the games, which means they can be played on systems they were never designed for!

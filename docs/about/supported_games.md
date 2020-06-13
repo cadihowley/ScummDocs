@@ -15,19 +15,19 @@ While the ScummVM team does not recommend any individual supplier of games, the 
 |  Game             | Game ID             |
 | --------------|------------ |
 | **LucasArts (SCUMM) Games:** | |
-| [Maniac Mansion](/games/lucasarts#maniac)| [maniac]|
-| [Zak McKracken and the Alien Mindbenders](/games/lucasarts#zak) | [zak]      |
-| [Indiana Jones and the Last Crusade](/games/lucasarts#indy3)      |[indy3]    |
-| [Loom](/games/lucasarts#loom)          | [loom]     |
-| [Passport to Adventure](/games/lucasarts#pass) | [pass]|
-| [The Secret of Monkey Island](/games/lucasarts#monkey)| [monkey]|
-| [Monkey Island 2: LeChuck's Revenge](/games/lucasarts#monkey2)      |[monkey2]  |
-| [Indiana Jones and the Fate of Atlantis](/games/lucasarts#atlantis)  | [atlantis] |
-| [Day of the Tentacle](/games/lucasarts#tentacle)                     | [tentacle] |
-| [Sam & Max Hit the Road](/games/lucasarts#tentacle) | [samnmax]  |
-| [Full Throttle](/games/lucasarts#ft)        | [ft]       |
-| [The Dig](/games/lucasarts#dig)| [dig]      |
-| [The Curse of Monkey Island](/games/lucasarts#comi)|[comi]|
+| [Maniac Mansion](../games/lucasarts#maniac)| [maniac]|
+| [Zak McKracken and the Alien Mindbenders](../games/lucasarts#zak) | [zak]      |
+| [Indiana Jones and the Last Crusade](../games/lucasarts#indy3)      |[indy3]    |
+| [Loom](../games/lucasarts#loom)          | [loom]     |
+| [Passport to Adventure](../games/lucasarts#pass) | [pass]|
+| [The Secret of Monkey Island](../games/lucasarts#monkey)| [monkey]|
+| [Monkey Island 2: LeChuck's Revenge](../games/lucasarts#monkey2)      |[monkey2]  |
+| [Indiana Jones and the Fate of Atlantis](../games/lucasarts#atlantis)  | [atlantis] |
+| [Day of the Tentacle](../games/lucasarts#tentacle)                     | [tentacle] |
+| [Sam & Max Hit the Road](../games/lucasarts#tentacle) | [samnmax]  |
+| [Full Throttle](../games/lucasarts#ft)        | [ft]       |
+| [The Dig](../games/lucasarts#dig)| [dig]      |
+| [The Curse of Monkey Island](../games/lucasarts#comi)|[comi]|
 | **Activision (MADE) Games**      |             |
 | Leather Goddesses of Phobos 2 | \[lgop2\]   |
 | The Manhole                   | \[manhole\] |

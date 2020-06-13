@@ -66,24 +66,35 @@ mygames
 
 
 1. From the Applications menu, select **Games&nbsp;>&nbsp;ScummVM** to open the Launcher window.
-![](/img/RaspberryPi/launch_scummvm_rpi.jpg)
+
+<img
+  alt=" "
+  src={useBaseUrl('img/RaspberryPi/launch_scummvm_rpi.jpg')}
+/>
 
 2. In the Launcher window, click **Add Game**. This opens a file browser. To add multiple games at once, hold ```Shift``` while clicking **Add Game**.
 
-![](/img/RaspberryPi/blank_launcher_rpi.jpg)
+<img
+  alt=" "
+  src={useBaseUrl('img/RaspberryPi/blank_launcher_rpi.jpg')}
+/>
 
 3. Use the file browser to locate the folder containing the game you wish to add. Double click on a folder to open it, and use **Go up** to go back up one level. 
 
 
 4. Once you have selected the folder that contains the data files, click **Choose**. 
 
-![](/img/RaspberryPi/adding_games_rpi.jpg)
-
+<img
+  alt=" "
+  src={useBaseUrl('img/RaspberryPi/adding_games.jpg')}
+/>
 
 5.  A dialog opens to allow configuration of various settings for the game. These can be reconfigured at any time, but for now everything should work at the default settings. Click **Ok**. 
 
-![](/img/RaspberryPi/game_info_rpi.jpg)
-
+<img
+  alt=" "
+  src={useBaseUrl('img/RaspberryPi/game_info_rpi.jpg')}
+/>
 
 6. Added games are now ready to launch!
 

@@ -8,13 +8,13 @@
       2,
       3,
       4,
-      5,
-      6,
-      13,
+      7,
+      8,
+      14,
       22,
-      29,
-      31,
-      39,
+      32,
+      35,
+      43,
       1
     ],
     "2": [
@@ -22,22 +22,22 @@
       1,
       3,
       4,
-      6,
-      13,
+      8,
+      14,
       22,
-      29,
-      31,
-      39,
+      32,
+      35,
+      43,
       2
     ],
     "3": [
       0,
       1,
       2,
-      6,
-      13,
+      8,
+      14,
       22,
-      31,
+      35,
       3
     ],
     "styles": [
@@ -45,16 +45,16 @@
       2,
       3,
       4,
-      5,
-      6,
-      13,
+      7,
+      8,
+      14,
       22,
-      26,
-      29,
-      31,
-      37,
-      38,
-      39,
+      30,
+      32,
+      35,
+      41,
+      42,
+      43,
       0
     ],
     "@theme/BlogTagsListPage": [
@@ -63,61 +63,61 @@
       2,
       4
     ],
+    "@site/docs/using/global_settings.md": [
+      5
+    ],
+    "~docs/scumm-docs-route-24f.json": [
+      6
+    ],
     "@theme/DocItem": [
       0,
       1,
       2,
       3,
-      6
+      8
     ],
     "@theme/DocPage": [
       0,
       1,
       2,
       3,
-      6
+      8
     ],
     "@theme/NotFound": [
       0,
       1,
       2,
-      39
+      43
     ],
     "@site/blog/2019-05-30-welcome.md": [
-      7
-    ],
-    "~blog/blog-tags-hola-ea2.json": [
-      8
-    ],
-    "@site/blog/2019-05-29-hello-world.md?truncated=true": [
       9
     ],
-    "~blog/blog-tags-hello-039.json": [
+    "@site/blog/2019-05-29-hello-world.md?truncated=true": [
       10
     ],
     "~docs/site-docs-index-md-8c5-base.json": [
       11
     ],
-    "@site/docs/about/supported_platforms.md": [
+    "~blog/scumm-docs-blog-tags-hola-9e3.json": [
       12
+    ],
+    "@site/docs/about/supported_platforms.md": [
+      13
     ],
     "@theme/BlogTagsPostsPage": [
       0,
       1,
       2,
       3,
-      13
-    ],
-    "@site/docs/installation/raspberrypi.md": [
       14
     ],
-    "~blog/blog-tags-docusaurus-0e0.json": [
+    "@site/docs/installation/raspberrypi.md": [
       15
     ],
     "@site/docs/about/compatibility.md": [
       16
     ],
-    "~blog/blog-tags-tags-4c2.json": [
+    "@site/docs/using/keyboard.md": [
       17
     ],
     "@site/docs/_index.md": [
@@ -129,7 +129,7 @@
     "@site/blog/2019-05-28-hola.md?truncated=true": [
       20
     ],
-    "@site/docs/advanced/configuration.md": [
+    "@site/docs/using/launcher.md": [
       21
     ],
     "@theme/BlogListPage": [
@@ -142,62 +142,74 @@
     "@site/docs/about/supported_games.md": [
       23
     ],
-    "@site/blog/2019-05-30-welcome.md?truncated=true": [
+    "~blog/scumm-docs-blog-tags-hello-27a.json": [
       24
     ],
-    "@site/docs/about/how_does_it_work.md": [
+    "@site/blog/2019-05-30-welcome.md?truncated=true": [
       25
+    ],
+    "~blog/scumm-docs-blog-tags-facebook-e35.json": [
+      26
+    ],
+    "@site/docs/using/game_settings.md": [
+      27
+    ],
+    "@site/docs/about/how_does_it_work.md": [
+      28
+    ],
+    "~blog/scumm-docs-blog-tags-tags-53b.json": [
+      29
     ],
     "@site/docs/advanced/command_line.md": [
       0,
-      26
-    ],
-    "~blog/blog-c06.json": [
-      27
+      30
     ],
     "@site/blog/2019-05-28-hola.md": [
-      28
+      31
     ],
     "@site/src/pages/index.js": [
       0,
       1,
       2,
-      29
+      32
+    ],
+    "~blog/scumm-docs-blog-tags-docusaurus-da5.json": [
+      33
     ],
     "@site/docs/installation/deleted_rpi_steps.md": [
-      30
+      34
     ],
     "@theme/BlogPostPage": [
       0,
       1,
       2,
       3,
-      31
-    ],
-    "@site/docs/about/about.md": [
-      32
-    ],
-    "@site/blog/2019-05-29-hello-world.md": [
-      33
-    ],
-    "@site/docs/about/help_project.md": [
-      34
-    ],
-    "~docs/route-9ee.json": [
       35
     ],
-    "~blog/blog-tags-facebook-038.json": [
+    "@site/docs/about/about.md": [
       36
+    ],
+    "@site/docs/advanced/configuration_file.md": [
+      37
+    ],
+    "@site/blog/2019-05-29-hello-world.md": [
+      38
+    ],
+    "@site/docs/about/help_project.md": [
+      39
+    ],
+    "~blog/scumm-docs-blog-82b.json": [
+      40
     ],
     "main": [
       0,
-      38,
-      37
+      42,
+      41
     ],
     "runtime~main": [
       0,
-      37,
-      38
+      41,
+      42
     ]
   },
   "assets": {
@@ -205,357 +217,393 @@
       "css": [
         {
           "file": "styles.7904e23d.css",
-          "hash": "7e7966b697f7060ce63b",
-          "publicPath": "/styles.7904e23d.css"
+          "hash": "a73bd752ed7a96715f89",
+          "publicPath": "/ScummDocs/styles.7904e23d.css"
         }
       ],
       "js": [
         {
-          "file": "styles.efe3ee92.js",
-          "hash": "7e7966b697f7060ce63b",
-          "publicPath": "/styles.efe3ee92.js"
+          "file": "styles.04e289a1.js",
+          "hash": "a73bd752ed7a96715f89",
+          "publicPath": "/ScummDocs/styles.04e289a1.js"
         }
       ]
     },
     "1": {
       "js": [
         {
-          "file": "1.47db27d6.js",
-          "hash": "1b936d4dffd73011c75c",
-          "publicPath": "/1.47db27d6.js"
+          "file": "1.e4f6e0e5.js",
+          "hash": "cc4eed7244be716b526d",
+          "publicPath": "/ScummDocs/1.e4f6e0e5.js"
         }
       ]
     },
     "2": {
       "js": [
         {
-          "file": "2.09139ec2.js",
-          "hash": "3da86d9750bf06fa0db8",
-          "publicPath": "/2.09139ec2.js"
+          "file": "2.95fe1513.js",
+          "hash": "9979cdd35b4794e6f0ca",
+          "publicPath": "/ScummDocs/2.95fe1513.js"
         }
       ]
     },
     "3": {
       "js": [
         {
-          "file": "3.48724622.js",
-          "hash": "409b60b8fd1782429f58",
-          "publicPath": "/3.48724622.js"
+          "file": "3.c25fcb2e.js",
+          "hash": "b5ea5483d7e6f7bb0af2",
+          "publicPath": "/ScummDocs/3.c25fcb2e.js"
         }
       ]
     },
     "4": {
       "js": [
         {
-          "file": "01a85c17.bdb2040d.js",
-          "hash": "dd18f02a61fc4bcdddf0",
-          "publicPath": "/01a85c17.bdb2040d.js"
+          "file": "01a85c17.c1f67596.js",
+          "hash": "9ece63eec2b7cbaca791",
+          "publicPath": "/ScummDocs/01a85c17.c1f67596.js"
+        }
+      ]
+    },
+    "5": {
+      "js": [
+        {
+          "file": "0b98f04c.645d5c63.js",
+          "hash": "57c5596409b28c43668d",
+          "publicPath": "/ScummDocs/0b98f04c.645d5c63.js"
         }
       ]
     },
     "6": {
       "js": [
         {
-          "file": "1be78505.e4cddd5d.js",
-          "hash": "4efb0c965c090a1af375",
-          "publicPath": "/1be78505.e4cddd5d.js"
-        }
-      ]
-    },
-    "7": {
-      "js": [
-        {
-          "file": "2868cdab.d4319cf9.js",
-          "hash": "03d9876be6d27180169f",
-          "publicPath": "/2868cdab.d4319cf9.js"
+          "file": "10b1394a.58a86ee4.js",
+          "hash": "a6926eafb57000920e92",
+          "publicPath": "/ScummDocs/10b1394a.58a86ee4.js"
         }
       ]
     },
     "8": {
       "js": [
         {
-          "file": "31d49d87.7d89dd49.js",
-          "hash": "1c3d384757b501a85b6b",
-          "publicPath": "/31d49d87.7d89dd49.js"
+          "file": "1be78505.81d26150.js",
+          "hash": "2f9c4538e2d5f72d3386",
+          "publicPath": "/ScummDocs/1be78505.81d26150.js"
         }
       ]
     },
     "9": {
       "js": [
         {
-          "file": "3570154c.b3487755.js",
-          "hash": "4a3935aa671138dace0c",
-          "publicPath": "/3570154c.b3487755.js"
+          "file": "2868cdab.389b7003.js",
+          "hash": "cdcc3a1500680ee82a0a",
+          "publicPath": "/ScummDocs/2868cdab.389b7003.js"
         }
       ]
     },
     "10": {
       "js": [
         {
-          "file": "3a6eb64e.c826494c.js",
-          "hash": "40fbe0262611f8a332ce",
-          "publicPath": "/3a6eb64e.c826494c.js"
+          "file": "3570154c.140b9d73.js",
+          "hash": "d4ca51297f62e7ac1058",
+          "publicPath": "/ScummDocs/3570154c.140b9d73.js"
         }
       ]
     },
     "11": {
       "js": [
         {
-          "file": "5172f806.d9c04876.js",
-          "hash": "d53527f2de6fee7a461c",
-          "publicPath": "/5172f806.d9c04876.js"
+          "file": "5172f806.a63f0f1f.js",
+          "hash": "2ecc6d9e79204368d8e8",
+          "publicPath": "/ScummDocs/5172f806.a63f0f1f.js"
         }
       ]
     },
     "12": {
       "js": [
         {
-          "file": "5c0da15a.eb443b37.js",
-          "hash": "aa4c3e21e61d3b1a3065",
-          "publicPath": "/5c0da15a.eb443b37.js"
+          "file": "53b14c7e.deca5049.js",
+          "hash": "837e7935b1d846e44a61",
+          "publicPath": "/ScummDocs/53b14c7e.deca5049.js"
         }
       ]
     },
     "13": {
       "js": [
         {
-          "file": "6875c492.ee42ce1d.js",
-          "hash": "3d5cc18bc05173ad9e98",
-          "publicPath": "/6875c492.ee42ce1d.js"
+          "file": "5c0da15a.4f9eb4b1.js",
+          "hash": "8a4377e10161a5ff0d61",
+          "publicPath": "/ScummDocs/5c0da15a.4f9eb4b1.js"
         }
       ]
     },
     "14": {
       "js": [
         {
-          "file": "691bd1b7.ebd2ea4b.js",
-          "hash": "c705690fce780465d7ca",
-          "publicPath": "/691bd1b7.ebd2ea4b.js"
+          "file": "6875c492.0f5ba5a3.js",
+          "hash": "399f612bf0c676497fd8",
+          "publicPath": "/ScummDocs/6875c492.0f5ba5a3.js"
         }
       ]
     },
     "15": {
       "js": [
         {
-          "file": "6ca375e2.06b18f8f.js",
-          "hash": "fa156258fdeac5581268",
-          "publicPath": "/6ca375e2.06b18f8f.js"
+          "file": "691bd1b7.7aa3355c.js",
+          "hash": "97e1557cc4311e25903e",
+          "publicPath": "/ScummDocs/691bd1b7.7aa3355c.js"
         }
       ]
     },
     "16": {
       "js": [
         {
-          "file": "87c4c987.a0b9f633.js",
-          "hash": "2d4094f014fdb065c11c",
-          "publicPath": "/87c4c987.a0b9f633.js"
+          "file": "87c4c987.765f3a13.js",
+          "hash": "c35efeda0a79a63a3812",
+          "publicPath": "/ScummDocs/87c4c987.765f3a13.js"
         }
       ]
     },
     "17": {
       "js": [
         {
-          "file": "8be5b89e.bf3ed92e.js",
-          "hash": "8a4ea1494d94eedf6a5a",
-          "publicPath": "/8be5b89e.bf3ed92e.js"
+          "file": "8a5b3de9.88fa535c.js",
+          "hash": "44cdd29b7b2ef73a1fc1",
+          "publicPath": "/ScummDocs/8a5b3de9.88fa535c.js"
         }
       ]
     },
     "18": {
       "js": [
         {
-          "file": "8c558c4b.f23ba8d7.js",
-          "hash": "e74538d23121194a6a0d",
-          "publicPath": "/8c558c4b.f23ba8d7.js"
+          "file": "8c558c4b.921c32f1.js",
+          "hash": "b2d1633cdcb2e855fdd5",
+          "publicPath": "/ScummDocs/8c558c4b.921c32f1.js"
         }
       ]
     },
     "19": {
       "js": [
         {
-          "file": "8e8e0898.c4e7ae8d.js",
-          "hash": "60abd7eb9a952989e4a7",
-          "publicPath": "/8e8e0898.c4e7ae8d.js"
+          "file": "8e8e0898.46db1c73.js",
+          "hash": "44a69670e503fe14eee0",
+          "publicPath": "/ScummDocs/8e8e0898.46db1c73.js"
         }
       ]
     },
     "20": {
       "js": [
         {
-          "file": "8e9f0a8a.281228b0.js",
-          "hash": "71923f4c53422d69e159",
-          "publicPath": "/8e9f0a8a.281228b0.js"
+          "file": "8e9f0a8a.b7ceaa38.js",
+          "hash": "243ea5165b5574194eef",
+          "publicPath": "/ScummDocs/8e9f0a8a.b7ceaa38.js"
         }
       ]
     },
     "21": {
       "js": [
         {
-          "file": "97a009a6.fb1182d4.js",
-          "hash": "d5f3f6262707bdb99ba7",
-          "publicPath": "/97a009a6.fb1182d4.js"
+          "file": "9bea9a39.2ac43916.js",
+          "hash": "914665334a5ec4fdc17d",
+          "publicPath": "/ScummDocs/9bea9a39.2ac43916.js"
         }
       ]
     },
     "22": {
       "js": [
         {
-          "file": "a6aa9e1f.b005b1d9.js",
-          "hash": "271981d25cdfa10022c8",
-          "publicPath": "/a6aa9e1f.b005b1d9.js"
+          "file": "a6aa9e1f.c1e11b69.js",
+          "hash": "2f05a5b79fe15ca1ede7",
+          "publicPath": "/ScummDocs/a6aa9e1f.c1e11b69.js"
         }
       ]
     },
     "23": {
       "js": [
         {
-          "file": "a831a84e.8eed2080.js",
-          "hash": "ac5db0dd7276d0205c03",
-          "publicPath": "/a831a84e.8eed2080.js"
+          "file": "a831a84e.7a7e9165.js",
+          "hash": "126e399be936e19c3ec1",
+          "publicPath": "/ScummDocs/a831a84e.7a7e9165.js"
         }
       ]
     },
     "24": {
       "js": [
         {
-          "file": "af172acd.6321359f.js",
-          "hash": "869f5c1f1cd5063680a4",
-          "publicPath": "/af172acd.6321359f.js"
+          "file": "aa26aa17.59b63e1a.js",
+          "hash": "d10726a98f5367aded97",
+          "publicPath": "/ScummDocs/aa26aa17.59b63e1a.js"
         }
       ]
     },
     "25": {
       "js": [
         {
-          "file": "b9df8730.5457db92.js",
-          "hash": "02550ace94e530ce628c",
-          "publicPath": "/b9df8730.5457db92.js"
+          "file": "af172acd.6562406d.js",
+          "hash": "5776b2df091add23d1d7",
+          "publicPath": "/ScummDocs/af172acd.6562406d.js"
         }
       ]
     },
     "26": {
       "js": [
         {
-          "file": "bb954fde.4893d5ef.js",
-          "hash": "e47d5bcad1edb69179ee",
-          "publicPath": "/bb954fde.4893d5ef.js"
+          "file": "b16e85a7.399e4dd2.js",
+          "hash": "c0aa10abe500c69f025d",
+          "publicPath": "/ScummDocs/b16e85a7.399e4dd2.js"
         }
       ]
     },
     "27": {
       "js": [
         {
-          "file": "bbb4ffb5.7a4eabb2.js",
-          "hash": "7c96e9b5c4504559da1c",
-          "publicPath": "/bbb4ffb5.7a4eabb2.js"
+          "file": "b25c27e8.0a65f45b.js",
+          "hash": "d186a81e6f2728116c51",
+          "publicPath": "/ScummDocs/b25c27e8.0a65f45b.js"
         }
       ]
     },
     "28": {
       "js": [
         {
-          "file": "bdd709f1.1d1f1977.js",
-          "hash": "94cd9ae3a20cdf89f0d9",
-          "publicPath": "/bdd709f1.1d1f1977.js"
+          "file": "b9df8730.c32e51fc.js",
+          "hash": "ced9aaca95473ee678d0",
+          "publicPath": "/ScummDocs/b9df8730.c32e51fc.js"
         }
       ]
     },
     "29": {
       "js": [
         {
-          "file": "c4f5d8e4.4ced7396.js",
-          "hash": "7d90255ca0d90b917744",
-          "publicPath": "/c4f5d8e4.4ced7396.js"
+          "file": "bb353581.ea1e311c.js",
+          "hash": "5a8aecf2f6e0bbeddead",
+          "publicPath": "/ScummDocs/bb353581.ea1e311c.js"
         }
       ]
     },
     "30": {
       "js": [
         {
-          "file": "cbe1eb6d.83732391.js",
-          "hash": "165052a3cc78b60c7cc0",
-          "publicPath": "/cbe1eb6d.83732391.js"
+          "file": "bb954fde.c5d36a81.js",
+          "hash": "ead5b78fe7746e0f863b",
+          "publicPath": "/ScummDocs/bb954fde.c5d36a81.js"
         }
       ]
     },
     "31": {
       "js": [
         {
-          "file": "ccc49370.4e6a5b3a.js",
-          "hash": "c5f8a15328def173942d",
-          "publicPath": "/ccc49370.4e6a5b3a.js"
+          "file": "bdd709f1.84458b9b.js",
+          "hash": "821325ce10facf7301b6",
+          "publicPath": "/ScummDocs/bdd709f1.84458b9b.js"
         }
       ]
     },
     "32": {
       "js": [
         {
-          "file": "ceb5ae55.16c0f0dc.js",
-          "hash": "4b7244b0433b35cc360c",
-          "publicPath": "/ceb5ae55.16c0f0dc.js"
+          "file": "c4f5d8e4.719b722e.js",
+          "hash": "eab2a8d785fec99e8e8d",
+          "publicPath": "/ScummDocs/c4f5d8e4.719b722e.js"
         }
       ]
     },
     "33": {
       "js": [
         {
-          "file": "d610846f.0ec75065.js",
-          "hash": "0a65776f6b3a6ef20f8e",
-          "publicPath": "/d610846f.0ec75065.js"
+          "file": "c79bfd83.5c630aa7.js",
+          "hash": "37fce8e31aebe83e2b29",
+          "publicPath": "/ScummDocs/c79bfd83.5c630aa7.js"
         }
       ]
     },
     "34": {
       "js": [
         {
-          "file": "e4ef6dc7.41638133.js",
-          "hash": "667a46e034afb78de31f",
-          "publicPath": "/e4ef6dc7.41638133.js"
+          "file": "cbe1eb6d.ac6cd581.js",
+          "hash": "2caed994b2be740ba73b",
+          "publicPath": "/ScummDocs/cbe1eb6d.ac6cd581.js"
         }
       ]
     },
     "35": {
       "js": [
         {
-          "file": "ec1ed54d.9dd28b78.js",
-          "hash": "1baf27fb6aff2981355d",
-          "publicPath": "/ec1ed54d.9dd28b78.js"
+          "file": "ccc49370.d037201d.js",
+          "hash": "7c80f0b6156d0d220572",
+          "publicPath": "/ScummDocs/ccc49370.d037201d.js"
         }
       ]
     },
     "36": {
       "js": [
         {
-          "file": "eec15bdb.0b698a43.js",
-          "hash": "0db0200220cf524fb389",
-          "publicPath": "/eec15bdb.0b698a43.js"
+          "file": "ceb5ae55.01e88631.js",
+          "hash": "7e9c86ce20a1792dd9e7",
+          "publicPath": "/ScummDocs/ceb5ae55.01e88631.js"
         }
       ]
     },
     "37": {
       "js": [
         {
-          "file": "main.0b844585.js",
-          "hash": "c87afa474351e599e94b",
-          "publicPath": "/main.0b844585.js"
+          "file": "d44590cc.d09f7cc2.js",
+          "hash": "2de97ee1a93b9f307bfb",
+          "publicPath": "/ScummDocs/d44590cc.d09f7cc2.js"
         }
       ]
     },
     "38": {
       "js": [
         {
-          "file": "runtime~main.5ba9be97.js",
-          "hash": "dc6bd108b4723298e18e",
-          "publicPath": "/runtime~main.5ba9be97.js"
+          "file": "d610846f.152672b8.js",
+          "hash": "2cee393039cf4947ebd3",
+          "publicPath": "/ScummDocs/d610846f.152672b8.js"
         }
       ]
     },
     "39": {
       "js": [
         {
-          "file": "39.a03b4b24.js",
-          "hash": "a3eacf943b3eac521a51",
-          "publicPath": "/39.a03b4b24.js"
+          "file": "e4ef6dc7.62184f49.js",
+          "hash": "19b3dec2e945d5d8a725",
+          "publicPath": "/ScummDocs/e4ef6dc7.62184f49.js"
+        }
+      ]
+    },
+    "40": {
+      "js": [
+        {
+          "file": "ed1ba0fb.a8fd4f9f.js",
+          "hash": "6be6ba4fe607b3333e6e",
+          "publicPath": "/ScummDocs/ed1ba0fb.a8fd4f9f.js"
+        }
+      ]
+    },
+    "41": {
+      "js": [
+        {
+          "file": "main.78e28f01.js",
+          "hash": "cb450bb72200873e81f0",
+          "publicPath": "/ScummDocs/main.78e28f01.js"
+        }
+      ]
+    },
+    "42": {
+      "js": [
+        {
+          "file": "runtime~main.66ee3020.js",
+          "hash": "7dbbf6e775a5abe9c3d1",
+          "publicPath": "/ScummDocs/runtime~main.66ee3020.js"
+        }
+      ]
+    },
+    "43": {
+      "js": [
+        {
+          "file": "43.96d07e25.js",
+          "hash": "71a74b28d7f2cf5b087b",
+          "publicPath": "/ScummDocs/43.96d07e25.js"
         }
       ]
     }

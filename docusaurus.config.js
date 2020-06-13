@@ -1,7 +1,7 @@
 module.exports = {
   title: 'ScummVM',
   tagline: 'Script Creation Utility for Maniac Mansion Virtual Machine',
-  url: 'https://cadihowley.github.io',
+  url: 'https://cadihowley.github.io/',
   baseUrl: '/ScummDocs/',
   favicon: 'img/favicon.ico',
   organizationName: 'cadihowley', // Usually your GitHub org/user name.
@@ -12,7 +12,7 @@ themeConfig: {
 	sidebarCollapsible: false,
 		navbar: {
 			hideOnScroll: true,
-			title: 'GSOD Proposal 2020',
+			title: 'GSOD 2020',
 					logo: {
 						alt: 'ScummVM Logo',
           			src: 'img/logo.svg',

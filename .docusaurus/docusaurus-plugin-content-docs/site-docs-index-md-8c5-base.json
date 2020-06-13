@@ -7,82 +7,108 @@
         "items": [
           {
             "type": "link",
-            "label": "Proposal GSOD 2020",
-            "href": "/_index"
+            "label": "GSOD 2020",
+            "href": "/ScummDocs/_index"
           }
         ]
       },
       {
         "type": "category",
-        "label": "About",
+        "label": "About ScummVM",
         "items": [
           {
             "type": "link",
-            "label": "What is ScummVM?",
-            "href": "/about/about"
+            "label": "What is it?",
+            "href": "/ScummDocs/about/about"
           },
           {
             "type": "link",
-            "label": "How does ScummVM work?",
-            "href": "/about/how_work"
+            "label": "How does it work?",
+            "href": "/ScummDocs/about/how_work"
           },
           {
             "type": "link",
             "label": "Supported games",
-            "href": "/about/supported_games"
+            "href": "/ScummDocs/about/supported_games"
           },
           {
             "type": "link",
             "label": "Supported platforms",
-            "href": "/about/supported_platforms"
+            "href": "/ScummDocs/about/supported_platforms"
           },
           {
             "type": "link",
             "label": "Compatibility",
-            "href": "/about/compatibility"
+            "href": "/ScummDocs/about/compatibility"
           },
           {
             "type": "link",
             "label": "Help the project",
-            "href": "/about/help_project"
+            "href": "/ScummDocs/about/help_project"
           }
         ]
       },
       {
         "type": "category",
-        "label": "Installation",
+        "label": "Installing ScummVM",
         "items": [
           {
             "type": "link",
             "label": "Raspberry Pi",
-            "href": "/installation/raspberrypi"
+            "href": "/ScummDocs/installation/raspberrypi"
           }
         ]
       },
       {
         "type": "category",
-        "label": "Games",
+        "label": "Using ScummVM",
+        "items": [
+          {
+            "type": "link",
+            "label": "The interface",
+            "href": "/ScummDocs/using/launcher"
+          },
+          {
+            "type": "link",
+            "label": "Global settings",
+            "href": "/ScummDocs/using/global_settings"
+          },
+          {
+            "type": "link",
+            "label": "Game settings",
+            "href": "/ScummDocs/using/game_settings"
+          },
+          {
+            "type": "link",
+            "label": "Keyboard shortcuts",
+            "href": "/ScummDocs/using/keyboard"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "About the games",
         "items": [
           {
             "type": "link",
             "label": "LucasArts games",
-            "href": "/games/lucasarts"
+            "href": "/ScummDocs/games/lucasarts"
           }
         ]
       },
       {
         "type": "category",
-        "label": "Advanced",
+        "label": "Advanced options",
         "items": [
           {
             "type": "link",
             "label": "Command line options",
-            "href": "/advanced/command_line"
+            "href": "/ScummDocs/advanced/command_line"
           },
           {
             "type": "link",
-            "label": "Configuration file",
-            "href": "/advanced/configuration"
+            "label": "The configuration file",
+            "href": "/ScummDocs/advanced/configuration"
           }
         ]
       }
@@ -90,93 +116,123 @@
     "someSidebar": [
       {
         "type": "category",
-        "label": "About",
+        "label": "About ScummVM",
         "items": [
           {
             "type": "link",
-            "label": "What is ScummVM?",
-            "href": "/about/about"
+            "label": "What is it?",
+            "href": "/ScummDocs/about/about"
           },
           {
             "type": "link",
-            "label": "How does ScummVM work?",
-            "href": "/about/how_work"
+            "label": "How does it work?",
+            "href": "/ScummDocs/about/how_work"
           },
           {
             "type": "link",
             "label": "Supported games",
-            "href": "/about/supported_games"
+            "href": "/ScummDocs/about/supported_games"
           },
           {
             "type": "link",
             "label": "Supported platforms",
-            "href": "/about/supported_platforms"
+            "href": "/ScummDocs/about/supported_platforms"
           },
           {
             "type": "link",
             "label": "Compatibility",
-            "href": "/about/compatibility"
+            "href": "/ScummDocs/about/compatibility"
           },
           {
             "type": "link",
             "label": "Help the project",
-            "href": "/about/help_project"
+            "href": "/ScummDocs/about/help_project"
           }
         ]
       },
       {
         "type": "category",
-        "label": "Installation",
+        "label": "Installing ScummVM",
         "items": [
           {
             "type": "link",
             "label": "Raspberry Pi",
-            "href": "/installation/raspberrypi"
+            "href": "/ScummDocs/installation/raspberrypi"
           }
         ]
       },
       {
         "type": "category",
-        "label": "Games",
+        "label": "Using ScummVM",
+        "items": [
+          {
+            "type": "link",
+            "label": "The interface",
+            "href": "/ScummDocs/using/launcher"
+          },
+          {
+            "type": "link",
+            "label": "Global settings",
+            "href": "/ScummDocs/using/global_settings"
+          },
+          {
+            "type": "link",
+            "label": "Game settings",
+            "href": "/ScummDocs/using/game_settings"
+          },
+          {
+            "type": "link",
+            "label": "Keyboard shortcuts",
+            "href": "/ScummDocs/using/keyboard"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "About the games",
         "items": [
           {
             "type": "link",
             "label": "LucasArts games",
-            "href": "/games/lucasarts"
+            "href": "/ScummDocs/games/lucasarts"
           }
         ]
       },
       {
         "type": "category",
-        "label": "Advanced",
+        "label": "Advanced options",
         "items": [
           {
             "type": "link",
             "label": "Command line options",
-            "href": "/advanced/command_line"
+            "href": "/ScummDocs/advanced/command_line"
           },
           {
             "type": "link",
-            "label": "Configuration file",
-            "href": "/advanced/configuration"
+            "label": "The configuration file",
+            "href": "/ScummDocs/advanced/configuration"
           }
         ]
       }
     ]
   },
   "permalinkToSidebar": {
-    "/_index": "landingSideBar",
-    "/about/about": "someSidebar",
-    "/about/compatibility": "someSidebar",
-    "/about/help_project": "someSidebar",
-    "/about/how_work": "someSidebar",
-    "/about/supported_games": "someSidebar",
-    "/about/supported_platforms": "someSidebar",
-    "/advanced/command_line": "someSidebar",
-    "/advanced/configuration": "someSidebar",
-    "/games/lucasarts": "someSidebar",
-    "/installation/raspberrypi": "someSidebar"
+    "/ScummDocs/_index": "landingSideBar",
+    "/ScummDocs/about/about": "someSidebar",
+    "/ScummDocs/about/compatibility": "someSidebar",
+    "/ScummDocs/about/help_project": "someSidebar",
+    "/ScummDocs/about/how_work": "someSidebar",
+    "/ScummDocs/about/supported_games": "someSidebar",
+    "/ScummDocs/about/supported_platforms": "someSidebar",
+    "/ScummDocs/advanced/command_line": "someSidebar",
+    "/ScummDocs/advanced/configuration": "someSidebar",
+    "/ScummDocs/games/lucasarts": "someSidebar",
+    "/ScummDocs/installation/raspberrypi": "someSidebar",
+    "/ScummDocs/using/game_settings": "someSidebar",
+    "/ScummDocs/using/global_settings": "someSidebar",
+    "/ScummDocs/using/keyboard": "someSidebar",
+    "/ScummDocs/using/launcher": "someSidebar"
   },
   "isHomePage": true,
-  "homePagePath": "/_index"
+  "homePagePath": "/ScummDocs/_index"
 }

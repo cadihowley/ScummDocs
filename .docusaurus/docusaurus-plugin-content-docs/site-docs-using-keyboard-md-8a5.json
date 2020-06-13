@@ -1,0 +1,18 @@
+{
+  "id": "using/keyboard",
+  "title": "Keyboard shortcuts",
+  "description": "ScummVM supports various in-game keyboard shortcuts.",
+  "source": "@site/docs/using/keyboard.md",
+  "permalink": "/ScummDocs/using/keyboard",
+  "editUrl": "https://github.com/ScummDocs/docs/using/keyboard.md",
+  "sidebar_label": "Keyboard shortcuts",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Game settings",
+    "permalink": "/ScummDocs/using/game_settings"
+  },
+  "next": {
+    "title": "LucasArts games",
+    "permalink": "/ScummDocs/games/lucasarts"
+  }
+}

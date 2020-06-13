@@ -3,16 +3,16 @@
   "title": "Command line options",
   "description": "Launching games",
   "source": "@site/docs/advanced/command_line.md",
-  "permalink": "/advanced/command_line",
+  "permalink": "/ScummDocs/advanced/command_line",
   "editUrl": "https://github.com/ScummDocs/docs/advanced/command_line.md",
   "sidebar_label": "Command line options",
   "sidebar": "someSidebar",
   "previous": {
     "title": "LucasArts games",
-    "permalink": "/games/lucasarts"
+    "permalink": "/ScummDocs/games/lucasarts"
   },
   "next": {
-    "title": "Configuration file",
-    "permalink": "/advanced/configuration"
+    "title": "The configuration file",
+    "permalink": "/ScummDocs/advanced/configuration"
   }
 }

@@ -1,7 +1,7 @@
 ---
 id: how_work
 title: How does ScummVM work?
-sidebar_label: How does ScummVM work?
+sidebar_label: How does it work?
 ---
 
 Almost all adventure and role-playing games share some common features. The most basic ones are the resources used, which are in the game's data files:
