@@ -1,8 +1,8 @@
 {
   "/ScummDocs/": {
     "component": "1be78505",
-    "docsMetadata": "5172f806",
-    "content": "8c558c4b"
+    "docsMetadata": "9700cb87",
+    "content": "73d85838"
   },
   "/ScummDocs/blog": {
     "component": "a6aa9e1f",
@@ -127,6 +127,10 @@
   "/ScummDocs/installation/raspberrypi": {
     "component": "17896441",
     "content": "691bd1b7"
+  },
+  "/ScummDocs/proposal": {
+    "component": "17896441",
+    "content": "73d85838"
   },
   "/ScummDocs/using/game_settings": {
     "component": "17896441",

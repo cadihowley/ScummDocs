@@ -34,3 +34,35 @@ mygames
 ````
 
 3.  Repeat step 2 as required to copy any further games into the folder.  
+
+
+## Settings <a id="config"></a>
+
+Settings can be configured from the ScummVM Launcher, or by editing the configuration file directly. 
+
+**Launcher:**
+- Run ScummVM
+- To edit global settings, click **Options**. 
+- To edit game settings, choose a game and click **Edit Game**.
+
+**Configuration file:**
+- On the Raspberry Pi, the configuration file path is ```~/.config/scummvm/scummvm.ini```. 
+- Navigate to the file in the File Manager. If the .config directory is not visible in the Home directory, select **View&nbsp;>&nbsp;Show Hidden** in the top menu.
+- Open the config file with a text editor, and save it when the desired changes have been made. 
+- To edit the config file from the command line, type the following:
+````
+    nano ~/.config/scummvm/scummvm.ini 
+````
+
+For more information about settings, see the [Global settings](../using/global_settings) or [Game settings](../using/game_settings) page. 
+
+### Game saves
+
+By default, games are saved to
+````
+    /home/pi/.local/share/scummvm/saves
+````
+
+The save path can be changed in the config file by setting the savepath parameter.
+
+Some engines allow saved games to be loaded directly from the command line. For more information, see the [List save section](../advanced/command_line#list_save) on the Command line options page. 

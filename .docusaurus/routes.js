@@ -142,6 +142,12 @@ export default [
   
 },
 {
+  path: '/ScummDocs/proposal',
+  component: ComponentCreator('/ScummDocs/proposal'),
+  exact: true,
+  
+},
+{
   path: '/ScummDocs/using/game_settings',
   component: ComponentCreator('/ScummDocs/using/game_settings'),
   exact: true,

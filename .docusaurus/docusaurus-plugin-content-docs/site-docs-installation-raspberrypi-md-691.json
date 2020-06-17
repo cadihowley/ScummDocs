@@ -1,15 +1,15 @@
 {
   "id": "installation/raspberrypi",
-  "title": "Installation guide for the Raspberry Pi",
-  "description": "Installing ScummVM",
+  "title": "Installation guide: Raspberry Pi",
+  "description": "System requirements",
   "source": "@site/docs/installation/raspberrypi.md",
   "permalink": "/ScummDocs/installation/raspberrypi",
   "editUrl": "https://github.com/ScummDocs/docs/installation/raspberrypi.md",
   "sidebar_label": "Raspberry Pi",
-  "sidebar": "someSidebar",
+  "sidebar": "someSideBar",
   "previous": {
-    "title": "Help the Project",
-    "permalink": "/ScummDocs/about/help_project"
+    "title": "GSOD Proposal 2020",
+    "permalink": "/ScummDocs/proposal"
   },
   "next": {
     "title": "The ScummVM Interface",

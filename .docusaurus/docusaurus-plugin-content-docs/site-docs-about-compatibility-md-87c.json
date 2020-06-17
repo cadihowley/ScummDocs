@@ -5,14 +5,5 @@
   "source": "@site/docs/about/compatibility.md",
   "permalink": "/ScummDocs/about/compatibility",
   "editUrl": "https://github.com/ScummDocs/docs/about/compatibility.md",
-  "sidebar_label": "Compatibility",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "Supported platforms",
-    "permalink": "/ScummDocs/about/supported_platforms"
-  },
-  "next": {
-    "title": "Help the Project",
-    "permalink": "/ScummDocs/about/help_project"
-  }
+  "sidebar_label": "Compatibility"
 }

@@ -5,11 +5,16 @@ sidebar_label: The configuration file
 ---
 ## Location
 
-The configuration file saves to different default locations depending on the platform on which you are running ScummVM. For more information on location and how to access the config file, see the relevant platform Installation page. 
+The configuration file saves to different default locations depending on the platform on which you are running ScummVM. 
 
-Most settings are also accessible directly from the Launcher, by clicking **Options**. To edit game-specific settings, select a game and then click **Edit Game**.
+| Platform| Config File Path|
+|-|-|
+|
 
-### Keywords
+Most settings are also accessible directly from the Launcher. To edit global settings, click **Options**. To edit game-specific settings, highlight a game and then click **Edit Game**.
+For more information, see the [global settings](../using/global_settings) and [game settings](../using/game_settings) pages. 
+
+## Keywords
 There are many recognized configuration keywords:
 ````
 

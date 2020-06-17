@@ -5,14 +5,5 @@
   "source": "@site/docs/games/lucasarts.md",
   "permalink": "/ScummDocs/games/lucasarts",
   "editUrl": "https://github.com/ScummDocs/docs/games/lucasarts.md",
-  "sidebar_label": "LucasArts games",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "Keyboard shortcuts",
-    "permalink": "/ScummDocs/using/keyboard"
-  },
-  "next": {
-    "title": "Command line options",
-    "permalink": "/ScummDocs/advanced/command_line"
-  }
+  "sidebar_label": "LucasArts games"
 }

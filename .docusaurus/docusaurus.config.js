@@ -13,27 +13,21 @@ export default {
       },
       "links": [
         {
-          "to": "about/about",
-          "activeBasePath": "about",
-          "label": "About",
-          "position": "left"
-        },
-        {
           "to": "installation/raspberrypi",
           "activeBasePath": "intallation",
-          "label": "Installation",
+          "label": "Installing ScummVM",
           "position": "left"
         },
         {
-          "to": "games/lucasarts",
-          "activeBasePath": "games",
-          "label": "Games",
+          "to": "using/launcher",
+          "activeBasePath": "using",
+          "label": "Using ScummVM",
           "position": "left"
         },
         {
           "to": "advanced/command_line",
           "activeBasePath": "advanced",
-          "label": "Advanced",
+          "label": "Advanced options",
           "position": "left"
         }
       ]
@@ -47,10 +41,6 @@ export default {
             {
               "label": "Installation",
               "to": "installation/raspberrypi"
-            },
-            {
-              "label": "Supported Games",
-              "to": "about/supported_games"
             }
           ]
         },
@@ -101,7 +91,7 @@ export default {
       {
         "docs": {
           "routeBasePath": "/",
-          "homePageId": "_index",
+          "homePageId": "proposal",
           "sidebarPath": "/home/pi/ScummDocs/sidebars.js",
           "editUrl": "https://github.com/ScummDocs"
         },

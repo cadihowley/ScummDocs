@@ -16,9 +16,8 @@ scummvm [OPTIONS] [GAME]
 ### [GAME]
 [GAME] is the game id of the game you wish to launch. For example, 'monkey' for Monkey Island. 
 
-The game id may be the default game id, or a user configured id set either directly in the game-specific section of the configuration file or in the Game Settings from the Launcher.
-For more information on configuring settings, see the [Configuration page](../advanced/configuration). 
-For a list of default game ids, see the [Supported games page](../about/supported_games).
+The game id may be the default game id, or a user configured id set either directly in the game-specific section of the configuration file or in the Launcher [game settings window](../using/game_settings).
+
 
 ### [OPTIONS]
 [OPTIONS] refers to any of the following options:

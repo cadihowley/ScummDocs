@@ -5,10 +5,5 @@
   "source": "@site/docs/about/about.md",
   "permalink": "/ScummDocs/about/about",
   "editUrl": "https://github.com/ScummDocs/docs/about/about.md",
-  "sidebar_label": "What is it?",
-  "sidebar": "someSidebar",
-  "next": {
-    "title": "How does ScummVM work?",
-    "permalink": "/ScummDocs/about/how_work"
-  }
+  "sidebar_label": "What is it?"
 }

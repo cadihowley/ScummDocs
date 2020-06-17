@@ -6,13 +6,13 @@
   "permalink": "/ScummDocs/using/keyboard",
   "editUrl": "https://github.com/ScummDocs/docs/using/keyboard.md",
   "sidebar_label": "Keyboard shortcuts",
-  "sidebar": "someSidebar",
+  "sidebar": "someSideBar",
   "previous": {
     "title": "Game settings",
     "permalink": "/ScummDocs/using/game_settings"
   },
   "next": {
-    "title": "LucasArts games",
-    "permalink": "/ScummDocs/games/lucasarts"
+    "title": "Command line options",
+    "permalink": "/ScummDocs/advanced/command_line"
   }
 }

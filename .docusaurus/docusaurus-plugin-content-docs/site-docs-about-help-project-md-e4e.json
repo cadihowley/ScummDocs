@@ -5,14 +5,5 @@
   "source": "@site/docs/about/help_project.md",
   "permalink": "/ScummDocs/about/help_project",
   "editUrl": "https://github.com/ScummDocs/docs/about/help_project.md",
-  "sidebar_label": "Help the project",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "Compatibility",
-    "permalink": "/ScummDocs/about/compatibility"
-  },
-  "next": {
-    "title": "Installation guide for the Raspberry Pi",
-    "permalink": "/ScummDocs/installation/raspberrypi"
-  }
+  "sidebar_label": "Help the project"
 }

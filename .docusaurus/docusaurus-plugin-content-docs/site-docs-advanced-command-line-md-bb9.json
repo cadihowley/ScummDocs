@@ -6,10 +6,10 @@
   "permalink": "/ScummDocs/advanced/command_line",
   "editUrl": "https://github.com/ScummDocs/docs/advanced/command_line.md",
   "sidebar_label": "Command line options",
-  "sidebar": "someSidebar",
+  "sidebar": "someSideBar",
   "previous": {
-    "title": "LucasArts games",
-    "permalink": "/ScummDocs/games/lucasarts"
+    "title": "Keyboard shortcuts",
+    "permalink": "/ScummDocs/using/keyboard"
   },
   "next": {
     "title": "The configuration file",

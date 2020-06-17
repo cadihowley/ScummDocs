@@ -6,7 +6,7 @@
   "permalink": "/ScummDocs/advanced/configuration",
   "editUrl": "https://github.com/ScummDocs/docs/advanced/configuration_file.md",
   "sidebar_label": "The configuration file",
-  "sidebar": "someSidebar",
+  "sidebar": "someSideBar",
   "previous": {
     "title": "Command line options",
     "permalink": "/ScummDocs/advanced/command_line"

@@ -5,14 +5,5 @@
   "source": "@site/docs/about/how_does_it_work.md",
   "permalink": "/ScummDocs/about/how_work",
   "editUrl": "https://github.com/ScummDocs/docs/about/how_does_it_work.md",
-  "sidebar_label": "How does it work?",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "What is ScummVM?",
-    "permalink": "/ScummDocs/about/about"
-  },
-  "next": {
-    "title": "Supported games",
-    "permalink": "/ScummDocs/about/supported_games"
-  }
+  "sidebar_label": "How does it work?"
 }
