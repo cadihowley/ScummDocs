@@ -92,7 +92,7 @@ export default {
         "docs": {
           "routeBasePath": "/",
           "homePageId": "proposal",
-          "sidebarPath": "/home/pi/ScummDocs/sidebars.js",
+          "sidebarPath": "/home/ubuntu/ScummDocs/sidebars.js",
           "editUrl": "https://github.com/ScummDocs"
         },
         "blog": {
@@ -100,7 +100,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
         },
         "theme": {
-          "customCss": "/home/pi/ScummDocs/src/css/custom.css"
+          "customCss": "/home/ubuntu/ScummDocs/src/css/custom.css"
         }
       }
     ]
