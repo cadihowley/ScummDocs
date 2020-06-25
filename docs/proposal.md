@@ -1,10 +1,9 @@
 ---
 id: proposal
-title: GSOD Proposal 2020
+title: Google Season of Docs 2020
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl'
 
-# Google Season of Docs 2020
 
 ## Objectives
 

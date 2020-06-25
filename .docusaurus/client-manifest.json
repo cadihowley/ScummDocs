@@ -277,9 +277,9 @@
     "6": {
       "js": [
         {
-          "file": "10b1394a.71bb11e9.js",
-          "hash": "74fddd97540ffcbc494e",
-          "publicPath": "/ScummDocs/10b1394a.71bb11e9.js"
+          "file": "10b1394a.6021e42d.js",
+          "hash": "28e817c236ad5d3bebf6",
+          "publicPath": "/ScummDocs/10b1394a.6021e42d.js"
         }
       ]
     },
@@ -340,18 +340,18 @@
     "14": {
       "js": [
         {
-          "file": "691bd1b7.88775d1c.js",
-          "hash": "6e1f861cbaed0287b0b7",
-          "publicPath": "/ScummDocs/691bd1b7.88775d1c.js"
+          "file": "691bd1b7.6a155cd3.js",
+          "hash": "6791fb1c2753b1d4a971",
+          "publicPath": "/ScummDocs/691bd1b7.6a155cd3.js"
         }
       ]
     },
     "15": {
       "js": [
         {
-          "file": "73d85838.bc2b9b67.js",
-          "hash": "597bdb604c90f9ccb03a",
-          "publicPath": "/ScummDocs/73d85838.bc2b9b67.js"
+          "file": "73d85838.9a5d9558.js",
+          "hash": "80a4026a67de4e39070e",
+          "publicPath": "/ScummDocs/73d85838.9a5d9558.js"
         }
       ]
     },
@@ -394,9 +394,9 @@
     "20": {
       "js": [
         {
-          "file": "9700cb87.6ddbcefd.js",
-          "hash": "f155cca460936bbc2191",
-          "publicPath": "/ScummDocs/9700cb87.6ddbcefd.js"
+          "file": "9700cb87.7ea41581.js",
+          "hash": "491fc5940e44178391a4",
+          "publicPath": "/ScummDocs/9700cb87.7ea41581.js"
         }
       ]
     },
@@ -592,9 +592,9 @@
     "42": {
       "js": [
         {
-          "file": "runtime~main.3b9030a5.js",
-          "hash": "9350231a37b516988a22",
-          "publicPath": "/ScummDocs/runtime~main.3b9030a5.js"
+          "file": "runtime~main.473ea512.js",
+          "hash": "c84914b7d263dd6527a8",
+          "publicPath": "/ScummDocs/runtime~main.473ea512.js"
         }
       ]
     },
